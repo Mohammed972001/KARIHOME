@@ -1,0 +1,83 @@
+{
+  "HomePage": {
+    "title": "Investissement IKHWA",
+    "subtitle": "Votre partenaire de confiance pour les solutions d'investissement",
+    "getStarted": "Commencez par éditer",
+    "saveChanges": "Sauvegardez et voyez vos changements instantanément",
+    "deployNow": "Déployer maintenant",
+    "readDocs": "Lire nos docs",
+    "learn": "Apprendre",
+    "examples": "Exemples",
+    "visitSite": "Aller à nextjs.org"
+  },
+  "Home": {
+    "title": "Page d'accueil",
+    "subtitle": "Bienvenue sur le site Web d'Investissement IKHWA",
+    "currentTime": "Heure actuelle",
+   "hero": {
+      "title": "Services de création d'entreprise au Royaume du Maroc",
+      "subtitle": "Nous fournissons tout ce dont vous avez besoin pour établir votre entreprise et assurer le lancement réussi de votre projet au Maroc.",
+      "cta": "Découvrez nos services"
+    }, 
+    "welcome": {
+      "title": "Bienvenue",
+      "description": "Bienvenue sur la page d'accueil du site Web d'Investissement IKHWA. Ce projet est construit avec Next.js avec support multilingue incluant l'arabe, l'anglais et le français."
+    },
+    
+    "features": {
+      "multilingual": {
+        "title": "Multilingue",
+        "description": "Supporte l'arabe, l'anglais et le français"
+      },
+      "responsive": {
+        "title": "Design Responsive",
+        "description": "Fonctionne sur tous les appareils et tailles d'écran"
+      }
+    },
+    "languageInfo": {
+      "title": "Informations sur la langue",
+      "current": "Langue actuelle",
+      "availableLanguages": "Langues disponibles"
+    },
+    "quickActions": {
+      "title": "Actions rapides",
+      "testButton": "Tester l'interaction",
+      "testAlert": "Le bouton fonctionne parfaitement! ✅",
+      "refreshButton": "Actualiser la page",
+      "backToMain": "Retour à la page principale"
+    },
+    "systemStatus": {
+      "title": "État du système",
+      "nextJs": "Next.js",
+      "i18n": "Internationalisation",
+      "tailwind": "Tailwind CSS",
+      "routing": "Routage",
+      "working": "Fonctionne"
+    },
+    "info": {
+      "title": "Informations importantes d'utilisation",
+      "correctUrls": {
+        "title": "URLs correctes",
+        "arabic": "pour l'arabe",
+        "english": "pour l'anglais",
+        "french": "pour le français"
+      },
+      "wrongUrls": {
+        "title": "URLs incorrectes"
+      },
+      "status": {
+        "title": "État du projet",
+        "description": "Tous les systèmes fonctionnent correctement!"
+      }
+    },
+    "footer": {
+      "message": "Page créée avec succès - Le système fonctionne parfaitement!"
+    }
+  },
+  "Navigation": {
+    "language": "Langue",
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact"
+  }
+}
