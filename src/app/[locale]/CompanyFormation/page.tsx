@@ -1,11 +1,11 @@
 'use client';
 
-import {useTranslations} from 'next-intl';
-import { useLocale } from 'next-intl';
+// import {useTranslations} from 'next-intl';
+// import { useLocale } from 'next-intl';
 
 export default function HomePage() {
-  const t = useTranslations('Home');
-  const locale = useLocale();
+  // const t = useTranslations('Home');
+  // const locale = useLocale();
   
   
   return (

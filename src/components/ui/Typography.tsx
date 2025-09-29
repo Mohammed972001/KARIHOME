@@ -44,16 +44,21 @@ export function LocalizedHeading({
   const detectedLocale = useDetectedLocale();
   const locale = propLocale || detectedLocale;
   
-  const Tag = `h${level}` as keyof JSX.IntrinsicElements;
+  const headingProps = {
+    className,
+    style: getFontStyles(locale, style),
+    children
+  };
   
-  return (
-    <Tag 
-      className={className}
-      style={getFontStyles(locale, style)}
-    >
-      {children}
-    </Tag>
-  );
+  switch(level) {
+    case 1: return <h1 {...headingProps} />;
+    case 2: return <h2 {...headingProps} />;
+    case 3: return <h3 {...headingProps} />;
+    case 4: return <h4 {...headingProps} />;
+    case 5: return <h5 {...headingProps} />;
+    case 6: return <h6 {...headingProps} />;
+    default: return <h1 {...headingProps} />;
+  }
 }
 
 export function LocalizedParagraph({ 
