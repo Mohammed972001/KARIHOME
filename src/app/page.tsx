@@ -1,7 +1,5 @@
-export default function Home() {
-  return (
-    <div className="min-h-screen ">
+import { redirect } from '../i18n/navigation';
 
-    </div>
-  );
+export default function RootPage() {
+  redirect({ href: '/', locale: 'ar' });
 }

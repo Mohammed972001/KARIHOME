@@ -1,0 +1,82 @@
+{
+  "HomePage": {
+    "title": "IKHWA Investment",
+    "subtitle": "Your trusted partner for investment solutions",
+    "getStarted": "Get started by editing",
+    "saveChanges": "Save and see your changes instantly",
+    "deployNow": "Deploy now",
+    "readDocs": "Read our docs",
+    "learn": "Learn",
+    "examples": "Examples",
+    "visitSite": "Go to nextjs.org"
+  },
+  "Home": {
+    "title": "Home Page",
+    "subtitle": "Welcome to IKHWA Investment Website",
+    "currentTime": "Current Time",
+    "hero": {
+      "title": "Company Formation Services in the Kingdom of Morocco",
+      "subtitle": "We provide everything you need to establish your company and ensure a successful project launch in Morocco.",
+      "cta": "Discover Our Services"
+    },
+    "welcome": {
+      "title": "Welcome",
+      "description": "Welcome to the home page of IKHWA Investment website. This project is built using Next.js with multi-language support including Arabic, English, and French."
+    },
+    "features": {
+      "multilingual": {
+        "title": "Multilingual",
+        "description": "Supports Arabic, English, and French"
+      },
+      "responsive": {
+        "title": "Responsive Design",
+        "description": "Works on all devices and screen sizes"
+      }
+    },
+    "languageInfo": {
+      "title": "Language Information",
+      "current": "Current Language",
+      "availableLanguages": "Available Languages"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "testButton": "Test Interaction",
+      "testAlert": "Button works perfectly! ✅",
+      "refreshButton": "Refresh Page",
+      "backToMain": "Back to Main Page"
+    },
+    "systemStatus": {
+      "title": "System Status",
+      "nextJs": "Next.js",
+      "i18n": "Internationalization",
+      "tailwind": "Tailwind CSS",
+      "routing": "Routing",
+      "working": "Working"
+    },
+    "info": {
+      "title": "Important Usage Information",
+      "correctUrls": {
+        "title": "Correct URLs",
+        "arabic": "for Arabic",
+        "english": "for English",
+        "french": "for French"
+      },
+      "wrongUrls": {
+        "title": "Wrong URLs"
+      },
+      "status": {
+        "title": "Project Status",
+        "description": "All systems are working correctly!"
+      }
+    },
+    "footer": {
+      "message": "Page created successfully - System works perfectly!"
+    }
+  },
+  "Navigation": {
+    "language": "Language",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  }
+}
