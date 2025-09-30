@@ -73,6 +73,14 @@
       "message": "Page created successfully - System works perfectly!"
     }
   },
+  "navbar": {
+    "home": "Home",
+    "services": "Our Services",
+    "consultations": "Consultations",
+    "companyFormation": "Company Formation",
+    "aboutUs": "Our Company",
+    "contactUs": "Contact Us"
+  },
   "Navigation": {
     "language": "Language",
     "home": "Home",

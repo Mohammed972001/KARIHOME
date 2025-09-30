@@ -8,6 +8,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import LanguageSwitcher from '../../components/LanguageSwitcher';
 import LocaleProvider from '../../components/LocaleProvider';
+import Navbar from "@/components/Navbar/Navbar";
 
 export const metadata: Metadata = {
   title: "IKHWA Investment",
@@ -36,7 +37,7 @@ export default async function LocaleLayout({
   return (
     <LocaleProvider locale={locale}>
       <NextIntlClientProvider messages={messages}>
-        <LanguageSwitcher />
+        <Navbar/>
         {children}
       </NextIntlClientProvider>
     </LocaleProvider>

@@ -1,0 +1,36 @@
+/* ==========================================================================
+   CSS VARIABLES & CUSTOM PROPERTIES
+   ========================================================================== */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  
+  /* Navbar specific variables */
+  --navbar-padding-desktop: 30px 120px 15px 120px;
+  --navbar-padding-large: 30px 100px 15px 100px;
+  --navbar-padding-medium: 30px 70px 15px 70px;
+  --navbar-padding-tablet: 25px 40px 12px 40px;
+  --navbar-padding-mobile: 20px 20px 10px 20px;
+  
+  /* Font sizes */
+  --navbar-font-xl: 18px;
+  --navbar-font-lg: 16px;
+  --navbar-font-md: 14px;
+  --navbar-font-sm: 13px;
+  --navbar-font-xs: 12px;
+  
+  /* Colors */
+  --navbar-text-color: #ffffff;
+  --navbar-text-hover: #21FE7B;
+  --navbar-bg-color: rgba(0, 0, 0, 0.2);
+  --navbar-backdrop-blur: 12px;
+  --navbar-border-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}

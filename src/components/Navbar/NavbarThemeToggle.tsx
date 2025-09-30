@@ -3,7 +3,7 @@
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
 
-const ThemeToggle = () => {
+const NavbarThemeToggle = () => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -13,19 +13,19 @@ const ThemeToggle = () => {
 
   if (!mounted) {
     return (
-      <div className="h-10 w-10 rounded-md bg-gray-200 animate-pulse"></div>
+      <div className="h-8 w-8 rounded-md bg-white/20 animate-pulse"></div>
     );
   }
 
   return (
     <button
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      className="fixed  top-0 right-0 md:top-4 md:right-4 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-white/20 backdrop-blur-sm transition-all duration-300 hover:bg-white/30 focus:outline-none focus:ring-2 focus:ring-white/50"
+      className="flex h-8 w-8 items-center justify-center rounded-md bg-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/50"
       aria-label="Toggle theme"
     >
       {theme === 'dark' ? (
         <svg
-          className="h-6 w-6 text-yellow-400"
+          className="h-4 w-4 text-yellow-400"
           fill="currentColor"
           viewBox="0 0 20 20"
         >
@@ -37,7 +37,7 @@ const ThemeToggle = () => {
         </svg>
       ) : (
         <svg
-          className="h-6 w-6 text-blue-400"
+          className="h-4 w-4 text-blue-400"
           fill="currentColor"
           viewBox="0 0 20 20"
         >
@@ -48,4 +48,4 @@ const ThemeToggle = () => {
   );
 };
 
-export default ThemeToggle;
+export default NavbarThemeToggle;

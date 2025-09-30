@@ -73,6 +73,14 @@
       "message": "تم إنشاء الصفحة بنجاح - النظام يعمل بشكل ممتاز!"
     }
   },
+  "navbar": {
+    "home": "الرئيسية",
+    "services": "خدماتنا",
+    "consultations": "الاستشارات",
+    "companyFormation": "إنشاء شركات",
+    "aboutUs": "شركتنا",
+    "contactUs": "تواصل معنا"
+  },
   "Navigation": {
     "language": "اللغة",
     "home": "الرئيسية",

@@ -5,3 +5,4 @@ export { useResponsive } from './useResponsive';
 // Type exports
 export type { SupportedLocale } from './useDetectedLocale';
 export type { ResponsiveBreakpoints } from './useResponsive';
+

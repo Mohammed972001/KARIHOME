@@ -74,6 +74,14 @@
       "message": "Page créée avec succès - Le système fonctionne parfaitement!"
     }
   },
+  "navbar": {
+    "home": "Accueil",
+    "services": "Nos Services",
+    "consultations": "Consultations",
+    "companyFormation": "Création d'entreprises",
+    "aboutUs": "Notre Entreprise",
+    "contactUs": "Contactez-nous"
+  },
   "Navigation": {
     "language": "Langue",
     "home": "Accueil",
