@@ -14,23 +14,18 @@ export default function LanguageSwitcher() {
   const router = useRouter();
 
   const handleLanguageChange = (newLocale: string) => {
-    // إذا كانت اللغة الحالية هي نفس اللغة المختارة، لا تفعل شيئاً
     if (newLocale === locale) {
       return;
     }
     
-    // الحصول على المسار الكامل الحالي
     const currentPath = window.location.pathname;
     
-    // إزالة اللغة الحالية من بداية المسار
     const pathSegments = currentPath.split('/').filter(Boolean);
     
-    // إذا كان أول جزء هو لغة، قم بإزالته
     if (pathSegments.length > 0 && ['en', 'ar', 'fr'].includes(pathSegments[0])) {
-      pathSegments.shift(); // إزالة اللغة الحالية
+      pathSegments.shift(); 
     }
     
-    // إنشاء المسار الجديد مع اللغة الجديدة
     const remainingPath = pathSegments.length > 0 ? pathSegments.join('/') : '';
     const newPath = `/${newLocale}/${remainingPath}`;
     

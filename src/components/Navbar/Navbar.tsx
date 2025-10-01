@@ -85,9 +85,14 @@ const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
 
       {/* Right side: Theme Toggle, Contact Button and Mobile Menu Button */}
       <div className="flex items-center gap-4">
-        {/* Theme Toggle - Hidden on mobile */}
-        <div className="hidden lg:block">
+        {/* Theme Toggle - Always visible */}
+        <div>
           <NavbarThemeToggle />
+        </div>
+        
+        {/* Language Switcher - Visible on mobile too */}
+        <div className="lg:hidden">
+          <NavbarLanguageSwitcher />
         </div>
         
         {/* Contact Button - Hidden on mobile (only shows in mobile menu) */}
@@ -128,15 +133,8 @@ const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
                 {t(item.key)}
               </Link>
             ))}
-            <div className="border-t border-white/20 pt-4 space-y-4">
-              <NavbarLanguageSwitcher />
-              <div className="flex items-center gap-2">
-                <span className="text-white text-sm">Theme:</span>
-                <NavbarThemeToggle />
-              </div>
-            </div>
             <button 
-              className="navbar-contact-button w-full bg-transparent border border-white/50 text-white px-6 py-3 rounded-md hover:bg-white hover:text-black transition-all duration-300 navbar-text-responsive"
+              className="navbar-contact-button w-full bg-transparent border border-white/50 text-white px-6 py-3 rounded-md hover:bg-white hover:text-black transition-all duration-300 navbar-text-responsive mt-4"
               style={getNavbarFontStyles()}
               onClick={() => setIsMobileMenuOpen(false)}
             >

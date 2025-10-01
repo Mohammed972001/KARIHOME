@@ -1,0 +1,111 @@
+/* About Us Section Styles */
+
+/* Enhanced responsive typography */
+@media (max-width: 640px) {
+  .about-us-section h2 {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+  }
+  
+  .about-us-section h3 {
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+  }
+  
+  .about-us-section p {
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.5rem; /* 24px */
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .about-us-section h2 {
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+  }
+  
+  .about-us-section h3 {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+  }
+  
+  .about-us-section p {
+    font-size: 1rem; /* 16px */
+    line-height: 1.75rem; /* 28px */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .about-us-section h2 {
+    font-size: 2.5rem; /* 40px */
+    line-height: 2.75rem; /* 44px */
+  }
+  
+  .about-us-section h3 {
+    font-size: 2rem; /* 32px */
+    line-height: 2.5rem; /* 40px */
+  }
+  
+  .about-us-section p {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.875rem; /* 30px */
+  }
+}
+
+/* RTL Support Enhancement */
+[dir="rtl"] .about-us-section {
+  text-align: right;
+}
+
+[dir="ltr"] .about-us-section {
+  text-align: left;
+}
+
+/* Image responsive enhancements */
+.about-us-section .image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 640px) {
+  .about-us-section .image-container {
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .about-us-section .image-container {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .about-us-section .image-container {
+    max-width: 420px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .about-us-section .image-container {
+    max-width: 500px;
+  }
+}
+
+/* Smooth transitions for theme changes */
+.about-us-section * {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Custom container max-widths for better responsive design */
+@media (min-width: 1280px) {
+  .about-us-section .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .about-us-section .container {
+    max-width: 1400px;
+  }
+}

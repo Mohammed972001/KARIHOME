@@ -73,6 +73,17 @@
       "message": "Page created successfully - System works perfectly!"
     }
   },
+  "aboutUs": {
+    "title": "About",
+    "titleHighlight": "Us",
+    "description": "Ikhwa Investments, a Moroccan company part of the Ikhwa Network group, specializes in company formation. Our primary goal is to create an integrated platform and structure for both Moroccan and foreign investors, supporting their project launches with strategies tailored to their financial and investment objectives. We also streamline all administrative procedures for international investors, providing them with access to the Moroccan economic market.",
+    "ceoMessage": {
+      "title": "Message from the CEO of the company",
+      "content": "Our company serves as the strategic partner responsible for establishing and managing your projects with a practical and technical approach. We channel your efforts toward growing your investment and elevating your business and economic objectives. Our firm strives to be your right arm in all administrative and marketing matters.",
+      "signature": "Mohammed Saad Al Raji",
+      "position": "Managing Director and CEO"
+    }
+  },
   "navbar": {
     "home": "Home",
     "services": "Our Services",
