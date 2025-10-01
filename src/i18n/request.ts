@@ -1,7 +1,6 @@
 import {getRequestConfig} from 'next-intl/server';
 
 export default getRequestConfig(async ({locale}) => {
-  // التأكد من أن locale موجود
   const currentLocale = locale || 'en';
   
   return {

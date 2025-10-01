@@ -31,9 +31,25 @@ export default function AboutUs() {
   }, [mounted, locale]);
 
   return (
-    <section className={`about-us-section w-full transition-colors duration-300 ${currentTheme === 'dark' ? 'bg-black' : 'bg-white'}`}>
+    <section 
+      className={`about-us-section w-full transition-colors duration-300 ${currentTheme === 'dark' ? 'bg-black' : 'bg-white'} relative`}
+      style={{
+        ...(currentTheme === 'dark' && {
+          backgroundImage: "url('/Home/Discover Company - Message from the CEO.svg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          transform: isRTL ? 'scaleX(-1)' : 'none'
+        })
+      }}
+    >
       {/* Container */}
-      <div className="container mx-auto px-4 py-10 md:py-14 lg:py-20">
+      <div 
+        className="container mx-auto px-4 py-10 md:py-14 lg:py-20 relative z-10"
+        style={{
+          transform: isRTL && currentTheme === 'dark' ? 'scaleX(-1)' : 'none'
+        }}
+      >
         {/* Top Section */}
         <div className="space-y-8 mb-16 lg:mb-24">
           {/* Mobile/Tablet Layout - Text always on top */}
@@ -86,12 +102,13 @@ export default function AboutUs() {
           {/* Desktop Layout - Side by side */}
           <div className="hidden lg:grid lg:grid-cols-2 gap-10 items-center">
             {/* Text Content */}
-            <div className={`${isRTL ? 'order-1 flex flex-col items-start' : 'order-1 flex flex-col items-end'}`}>
+            <div className={`${isRTL ? 'order-1 flex flex-col items-start' : 'order-1 flex flex-col items-start'}`}>
               <h2 
                 className="font-semibold mb-6 leading-normal"
                 style={{
                   ...getFontStyles(locale),
                   color: '#21FE7B',
+                   textAlign: isRTL ? 'right' : 'left',
                   fontSize: '32px',
                   fontWeight: 600,
                   lineHeight: 'normal'

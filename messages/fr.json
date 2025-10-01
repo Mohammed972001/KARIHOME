@@ -98,5 +98,22 @@
     "home": "Accueil",
     "about": "À propos",
     "contact": "Contact"
+  },
+  "ourCommitment": {
+    "title": "Notre Engagement",
+    "titleHighlight": "vers l'Excellence",
+    "description": "Nous partageons notre vision et notre mission pour fournir des solutions innovantes, simplifier les tâches et soutenir les clients dans la réalisation d'un succès durable et de leur satisfaction.",
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Nous aspirons à un avenir économique distingué pour tous nos clients et nous nous efforçons de fournir toutes les méthodes de support administratif et technique pour établir et développer vos projets."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Libérer nos partenaires de tous les fardeaux administratifs et les soutenir avec une compétence professionnelle complète pour atteindre leurs objectifs stratégiques."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "description": "La satisfaction du client est notre priorité absolue. Nous nous engageons au développement continu de la compétence de notre équipe et à l'expansion de nos spécialisations pour garantir que nous fournissons les meilleurs services."
+    }
   }
 }

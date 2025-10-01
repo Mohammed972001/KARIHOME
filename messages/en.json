@@ -97,5 +97,22 @@
     "home": "Home",
     "about": "About",
     "contact": "Contact"
+  },
+  "ourCommitment": {
+    "title": "Our Commitment",
+    "titleHighlight": "to Excellence",
+    "description": "We share our vision and mission to provide innovative solutions, simplify tasks, and support clients in achieving sustainable success and satisfaction.",
+    "vision": {
+      "title": "Our Vision",
+      "description": "We aspire to a distinguished economic future for all our clients and strive to provide all administrative and technical support methods to establish and develop your projects."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To free our partners from all administrative burdens and support them with full professional competence to achieve their strategic goals."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "Client satisfaction is our top priority. We are committed to the continuous development of our team's competence and the expansion of our specializations to ensure we provide the best services."
+    }
   }
 }
