@@ -145,5 +145,31 @@
   "partners": {
     "title": "Partenaires",
     "description": "Grâce à la coopération avec des entreprises amies, nous avons fourni et continuons de vous fournir le meilleur. Dans cette liste, vous pouvez faire connaissance avec nos partenaires !"
+  },
+  "faqs": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Nous vous fournissons une collection de réponses aux questions concernant l'entreprise",
+    "questions": {
+      "0": {
+        "question": "Qu'est-ce qu'IKHWA Investments ?",
+        "answer": "IKHWA Investments est une entreprise active dans le soutien à l'investissement et la création de plateformes commerciales au Maroc. Notre siège principal est actuellement situé dans la capitale ismaélienne, Meknès. Fondée en 2024 par des hommes d'affaires marocains."
+      },
+      "1": {
+        "question": "Quelle est la forme juridique et le nom de l'entreprise ?",
+        "answer": "L'entreprise opère sous le nom commercial 'IKHWA Investments' et est une société à responsabilité limitée légalement enregistrée au Royaume du Maroc."
+      },
+      "2": {
+        "question": "Où se trouve IKHWA Investments ?",
+        "answer": "Le siège de l'entreprise est situé dans la ville de Meknès, la capitale ismaélienne, Royaume du Maroc, avec des plans d'expansion vers d'autres villes."
+      },
+      "3": {
+        "question": "Qui représente légalement 'IKHWA INVESTMENTS BY IKHWA NETWORK' ?",
+        "answer": "L'entreprise opère sous la direction d'une équipe d'hommes d'affaires marocains spécialisés dans l'investissement et la création d'entreprises, avec un engagement total envers les lois et règlements marocains."
+      },
+      "4": {
+        "question": "Quels services l'entreprise fournit-elle ?",
+        "answer": "Nous fournissons des services complets dans la création d'entreprises, les consultations juridiques, la gestion des investissements, et le soutien logistique pour de nouveaux projets commerciaux au Maroc."
+      }
+    }
   }
 }

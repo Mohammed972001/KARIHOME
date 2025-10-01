@@ -5,6 +5,7 @@ import AboutUs from '@/components/Home/AboutUs';
 import OurServices from '@/components/Home/OurServices';
 import OurCommitment from '@/components/Home/OurCommitment';
 import Partners from '@/components/Home/Partners';
+import FAQs from '@/components/Home/FAQs';
 
 export default function TestPage() {
   return (
@@ -14,6 +15,7 @@ export default function TestPage() {
       <OurCommitment />
       <OurServices />
       <Partners />
+      <FAQs/>
     </div>
   );
 }

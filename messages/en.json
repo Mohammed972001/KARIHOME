@@ -144,5 +144,31 @@
   "partners": {
     "title": "Partners",
     "description": "Thanks to the cooperation with friendly companies, we have provided and continue to provide you with the best. Within this list, you can get to know our partners!"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "We provide you with a collection of answers to questions about the company",
+    "questions": {
+      "0": {
+        "question": "What is IKHWA Investments?",
+        "answer": "IKHWA Investments is a company active in supporting investment and creating business platforms in Morocco. Our main headquarters is currently located in the Ismailia capital, Meknes. Founded in 2024 by Moroccan businessmen."
+      },
+      "1": {
+        "question": "What is the legal form and name of the company?",
+        "answer": "The company operates under the trade name 'IKHWA Investments' and is a limited liability company legally registered in the Kingdom of Morocco."
+      },
+      "2": {
+        "question": "Where is IKHWA Investments located?",
+        "answer": "The company's headquarters is located in Meknes city, the Ismailia capital, Kingdom of Morocco, with plans for expansion to other cities."
+      },
+      "3": {
+        "question": "Who legally represents 'IKHWA INVESTMENTS BY IKHWA NETWORK'?",
+        "answer": "The company operates under the management of a team of Moroccan businessmen specialized in investment and company establishment, with full commitment to Moroccan laws and regulations."
+      },
+      "4": {
+        "question": "What services does the company provide?",
+        "answer": "We provide comprehensive services in company establishment, legal consultations, investment management, and logistical support for new commercial projects in Morocco."
+      }
+    }
   }
 }
