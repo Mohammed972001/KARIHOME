@@ -2,6 +2,7 @@
 
 import Hero from '@/components/Home/Hero';
 import AboutUs from '@/components/Home/AboutUs';
+import OurServices from '@/components/Home/OurServices';
 import OurCommitment from '@/components/Home/OurCommitment';
 
 export default function TestPage() {
@@ -10,7 +11,8 @@ export default function TestPage() {
       <Hero />
       <AboutUs />
       <OurCommitment />
-       <AboutUs />
+      <OurServices />
+      
     </div>
   );
 }

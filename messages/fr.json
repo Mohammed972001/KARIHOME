@@ -99,6 +99,32 @@
     "about": "À propos",
     "contact": "Contact"
   },
+  "ourServices": {
+    "title": "Nos Services",
+    "subtitle": "Nous offrons des services complets et des solutions intégrées en gestion d'entreprise",
+    "services": [
+      {
+        "title": "Études de Faisabilité pour Projets d'Investissement",
+        "description": "Le département d'études fournit une étude de faisabilité économique complète et une structure pour les décisions juridiques et financières. Il effectue également une analyse de marché pour soutenir la prise de décision d'investissement et fournir des conseils stratégiques aux entreprises."
+      },
+      {
+        "title": "Supervision Comptable pour Entreprises",
+        "description": "Les services d'audit des résultats sont fournis par le biais d'un programme avancé qui comprend l'audit périodique des rapports financiers, le suivi des développements fiscaux marocains et la gestion de l'administration financière d'entreprise."
+      },
+      {
+        "title": "Suivi du Financement Bancaire",
+        "description": "Nous fournissons un financement professionnel qui comprend une étude de flexibilité, une analyse des risques et la préparation de documents pour permettre à nos clients d'obtenir un financement bancaire approprié et les guider dans la sélection des mécanismes de performance."
+      },
+      {
+        "title": "Offrir des Opportunités d'Investissement",
+        "description": "Notre entreprise se distingue en sécurisant les opportunités d'investissement au niveau des Marqueurs d'Agadir, et nous avons un bureau accrédité et des partenariats pour faciliter les procédures légales d'entrée sur les marchés étrangers."
+      },
+      {
+        "title": "Création d'une Société à Responsabilité Limitée",
+        "description": "Nous vous aidons à créer une société à responsabilité limitée par le biais d'étapes juridiques claires et d'un service complet et intégré qui comprend la préparation de documents et la simplification de la structure administrative. Ce type de société marocaine est considéré comme idéal pour les petites et moyennes entreprises en raison de sa responsabilité limitée en capital."
+      }
+    ]
+  },
   "ourCommitment": {
     "title": "Notre Engagement",
     "titleHighlight": "vers l'Excellence",

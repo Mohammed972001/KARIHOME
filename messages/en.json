@@ -98,6 +98,32 @@
     "about": "About",
     "contact": "Contact"
   },
+  "ourServices": {
+    "title": "Our Services",
+    "subtitle": "We offer comprehensive services and solutions in business management",
+    "services": [
+      {
+        "title": "Feasibility Studies for Investment Projects",
+        "description": "The studies department provides a comprehensive economic feasibility study and a structure for legal and financial decisions. It also conducts market analysis to support investment decision-making and provide strategic guidance for companies."
+      },
+      {
+        "title": "Accounting Supervision for Companies",
+        "description": "The results audit services are provided through an advanced program that includes periodic financial report auditing, following up on Moroccan tax developments, and managing corporate financial administration."
+      },
+      {
+        "title": "Keeping Pace with Bank Financing",
+        "description": "We provide professional financing that includes a flexibility study, risk analysis, and document preparation to enable our clients to obtain suitable bank financing and guide them in selecting performance mechanisms."
+      },
+      {
+        "title": "Providing Investment Opportunities",
+        "description": "Our company is distinguished by securing investment opportunities at the level of the Agadir Markers, and we have an accredited office and partnerships to facilitate legal procedures for entering foreign markets."
+      },
+      {
+        "title": "Establishment of a Limited Company",
+        "description": "We assist you in establishing a limited company through clear legal steps and a comprehensive, integrated service that includes preparing documents and simplifying the administrative structure. This type of Moroccan company is considered ideal for small and medium-sized enterprises due to its limited liability in capital."
+      }
+    ]
+  },
   "ourCommitment": {
     "title": "Our Commitment",
     "titleHighlight": "to Excellence",
