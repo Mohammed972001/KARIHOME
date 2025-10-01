@@ -8,6 +8,11 @@
   --primary: #21FE7B;
   --white: #FFF;
   
+  /* Font Families */
+  --font-ibm-arabic: 'IBM Plex Sans Arabic', 'IBM', Arial, sans-serif;
+  --font-lato: 'Lato', Arial, sans-serif;
+  --font-fallback: Arial, sans-serif;
+  
   /* Navbar specific variables */
   --navbar-padding-desktop: 40px 120px 20px 120px;
   --navbar-padding-large: 35px 100px 18px 100px;

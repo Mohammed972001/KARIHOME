@@ -141,5 +141,9 @@
       "title": "Nos Valeurs",
       "description": "La satisfaction du client est notre priorité absolue. Nous nous engageons au développement continu de la compétence de notre équipe et à l'expansion de nos spécialisations pour garantir que nous fournissons les meilleurs services."
     }
+  },
+  "partners": {
+    "title": "Partenaires",
+    "description": "Grâce à la coopération avec des entreprises amies, nous avons fourni et continuons de vous fournir le meilleur. Dans cette liste, vous pouvez faire connaissance avec nos partenaires !"
   }
 }

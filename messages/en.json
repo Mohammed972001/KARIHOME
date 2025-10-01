@@ -140,5 +140,9 @@
       "title": "Our Values",
       "description": "Client satisfaction is our top priority. We are committed to the continuous development of our team's competence and the expansion of our specializations to ensure we provide the best services."
     }
+  },
+  "partners": {
+    "title": "Partners",
+    "description": "Thanks to the cooperation with friendly companies, we have provided and continue to provide you with the best. Within this list, you can get to know our partners!"
   }
 }
