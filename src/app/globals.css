@@ -3,20 +3,15 @@
 /* ==========================================================================
    IMPORT STYLES - ORGANIZED BY FUNCTIONALITY
    ========================================================================== */
-
 /* CSS Variables & Custom Properties */
 @import "../styles/variables.css";
-
 /* Font Faces */
 @import "../styles/fonts-ibm.css";
 @import "../styles/fonts-lato.css";
-
 /* Base Styles */
 @import "../styles/base.css";
-
 /* Utility Classes */
 @import "../styles/utilities.css";
-
 /* Component Styles */
 @import "../styles/navbar.css";
 @import "../styles/about-us.css";
