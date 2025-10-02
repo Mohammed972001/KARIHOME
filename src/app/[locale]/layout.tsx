@@ -24,19 +24,19 @@ export default async function LocaleLayout({
   params,
 }: Props) {
   const { locale } = await params;
-  
+
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
-  
+
   setRequestLocale(locale);
-  
+
   const messages = await getMessages({ locale });
 
   return (
     <LocaleProvider locale={locale}>
       <NextIntlClientProvider messages={messages}>
-        <Navbar/>
+        <Navbar />
         {children}
       </NextIntlClientProvider>
     </LocaleProvider>
