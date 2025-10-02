@@ -6,7 +6,6 @@ import { setRequestLocale } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
-import LanguageSwitcher from '../../components/LanguageSwitcher';
 import LocaleProvider from '../../components/LocaleProvider';
 import Navbar from "@/components/Navbar/Navbar";
 
