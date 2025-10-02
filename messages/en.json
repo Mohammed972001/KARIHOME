@@ -70,7 +70,31 @@
       }
     },
     "footer": {
-      "message": "Page created successfully - System works perfectly!"
+      "message": "Page created successfully - System works perfectly!",
+      "companyInfo": {
+        "title": "Company Information",
+        "description": "Ikhwa Investments, a Moroccan company part of The Ikhwa Network group, specializes in company formation. Our primary goal is to create an integrated platform and structure for both Moroccan and foreign investors, supporting their project launches with strategies tailored to their financial and investment objectives. We also streamline all administrative procedures for international investors, providing them with access to the Moroccan economic market."
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "home": "Home",
+        "aboutUs": "About Us",
+        "services": "Our Services",
+        "contactUs": "Contact Us"
+      },
+      "information": {
+        "title": "Information",
+        "termsConditions": "Terms & Conditions",
+        "privacyPolicy": "Privacy Policy"
+      },
+      "followUs": {
+        "title": "Follow Us",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "telegram": "Telegram"
+      }
     }
   },
   "aboutUs": {

@@ -1,0 +1,279 @@
+/* Footer Styles */
+.footer-container {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 3rem 0 2rem;
+  width: 100%;
+}
+
+.footer-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Logo Section */
+.footer-logo-section {
+  flex: 0 0 auto;
+  max-width: 200px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo-image {
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+/* Company Info Section */
+.footer-company-info {
+  flex: 2;
+  max-width: 300px;
+}
+
+.footer-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.footer-description {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #d1d5db;
+  margin: 0;
+}
+
+/* Quick Links and Information Sections */
+.footer-quick-links,
+.footer-information {
+  flex: 1;
+  max-width: 200px;
+}
+
+.footer-links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links-list li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-link {
+  color: #d1d5db;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+}
+
+/* Follow Us Section */
+.footer-follow-us {
+  flex: 1;
+  max-width: 80px;
+}
+
+.footer-social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social-item {
+  margin-bottom: 0.75rem;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #d1d5db;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
+}
+
+.footer-social-link:hover {
+  color: #ffffff;
+}
+
+.footer-social-icon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+}
+
+.footer-social-link:hover .footer-social-icon {
+  filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(200deg);
+}
+
+.footer-social-text {
+  flex: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .footer-wrapper {
+    padding: 0 1.5rem;
+    gap: 1.5rem;
+  }
+  
+  .footer-section {
+    max-width: none;
+  }
+  
+  .footer-company-info {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 2rem 0 1.5rem;
+  }
+  
+  .footer-wrapper {
+    flex-direction: column;
+    padding: 0 1rem;
+    gap: 2rem;
+  }
+  
+  .footer-section {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .footer-logo-section {
+    max-width: 100%;
+    text-align: center;
+    order: 1;
+  }
+  
+  .footer-company-info {
+    max-width: 100%;
+    order: 2;
+  }
+  
+  .footer-quick-links {
+    order: 3;
+  }
+  
+  .footer-information {
+    order: 4;
+  }
+  
+  .footer-follow-us {
+    order: 5;
+
+  }
+  
+  .footer-title {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .footer-description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 1.5rem 0 1rem;
+  }
+  
+  .footer-wrapper {
+    padding: 0 0.75rem;
+    gap: 1.5rem;
+  }
+  
+  .footer-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-description,
+  .footer-link,
+  .footer-social-text {
+    font-size: 0.8rem;
+  }
+  
+  .footer-social-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer-social-link {
+    gap: 0.5rem;
+  }
+}
+
+/* RTL Support */
+[dir="rtl"] .footer-wrapper {
+  direction: rtl;
+}
+
+[dir="rtl"] .footer-social-link {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer-description {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  [dir="rtl"] .footer-description {
+    text-align: center;
+  }
+}
+
+/* Dark/Light Theme Support */
+[data-theme="light"] .footer-container {
+  background-color: #f8fafc;
+  color: #1f2937;
+}
+
+[data-theme="light"] .footer-title {
+  color: #1f2937;
+}
+
+[data-theme="light"] .footer-description,
+[data-theme="light"] .footer-link,
+[data-theme="light"] .footer-social-link {
+  color: #6b7280;
+}
+
+[data-theme="light"] .footer-link:hover,
+[data-theme="light"] .footer-social-link:hover {
+  color: #1f2937;
+}
+
+[data-theme="light"] .logo-image,
+[data-theme="light"] .footer-social-icon {
+  filter: none;
+}
+
+[data-theme="light"] .footer-social-link:hover .footer-social-icon {
+  filter: sepia(1) saturate(5) hue-rotate(200deg);
+}

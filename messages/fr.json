@@ -71,7 +71,31 @@
       }
     },
     "footer": {
-      "message": "Page créée avec succès - Le système fonctionne parfaitement!"
+      "message": "Page créée avec succès - Le système fonctionne parfaitement!",
+      "companyInfo": {
+        "title": "Informations sur l'entreprise",
+        "description": "Ikhwa Investments, une entreprise marocaine faisant partie du groupe The Ikhwa Network, se spécialise dans la création d'entreprises. Notre objectif principal est de créer une plateforme intégrée et une structure pour les investisseurs marocains et étrangers, en soutenant leurs lancements de projets avec des stratégies adaptées à leurs objectifs financiers et d'investissement. Nous rationalisons également toutes les procédures administratives pour les investisseurs internationaux, leur donnant accès au marché économique marocain."
+      },
+      "quickLinks": {
+        "title": "Liens rapides",
+        "home": "Accueil",
+        "aboutUs": "À propos de nous",
+        "services": "Nos services",
+        "contactUs": "Contactez-nous"
+      },
+      "information": {
+        "title": "Informations",
+        "termsConditions": "Termes et conditions",
+        "privacyPolicy": "Politique de confidentialité"
+      },
+      "followUs": {
+        "title": "Suivez-nous",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "telegram": "Telegram"
+      }
     }
   },
   "aboutUs": {
