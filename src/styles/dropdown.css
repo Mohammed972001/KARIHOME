@@ -1,0 +1,39 @@
+/* ==========================================================================
+   DROPDOWN STYLES - Country Code Select Component
+   ========================================================================== */
+
+/* Custom styles for dropdown select */
+.dropdown-auto-width {
+  /* Ensure dropdown has proper width on mobile */
+  position: relative;
+}
+
+.dropdown-auto-width option {
+  /* Better display for country codes on mobile */
+  min-width: 150px !important;
+  width: max-content !important;
+  font-size: 12px !important;
+  padding: 8px 12px !important;
+  white-space: nowrap !important;
+}
+
+/* Mobile specific styles - Fixed width regardless of font size */
+@media (max-width: 500px) {
+  .dropdown-auto-width {
+    /* Force the select element to have a fixed dropdown width */
+    width: 200px !important;
+  }
+  
+  .dropdown-auto-width option {
+    /* Fixed width for dropdown options on mobile */
+    width: 240px !important;
+    min-width: 240px !important;
+    max-width: 300px !important;
+    font-size: 12px !important;
+    padding: 8px 12px !important;
+    display: block !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    white-space: nowrap !important;
+  }
+}

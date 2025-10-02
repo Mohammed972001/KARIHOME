@@ -61,14 +61,14 @@ const Partners = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Title and Description */}
-        <div className="text-center mb-16 lg:mb-20">
+        <div className="text-start lg:text-center mb-16 lg:mb-20">
           {/* Title */}
-          <h2 className="partners-title text-green-400 mb-8 tracking-wide">
+          <h2 className="partners-title text-green-400 mb-8 tracking-wide text-[20px] lg:text-[32px] font-semibold leading-normal lg:leading-[63px]">
             {t('title')}
           </h2>
-          
+
           {/* Description */}
-          <p className="partners-description text-white max-w-5xl mx-auto">
+          <p className="partners-description text-white max-w-5xl mx-auto text-[12px] lg:text-lg font-normal lg:font-medium leading-[150%]">
             {t('description')}
           </p>
         </div>

@@ -171,5 +171,45 @@
         "answer": "Nous fournissons des services complets dans la création d'entreprises, les consultations juridiques, la gestion des investissements, et le soutien logistique pour de nouveaux projets commerciaux au Maroc."
       }
     }
+  },
+  "contactUs": {
+    "title": "Contactez",
+    "titleHighlight": "-nous",
+    "description": "Pour plus d'informations sur nos services et produits, ou pour soumettre une plainte, veuillez nous contacter en remplissant le formulaire",
+    "email": {
+      "title": "Email",
+      "address": "contact@ikhwainvestments.com"
+    },
+    "phone": {
+      "title": "Téléphone",
+      "number": "+212664411955"
+    },
+    "address": {
+      "title": "Adresse",
+      "location": "Villa 194, Ryad Toulal 1, Meknès"
+    },
+    "workingHours": {
+      "title": "Heures de travail:",
+      "weekdays": "Lundi au vendredi: 8h00 à 17h00",
+      "saturday": "Samedi: 8h00 à 13h00"
+    },
+    "customerService": {
+      "title": "Service client: 24/7"
+    },
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Ali",
+      "email": "Email",
+      "emailPlaceholder": "example@gmail.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "Numéro de téléphone",
+      "file": "Fichier",
+      "fileText": "Veuillez joindre un fichier de pas plus de 2MB dans l'un des formats suivants: jpg, jpeg, png, pdf, xlsx, docx.",
+      "message": "Message",
+      "inquiry": "Demande",
+      "complaint": "Plainte",
+      "suggestion": "Suggestion",
+      "send": "Envoyer"
+    }
   }
 }

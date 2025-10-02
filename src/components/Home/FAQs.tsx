@@ -108,7 +108,7 @@ const FAQs = () => {
                   aria-controls={`faq-answer-${index}`}
                 >
                   <div className={`flex items-center w-full justify-between`}>
-                    {/* في العربية: النص في اليمين أولاً */}
+
                     {isRTL && (
                       <h3
                         className={`font-bold transition-colors duration-300 ${
@@ -127,7 +127,6 @@ const FAQs = () => {
                       </h3>
                     )}
 
-                    {/* في الإنجليزية: النص في الشمال أولاً */}
                     {!isRTL && (
                       <h3
                         className={`font-bold transition-colors duration-300 ${
@@ -146,7 +145,6 @@ const FAQs = () => {
                       </h3>
                     )}
 
-                    {/* في العربية: العلامة في الشمال */}
                     {isRTL && (
                       <div 
                         className={`flex-shrink-0 w-8 h-8 flex items-center justify-center transition-all duration-300 ${
@@ -159,7 +157,6 @@ const FAQs = () => {
                       </div>
                     )}
 
-                    {/* في الإنجليزية: العلامة في اليمين */}
                     {!isRTL && (
                       <div 
                         className={`flex-shrink-0 w-8 h-8 flex items-center justify-center transition-all duration-300 ${

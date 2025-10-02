@@ -170,5 +170,45 @@
         "answer": "We provide comprehensive services in company establishment, legal consultations, investment management, and logistical support for new commercial projects in Morocco."
       }
     }
+  },
+  "contactUs": {
+    "title": "Contact",
+    "titleHighlight": "Us",
+    "description": "For more information about our services and products, or to submit a complaint, please contact us by filling out the form",
+    "email": {
+      "title": "Email",
+      "address": "contact@ikhwainvestments.com"
+    },
+    "phone": {
+      "title": "Phone",
+      "number": "+212664411955"
+    },
+    "address": {
+      "title": "Address",
+      "location": "Villa 194, Ryad Toulal 1, Meknes"
+    },
+    "workingHours": {
+      "title": "Working Hours:",
+      "weekdays": "Monday to Friday: 8:00 AM to 5:00 PM",
+      "saturday": "Saturday: 8:00 AM to 1:00 PM"
+    },
+    "customerService": {
+      "title": "Customer Service: 24/7"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ali",
+      "email": "Email",
+      "emailPlaceholder": "example@gmail.com",
+      "phone": "Phone",
+      "phonePlaceholder": "Phone Number",
+      "file": "File",
+      "fileText": "Please attach a file of no larger than 2MB in one of the following formats: jpg, jpeg, png, pdf, xlsx, docx.",
+      "message": "Message",
+      "inquiry": "Inquiry",
+      "complaint": "Complaint",
+      "suggestion": "Suggestion",
+      "send": "Send"
+    }
   }
 }
