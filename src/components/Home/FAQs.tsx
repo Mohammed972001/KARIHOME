@@ -45,9 +45,10 @@ const FAQs = () => {
 
   return (
     <section
+      id="faqs"
       className={`py-16 lg:py-24 transition-colors w-full duration-300 ${fontClass}`}
       style={{
-        background: isDark 
+        background: isDark
           ? 'linear-gradient(205deg, rgba(24, 188, 106, 0.20) -0.45%, rgba(8, 100, 54, 0.00) 104.96%)'
           : '#F6F6F6'
       }}
@@ -57,9 +58,8 @@ const FAQs = () => {
         <div className="text-center mb-12 lg:mb-16">
           <LocalizedHeading
             level={2}
-            className={`font-semibold mb-4 transition-colors duration-300 ${
-              isDark ? 'text-white' : 'text-black'
-            }`}
+            className={`font-semibold mb-4 transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
+              }`}
             style={{
               fontSize: isMobile || isTablet ? '20px' : '32px',
               fontWeight: '600',
@@ -71,11 +71,10 @@ const FAQs = () => {
               {t('title').split(' ').slice(-1)}
             </span>
           </LocalizedHeading>
-          
+
           <LocalizedParagraph
-            className={`max-w-4xl mx-auto transition-colors duration-300 ${
-              isDark ? 'text-white' : 'text-black'
-            }`}
+            className={`max-w-4xl mx-auto transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
+              }`}
             style={{
               fontSize: isMobile ? '12px' : '18px',
               fontWeight: isMobile ? '400' : '500',
@@ -111,9 +110,8 @@ const FAQs = () => {
 
                     {isRTL && (
                       <h3
-                        className={`font-bold transition-colors duration-300 ${
-                          isDark ? 'text-white' : 'text-black'
-                        }`}
+                        className={`font-bold transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
+                          }`}
                         style={{
                           fontSize: isMobile ? '16px' : '25px',
                           fontWeight: isMobile ? '500' : '600',
@@ -129,9 +127,8 @@ const FAQs = () => {
 
                     {!isRTL && (
                       <h3
-                        className={`font-bold transition-colors duration-300 ${
-                          isDark ? 'text-white' : 'text-black'
-                        }`}
+                        className={`font-bold transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
+                          }`}
                         style={{
                           fontSize: isMobile ? '16px' : '25px',
                           fontWeight: isMobile ? '500' : '600',
@@ -146,10 +143,9 @@ const FAQs = () => {
                     )}
 
                     {isRTL && (
-                      <div 
-                        className={`flex-shrink-0 w-8 h-8 flex items-center justify-center transition-all duration-300 ${
-                          isDark ? 'text-white' : 'text-black'
-                        }`}
+                      <div
+                        className={`flex-shrink-0 w-8 h-8 flex items-center justify-center transition-all duration-300 ${isDark ? 'text-white' : 'text-black'
+                          }`}
                       >
                         <span className="text-2xl font-bold transition-transform duration-300">
                           {isOpen ? '−' : '+'}
@@ -158,10 +154,9 @@ const FAQs = () => {
                     )}
 
                     {!isRTL && (
-                      <div 
-                        className={`flex-shrink-0 w-8 h-8 flex items-center justify-center transition-all duration-300 ${
-                          isDark ? 'text-white' : 'text-black'
-                        }`}
+                      <div
+                        className={`flex-shrink-0 w-8 h-8 flex items-center justify-center transition-all duration-300 ${isDark ? 'text-white' : 'text-black'
+                          }`}
                       >
                         <span className="text-2xl font-bold transition-transform duration-300">
                           {isOpen ? '−' : '+'}
@@ -174,15 +169,13 @@ const FAQs = () => {
                 {/* Answer Content - Expandable */}
                 <div
                   id={`faq-answer-${index}`}
-                  className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                    isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
-                  }`}
+                  className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+                    }`}
                 >
                   <div className="px-6 lg:px-8 pb-6 lg:pb-8">
                     <p
-                      className={`transition-colors duration-300 ${
-                        isDark ? 'text-white' : 'text-black'
-                      }`}
+                      className={`transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
+                        }`}
                       style={{
                         fontSize: isMobile ? '12px' : '20px',
                         fontWeight: '400',

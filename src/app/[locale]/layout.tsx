@@ -8,6 +8,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import LocaleProvider from '../../components/LocaleProvider';
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Home/Footer";
 
 export const metadata: Metadata = {
   title: "IKHWA Investment",
@@ -38,7 +39,7 @@ export default async function LocaleLayout({
       <NextIntlClientProvider messages={messages}>
         <Navbar />
         {children}
-       
+       <Footer />
       </NextIntlClientProvider>
     </LocaleProvider>
   );

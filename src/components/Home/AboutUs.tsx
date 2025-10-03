@@ -26,12 +26,13 @@ export default function AboutUs() {
   // Debug: Check locale and font
   useEffect(() => {
     if (mounted) {
-     
+
     }
   }, [mounted, locale]);
 
   return (
-    <section 
+    <section
+      id="about-us"
       className={`about-us-section w-full transition-colors duration-300 ${currentTheme === 'dark' ? 'bg-black' : 'bg-white'} relative`}
       style={{
         ...(currentTheme === 'dark' && {
@@ -44,7 +45,7 @@ export default function AboutUs() {
       }}
     >
       {/* Container */}
-      <div 
+      <div
         className="container mx-auto px-4 py-10 md:py-14 lg:py-20 relative z-10"
         style={{
           transform: isRTL && currentTheme === 'dark' ? 'scaleX(-1)' : 'none'
@@ -56,7 +57,7 @@ export default function AboutUs() {
           <div className="block lg:hidden">
             {/* Text Content */}
             <div className={`mb-8 ${isRTL ? 'flex flex-col items-start pr-4' : 'flex flex-col items-start pl-4'}`}>
-              <h2 
+              <h2
                 className="text-[20px] md:text-[24px] font-semibold mb-4 leading-normal"
                 style={{
                   ...getFontStyles(locale),
@@ -69,15 +70,15 @@ export default function AboutUs() {
                 <span style={{ color: '#21FE7B' }}>{t('title')}</span>{' '}
                 <span style={{ color: isDark ? '#ffffff' : '#000000' }}>{t('titleHighlight')}</span>
               </h2>
-              <p 
+              <p
                 className="text-[12px] md:text-[14px] leading-[24px] md:leading-[28px]"
                 style={{
                   ...getFontStyles(locale),
                   color: isDark ? '#ffffff' : '#000000',
                   fontWeight: 400,
                   lineHeight: '24px',
-               
-                  
+
+
                 }}
               >
                 {t('description')}
@@ -103,12 +104,12 @@ export default function AboutUs() {
           <div className="hidden lg:grid lg:grid-cols-2 gap-10 items-center">
             {/* Text Content */}
             <div className={`${isRTL ? 'order-1 flex flex-col items-start' : 'order-1 flex flex-col items-start'}`}>
-              <h2 
+              <h2
                 className="font-semibold mb-6 leading-normal"
                 style={{
                   ...getFontStyles(locale),
                   color: '#21FE7B',
-                   textAlign: isRTL ? 'right' : 'left',
+                  textAlign: isRTL ? 'right' : 'left',
                   fontSize: '32px',
                   fontWeight: 600,
                   lineHeight: 'normal'
@@ -117,7 +118,7 @@ export default function AboutUs() {
                 <span style={{ color: '#21FE7B' }}>{t('title')}</span>{' '}
                 <span style={{ color: isDark ? '#ffffff' : '#000000' }}>{t('titleHighlight')}</span>
               </h2>
-              <p 
+              <p
                 className="   "
                 style={{
                   ...getFontStyles(locale),
@@ -125,7 +126,7 @@ export default function AboutUs() {
                   fontSize: '18px',
                   fontWeight: 400,
                   lineHeight: '32px',
-          
+
                 }}
               >
                 {t('description')}
@@ -154,7 +155,7 @@ export default function AboutUs() {
           <div className="block lg:hidden">
             {/* Text Content */}
             <div className={`mb-8 ${isRTL ? 'flex flex-col items-start pr-4' : 'flex flex-col items-start pl-4'}`}>
-              <h3 
+              <h3
                 className="text-[20px] md:text-[24px] font-semibold mb-4 leading-normal"
                 style={{
                   ...getFontStyles(locale),
@@ -166,38 +167,38 @@ export default function AboutUs() {
                 <span style={{ color: '#21FE7B' }}>{t('ceoMessage.title').split(' ').slice(0, 1).join(' ')}</span>{' '}
                 <span style={{ color: isDark ? '#ffffff' : '#000000' }}>{t('ceoMessage.title').split(' ').slice(1).join(' ')}</span>
               </h3>
-              <p 
+              <p
                 className="text-[12px] md:text-[14px] leading-[24px] md:leading-[28px] mb-6"
                 style={{
                   ...getFontStyles(locale),
                   color: isDark ? '#ffffff' : '#000000',
-               
+
                   fontWeight: 400,
                   lineHeight: '24px',
-             
+
                 }}
               >
                 {t('ceoMessage.content')}
               </p>
-              
+
               {/* CEO Signature */}
               <div className="space-y-2">
-                <p 
+                <p
                   className="text-[14px] md:text-[16px] font-semibold"
                   style={{
                     ...getFontStyles(locale),
                     color: isDark ? '#ffffff' : '#000000',
-                   
+
                   }}
                 >
                   {t('ceoMessage.signature')}
                 </p>
-                <p 
+                <p
                   className="text-[12px] md:text-[14px]"
                   style={{
                     ...getFontStyles(locale),
                     color: isDark ? '#ffffff' : '#000000',
-                   
+
                   }}
                 >
                   {t('ceoMessage.position')}
@@ -236,7 +237,7 @@ export default function AboutUs() {
 
             {/* CEO Message Content */}
             <div className={`${isRTL ? 'order-2 flex flex-col items-srart' : 'order-2 flex flex-col items-start'}`}>
-              <h3 
+              <h3
                 className="font-semibold mb-6 leading-normal"
                 style={{
                   ...getFontStyles(locale),
@@ -250,7 +251,7 @@ export default function AboutUs() {
                 <span style={{ color: '#21FE7B' }}>{t('ceoMessage.title').split(' ').slice(0, 1).join(' ')}</span>{' '}
                 <span style={{ color: isDark ? '#ffffff' : '#000000' }}>{t('ceoMessage.title').split(' ').slice(1).join(' ')}</span>
               </h3>
-              <p 
+              <p
                 className="mb-8"
                 style={{
                   ...getFontStyles(locale),
@@ -258,30 +259,30 @@ export default function AboutUs() {
                   fontSize: '18px',
                   fontWeight: 400,
                   lineHeight: '32px',
-                
+
                 }}
               >
                 {t('ceoMessage.content')}
               </p>
-              
+
               {/* CEO Signature */}
               <div className="space-y-2">
-                <p 
+                <p
                   className="text-lg font-semibold"
                   style={{
                     ...getFontStyles(locale),
                     color: isDark ? '#ffffff' : '#000000',
-                 
+
                   }}
                 >
                   {t('ceoMessage.signature')}
                 </p>
-                <p 
+                <p
                   className="text-base"
                   style={{
                     ...getFontStyles(locale),
                     color: isDark ? '#ffffff' : '#000000',
-                  
+
                   }}
                 >
                   {t('ceoMessage.position')}

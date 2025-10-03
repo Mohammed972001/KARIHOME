@@ -14,8 +14,8 @@
   --font-fallback: Arial, sans-serif;
   
   /* Navbar specific variables */
-  --navbar-padding-desktop: 40px 120px 20px 120px;
-  --navbar-padding-large: 35px 100px 18px 100px;
+  --navbar-padding-desktop: 30px 120px 20px 120px;
+  --navbar-padding-large: 30px 100px 18px 100px;
   --navbar-padding-medium: 30px 70px 15px 70px;
   --navbar-padding-tablet: 25px 40px 12px 40px;
   --navbar-padding-mobile: 20px 20px 10px 20px;

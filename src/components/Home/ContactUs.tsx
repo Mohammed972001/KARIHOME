@@ -15,6 +15,7 @@ export default function ContactUs() {
   return (
     <>
       <section
+        id="contact"
         className="w-full"
         style={{
           backgroundColor: '#121212',

@@ -39,9 +39,10 @@ const OurServices = () => {
 
   return (
     <section
+      id="services"
       className={`py-16 lg:py-24 transition-colors duration-300 ${fontClass}`}
       style={{
-        background: isDark 
+        background: isDark
           ? 'linear-gradient(205deg, rgba(24, 188, 106, 0.20) -0.45%, rgba(8, 100, 54, 0.00) 104.96%)'
           : '#F6F6F6'
       }}
@@ -51,9 +52,8 @@ const OurServices = () => {
         <div className="text-center mb-12 lg:mb-16">
           <LocalizedHeading
             level={2}
-            className={`font-semibold mb-4 transition-colors duration-300 ${
-              isDark ? 'text-white' : 'text-black'
-            }`}
+            className={`font-semibold mb-4 transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
+              }`}
             style={{
               fontSize: isMobile || isTablet ? '20px' : '32px',
               fontWeight: '600',
@@ -65,11 +65,10 @@ const OurServices = () => {
               {t('title').split(' ').slice(-1)}
             </span>
           </LocalizedHeading>
-          
+
           <LocalizedParagraph
-            className={`max-w-4xl  mx-auto transition-colors duration-300 ${
-              isDark ? 'text-white' : 'text-black'
-            }`}
+            className={`max-w-4xl  mx-auto transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
+              }`}
             style={{
               fontSize: isMobile ? '12px' : '18px',
               fontWeight: isMobile ? '400' : '500',
@@ -85,10 +84,10 @@ const OurServices = () => {
           {services.map((service, index) => {
             // First 3 cards styling for dark mode
             const isFirstThree = index < 3;
-            
-            const cardBgColor = isDark 
-              ? isFirstThree 
-                ? 'rgba(0, 0, 0, 0.30)' 
+
+            const cardBgColor = isDark
+              ? isFirstThree
+                ? 'rgba(0, 0, 0, 0.30)'
                 : 'rgba(255, 255, 255, 0.05)'
               : 'white';
 
@@ -109,17 +108,16 @@ const OurServices = () => {
                 {/* Desktop Layout */}
                 <div className={`
                   hidden md:flex items-center  p-6 lg:p-10
-                  ${isRTL 
-                    ? (isEven ? 'flex-row' : 'flex-row-reverse') 
+                  ${isRTL
+                    ? (isEven ? 'flex-row' : 'flex-row-reverse')
                     : (isEven ? 'flex-row' : 'flex-row-reverse')
                   }
                 `}>
                   <div className="flex-1 " style={{ flex: '1', paddingRight: '2rem' }}>
                     <LocalizedHeading
                       level={3}
-                      className={`font-semibold mb-4 transition-colors duration-300 text-start ${
-                        isDark ? 'text-white' : 'text-black'
-                      }`}
+                      className={`font-semibold mb-4 transition-colors duration-300 text-start ${isDark ? 'text-white' : 'text-black'
+                        }`}
                       style={{
                         fontSize: '32px',
                         fontWeight: '600',
@@ -133,9 +131,8 @@ const OurServices = () => {
                     </LocalizedHeading>
 
                     <LocalizedParagraph
-                      className={`transition-colors duration-300 text-start ${
-                        isDark ? 'text-white' : 'text-black'
-                      }`}
+                      className={`transition-colors duration-300 text-start ${isDark ? 'text-white' : 'text-black'
+                        }`}
                       style={{
                         fontSize: '16px',
                         fontWeight: '500',
@@ -177,9 +174,8 @@ const OurServices = () => {
                   <div className="text-start">
                     <LocalizedHeading
                       level={3}
-                      className={`font-semibold mb-4 transition-colors duration-300 ${
-                        isDark ? 'text-white' : 'text-black'
-                      }`}
+                      className={`font-semibold mb-4 transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
+                        }`}
                       style={{
                         fontSize: '20px',
                         fontWeight: '600',
@@ -193,9 +189,8 @@ const OurServices = () => {
                     </LocalizedHeading>
 
                     <LocalizedParagraph
-                      className={`transition-colors duration-300 ${
-                        isDark ? 'text-white' : 'text-black'
-                      }`}
+                      className={`transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
+                        }`}
                       style={{
                         fontSize: '12px',
                         fontWeight: '400',

@@ -80,6 +80,7 @@
         "home": "Home",
         "aboutUs": "About Us",
         "services": "Our Services",
+        "companyFormation": "Company Formation",
         "contactUs": "Contact Us"
       },
       "information": {
@@ -110,10 +111,10 @@
   },
   "navbar": {
     "home": "Home",
+    "aboutUs": "About Us",
     "services": "Our Services",
-    "consultations": "Consultations",
     "companyFormation": "Company Formation",
-    "aboutUs": "Our Company",
+    "partners": "Partners",
     "contactUs": "Contact Us"
   },
   "Navigation": {
@@ -233,6 +234,96 @@
       "complaint": "Complaint",
       "suggestion": "Suggestion",
       "send": "Send"
+    }
+  },
+  "CompanyFormation": {
+    "title": "Company Formation",
+    "hero": {
+      "title": "Limited Liability Company Formation Service in the Kingdom of Morocco",
+      "subtitle": "We provide a comprehensive service for establishing a limited liability company in Morocco, with a specialized team ensuring a smooth and secure experience. We guide you through every step of your company formation, from document preparation to final registration.",
+      "primaryCta": "Start Your Company Formation",
+      "secondaryCta": "Discover Our Services"
+    },
+    "services": {
+      "title": "Everything in One Place",
+      "cards": {
+        "comfortable": {
+          "title": "Comfortable Work Environment",
+          "description": "Excellent infrastructure that meets all your business needs"
+        },
+        "support": {
+          "title": "24/7 Continuous Support",
+          "description": "High-quality service for all our clients"
+        },
+        "multilingual": {
+          "title": "Multilingual Support",
+          "description": "Speak in the language you prefer, we are here for you"
+        },
+        "remote": {
+          "title": "No Need for Physical Presence",
+          "description": "Excellent infrastructure that meets all your business needs"
+        }
+      }
+    }
+  },
+  "companyFormation": {
+    "informationSection": {
+      "firstPart": {
+        "description": "Companies are divided according to the nature of their work into civil companies and commercial companies. Commercial companies are further divided according to their basis on personal or financial considerations into partnerships, capital companies, and companies of mixed nature. Only commercial companies acquire merchant status, bear the obligations arising from this status, and are subject to bankruptcy laws when they stop paying their commercial debts. Civil companies can take one of the forms specific to commercial companies, such as being established as a partnership, limited partnership, limited partnership with shares, joint stock company, or limited liability company. In this file, we provide you with details on establishing a limited liability company in the Kingdom of Morocco.",
+        "features": [
+          "Comprehensive management of administrative procedures.",
+          "Processing registration procedures for the articles of incorporation and domiciliation.",
+          "Providing address with great ease.",
+          "Commercial registry readiness within two weeks.",
+          "Conducting comprehensive feasibility studies for company operations."
+        ]
+      },
+      "secondPart": {
+        "title": "General",
+        "titleHighlight": "Overview of Limited Liability Company",
+        "description": "A limited liability company, abbreviated as LLC in the Kingdom of Morocco. In some countries it is abbreviated as Ltd. In French: SOCIÉTÉ À RESPONSABILITÉ LIMITÉE SARL, which means: a company consisting of two or more persons, where the partner's liability for its debts, obligations, and losses is limited to the amount of their share in its capital. The partner's share is transferred upon death to their heirs or those they recommend for any share. The number of partners in this company does not exceed fifty partners."
+      }
+    },
+    "stepsSection": {
+      "title": "Steps we follow to establish a limited liability company",
+      "steps": {
+        "1": {
+          "title": "Obtaining a negative certificate",
+          "description": "This is the first step in establishing a company in Morocco, which involves obtaining a negative certificate that confirms that there is no similar name to the proposed company name within two months. This certificate is valid for six months."
+        },
+        "2": {
+          "title": "Working on the domiciliation or lease contract",
+          "description": "Lease contract, domiciliation contract, property ownership, or proof of building purchase where the main objective is to clarify the company's address and prove the company's right to use the property for commercial activities."
+        },
+        "3": {
+          "title": "Establishing the company's articles of association",
+          "description": "Establishing the articles of association specific to a limited liability company in Morocco, obtaining partner signatures, defining the scope of work, and determining capital and shares for each partner."
+        },
+        "4": {
+          "title": "Opening a bank account with capital deposit",
+          "description": "Opening a temporary bank account to deposit capital, and upon completion of company establishment procedures, the temporary bank account is converted to a regular company account."
+        },
+        "5": {
+          "title": "Registration for property tax and tax identifier",
+          "description": "Registration for property tax and obtaining the company's tax identifier, which is necessary to begin the company's legal and financial activities."
+        },
+        "6": {
+          "title": "Required documents for establishing a limited liability company in Morocco",
+          "description": "Collecting all required documents according to Moroccan law to ensure smooth establishment process in compliance with legal requirements."
+        },
+        "7": {
+          "title": "Registration in the commercial registry",
+          "description": "The company is registered in the commercial registry, which is the official record that legally proves the company's existence and gives it the right to conduct commercial activities."
+        },
+        "8": {
+          "title": "Affiliation with the National Social Security Fund in Morocco",
+          "description": "Registering the company and employees with the National Social Security Fund to ensure social protection and compliance with Moroccan labor laws."
+        },
+        "9": {
+          "title": "Official forms",
+          "description": "Preparing and printing all official company forms such as the official seal, correspondence, and all necessary documents to start operations."
+        }
+      }
     }
   }
 }

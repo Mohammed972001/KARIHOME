@@ -1,16 +1,19 @@
 'use client';
 
-// import {useTranslations} from 'next-intl';
-// import { useLocale } from 'next-intl';
+import CompanyFormationHero from '@/components/CompanyFormation/Hero';
+import ServicesSection from '@/components/CompanyFormation/ServicesSection';
+import StepsSection from '@/components/CompanyFormation/StepsSection';
+import InformationSection from '@/components/CompanyFormation/InformationSection';
+import EmailSection from '@/components/CompanyFormation/EmailSection';
 
-export default function HomePage() {
-  // const t = useTranslations('Home');
-  // const locale = useLocale();
-  
-  
+export default function CompanyFormationPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 to-blue-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4">
-   
+    <div className="min-h-screen">
+      <CompanyFormationHero />
+      <ServicesSection />
+      <InformationSection />
+      <StepsSection />
+      <EmailSection />
     </div>
   );
 }

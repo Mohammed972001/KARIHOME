@@ -45,7 +45,7 @@ const Partners = () => {
   );
 
   return (
-    <section className="partners-section relative w-full py-20 px-6 lg:px-16 xl:px-24 overflow-hidden" data-locale={locale}>
+    <section id="partners" className="partners-section relative w-full py-20 px-6 lg:px-16 xl:px-24 overflow-hidden" data-locale={locale}>
       {/* Background circle decoration */}
       <div className="absolute inset-0 flex items-center justify-end pointer-events-none z-0">
         <div className="relative h-full w-full lg:w-1/2 xl:w-2/5">

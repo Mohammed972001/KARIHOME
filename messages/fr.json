@@ -81,6 +81,7 @@
         "home": "Accueil",
         "aboutUs": "À propos de nous",
         "services": "Nos services",
+        "companyFormation": "Formation d'entreprise",
         "contactUs": "Contactez-nous"
       },
       "information": {
@@ -111,10 +112,10 @@
   },
   "navbar": {
     "home": "Accueil",
+    "aboutUs": "À propos de nous",
     "services": "Nos Services",
-    "consultations": "Consultations",
     "companyFormation": "Création d'entreprises",
-    "aboutUs": "Notre Entreprise",
+    "partners": "Partenaires",
     "contactUs": "Contactez-nous"
   },
   "Navigation": {
@@ -234,6 +235,96 @@
       "complaint": "Plainte",
       "suggestion": "Suggestion",
       "send": "Envoyer"
+    }
+  },
+  "CompanyFormation": {
+    "title": "Formation d'Entreprise",
+    "hero": {
+      "title": "Service de Formation de Société à Responsabilité Limitée au Royaume du Maroc",
+      "subtitle": "Nous fournissons un service complet pour l'établissement d'une société à responsabilité limitée au Maroc, avec une équipe spécialisée garantissant une expérience fluide et sécurisée. Nous vous guidons à travers chaque étape de la formation de votre entreprise, de la préparation des documents à l'enregistrement final.",
+      "primaryCta": "Commencer la Formation de Votre Entreprise",
+      "secondaryCta": "Découvrir Nos Services"
+    },
+    "services": {
+      "title": "Tout en Un Seul Endroit",
+      "cards": {
+        "comfortable": {
+          "title": "Environnement de Travail Confortable",
+          "description": "Excellente infrastructure qui répond à tous vos besoins commerciaux"
+        },
+        "support": {
+          "title": "Support Continu 24/7",
+          "description": "Service de haute qualité pour tous nos clients"
+        },
+        "multilingual": {
+          "title": "Support Multilingue",
+          "description": "Parlez dans la langue que vous préférez, nous sommes là pour vous"
+        },
+        "remote": {
+          "title": "Pas Besoin de Présence Physique",
+          "description": "Excellente infrastructure qui répond à tous vos besoins commerciaux"
+        }
+      }
+    }
+  },
+  "companyFormation": {
+    "informationSection": {
+      "firstPart": {
+        "description": "Les entreprises se divisent selon la nature de leur travail en entreprises civiles et entreprises commerciales. Les entreprises commerciales se divisent à leur tour selon leur base sur des considérations personnelles ou financières en sociétés de personnes, sociétés de capitaux et sociétés de nature mixte. Seules les entreprises commerciales acquièrent le statut de commerçant, supportent les obligations découlant de ce statut et sont soumises aux lois de faillite lorsqu'elles cessent de payer leurs dettes commerciales. Les entreprises civiles peuvent prendre l'une des formes spécifiques aux entreprises commerciales, comme être établies en tant que société en nom collectif, société en commandite simple, société en commandite par actions, société anonyme ou société à responsabilité limitée. Dans ce dossier, nous vous fournissons les détails sur l'établissement d'une société à responsabilité limitée au Royaume du Maroc.",
+        "features": [
+          "Gestion intégrée des procédures administratives.",
+          "Traitement des procédures d'enregistrement des statuts et de domiciliation.",
+          "Fourniture d'adresse avec une grande facilité.",
+          "Disponibilité du registre de commerce dans les deux semaines.",
+          "Réalisation d'études de faisabilité complètes pour le fonctionnement de l'entreprise."
+        ]
+      },
+      "secondPart": {
+        "title": "Présentation",
+        "titleHighlight": "générale d'une société à responsabilité limitée",
+        "description": "Une société à responsabilité limitée, abrégée SARL au Royaume du Maroc. Dans certains pays, elle est abrégée Ltd. En français : SOCIÉTÉ À RESPONSABILITÉ LIMITÉE SARL, ce qui signifie : une société composée de deux personnes ou plus, où la responsabilité de l'associé pour ses dettes, obligations et pertes est limitée au montant de sa part dans son capital. La part de l'associé est transférée à son décès à ses héritiers ou à ceux qu'il recommande pour toute part. Le nombre d'associés dans cette société ne dépasse pas cinquante associés."
+      }
+    },
+    "stepsSection": {
+      "title": "Étapes que nous suivons pour établir une société à responsabilité limitée",
+      "steps": {
+        "1": {
+          "title": "Obtention d'un certificat négatif",
+          "description": "C'est la première étape de la création d'une entreprise au Maroc, qui consiste à obtenir un certificat négatif confirmant qu'il n'existe pas de nom similaire au nom de l'entreprise proposé dans un délai de deux mois. Ce certificat est valide pendant six mois."
+        },
+        "2": {
+          "title": "Travail sur le contrat de domiciliation ou de bail",
+          "description": "Contrat de bail, contrat de domiciliation, propriété immobilière ou preuve d'achat d'immeuble où l'objectif principal est de clarifier l'adresse de l'entreprise et de prouver le droit de l'entreprise à utiliser la propriété pour des activités commerciales."
+        },
+        "3": {
+          "title": "Établissement des statuts de l'entreprise",
+          "description": "Établissement des statuts spécifiques à une société à responsabilité limitée au Maroc, obtention des signatures des associés, définition du domaine d'activité et détermination du capital et des parts pour chaque associé."
+        },
+        "4": {
+          "title": "Ouverture d'un compte bancaire avec dépôt de capital",
+          "description": "Ouverture d'un compte bancaire temporaire pour déposer le capital, et à la fin des procédures de création de l'entreprise, le compte bancaire temporaire est converti en compte ordinaire de l'entreprise."
+        },
+        "5": {
+          "title": "Inscription à la taxe foncière et identifiant fiscal",
+          "description": "Inscription à la taxe foncière et obtention de l'identifiant fiscal de l'entreprise, nécessaire pour commencer les activités légales et financières de l'entreprise."
+        },
+        "6": {
+          "title": "Documents requis pour créer une société à responsabilité limitée au Maroc",
+          "description": "Collecte de tous les documents requis selon la loi marocaine pour assurer un processus de création fluide et conforme aux exigences légales."
+        },
+        "7": {
+          "title": "Inscription au registre de commerce",
+          "description": "L'entreprise est inscrite au registre de commerce, qui est le registre officiel qui prouve légalement l'existence de l'entreprise et lui donne le droit de mener des activités commerciales."
+        },
+        "8": {
+          "title": "Affiliation à la Caisse Nationale de Sécurité Sociale au Maroc",
+          "description": "Inscription de l'entreprise et des employés à la Caisse Nationale de Sécurité Sociale pour assurer la protection sociale et la conformité aux lois du travail marocaines."
+        },
+        "9": {
+          "title": "Formulaires officiels",
+          "description": "Préparation et impression de tous les formulaires officiels de l'entreprise tels que le sceau officiel, la correspondance et tous les documents nécessaires pour commencer les opérations."
+        }
+      }
     }
   }
 }

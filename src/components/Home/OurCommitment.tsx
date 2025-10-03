@@ -15,7 +15,7 @@ interface CommitmentCardProps {
 
 function CommitmentCard({ icon, title, description, locale, isRTL }: CommitmentCardProps) {
   return (
-    <div 
+    <div
       className="bg-white/5 backdrop-blur-sm px-8 py-6 flex flex-col items-start text-center h-auto w-full max-w-[370px] mx-auto"
       style={{
         borderLeft: !isRTL ? '2px solid #21FE7B' : 'none',
@@ -32,9 +32,9 @@ function CommitmentCard({ icon, title, description, locale, isRTL }: CommitmentC
           className="w-[60px] h-[60px] object-contain"
         />
       </div>
-      
+
       {/* Title */}
-      <h3 
+      <h3
         className="text-xl text-white font-semibold mb-4"
         style={{
           ...getFontStyles(locale),
@@ -45,9 +45,9 @@ function CommitmentCard({ icon, title, description, locale, isRTL }: CommitmentC
       >
         {title}
       </h3>
-      
+
       {/* Description */}
-      <p 
+      <p
         className="text-sm leading-relaxed "
         style={{
           ...getFontStyles(locale),
@@ -89,7 +89,8 @@ export default function OurCommitment() {
 
   return (
     <>
-      <section 
+      <section
+        id="commitment"
         className="w-full "
         style={{
           backgroundColor: '#121212',
@@ -98,7 +99,7 @@ export default function OurCommitment() {
         {/* Main Content */}
         <div className="container mx-auto px-4 py-16 md:py-20 lg:py-24 ">
           <div className="text-start mb-12 md:mb-16 lg:mb-20">
-            <h2 
+            <h2
               className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 leading-normal"
               style={{
                 ...getFontStyles(locale),
@@ -111,8 +112,8 @@ export default function OurCommitment() {
               <span style={{ color: '#21FE7B' }}>{t('title')}</span>{' '}
               <span style={{ color: '#ffffff' }}>{t('titleHighlight')}</span>
             </h2>
-            
-            <p 
+
+            <p
               className="text-base md:text-lg max-w-4xl"
               style={{
                 ...getFontStyles(locale),

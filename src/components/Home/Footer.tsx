@@ -7,6 +7,31 @@ import { useTranslation } from '@/hooks/useTranslation';
 const Footer = () => {
     const { t, locale } = useTranslation();
 
+    const handleFooterNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+        if (href.includes('#')) {
+            e.preventDefault();
+            const sectionId = href.split('#')[1];
+
+            // Check if we're currently on the home page
+            const currentPath = window.location.pathname;
+            const isOnHomePage = currentPath === `/${locale}` || currentPath === '/';
+
+            if (isOnHomePage) {
+                // If on home page, scroll to the section directly
+                const element = document.getElementById(sectionId);
+                if (element) {
+                    element.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            } else {
+                // If not on home page, navigate to home page with hash
+                window.location.href = `/${locale}#${sectionId}`;
+            }
+        }
+    };
+
     const socialMediaLinks = [
         {
             name: t('Home.footer.followUs.facebook'),
@@ -44,8 +69,8 @@ const Footer = () => {
                         <Image
                             src="/logo.png"
                             alt="IKHWA Investment Logo"
-                            width={500}
-                            height={100}
+                            width={window.innerWidth < 768 ? 150 : window.innerWidth < 1024 ? 300 : 500}
+                            height={window.innerWidth < 768 ? 40 : window.innerWidth < 1024 ? 70 : 100}
                             className="logo-image"
                         />
                     </div>
@@ -64,22 +89,47 @@ const Footer = () => {
                     <h3 className="footer-title">{t('Home.footer.quickLinks.title')}</h3>
                     <ul className="footer-links-list">
                         <li>
-                            <Link href={`/${locale}`} className="footer-link">
+                            <Link
+                                href={`/${locale}`}
+                                className="footer-link"
+                                onClick={(e) => handleFooterNavClick(e, `/${locale}`)}
+                            >
                                 {t('Home.footer.quickLinks.home')}
                             </Link>
                         </li>
                         <li>
-                            <Link href={`/${locale}#about-us`} className="footer-link">
+                            <Link
+                                href={`/${locale}#about-us`}
+                                className="footer-link"
+                                onClick={(e) => handleFooterNavClick(e, `/${locale}#about-us`)}
+                            >
                                 {t('Home.footer.quickLinks.aboutUs')}
                             </Link>
                         </li>
                         <li>
-                            <Link href={`/${locale}#services`} className="footer-link">
+                            <Link
+                                href={`/${locale}#services`}
+                                className="footer-link"
+                                onClick={(e) => handleFooterNavClick(e, `/${locale}#services`)}
+                            >
                                 {t('Home.footer.quickLinks.services')}
                             </Link>
                         </li>
                         <li>
-                            <Link href={`/${locale}#contact`} className="footer-link">
+                            <Link
+                                href={`/${locale}/CompanyFormation`}
+                                className="footer-link"
+                                onClick={(e) => handleFooterNavClick(e, `/${locale}/CompanyFormation`)}
+                            >
+                                {t('Home.footer.quickLinks.companyFormation')}
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                href={`/${locale}#contact`}
+                                className="footer-link"
+                                onClick={(e) => handleFooterNavClick(e, `/${locale}#contact`)}
+                            >
                                 {t('Home.footer.quickLinks.contactUs')}
                             </Link>
                         </li>
