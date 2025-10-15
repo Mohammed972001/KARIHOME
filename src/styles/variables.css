@@ -7,6 +7,7 @@
   --foreground: #171717;
   --primary: #21FE7B;
   --white: #FFF;
+  --paragraph: #556482;
   
   /* Font Families */
   --font-ibm-arabic: 'IBM Plex Sans Arabic', 'IBM', Arial, sans-serif;
@@ -14,18 +15,18 @@
   --font-fallback: Arial, sans-serif;
   
   /* Navbar specific variables */
-  --navbar-padding-desktop: 30px 120px 20px 120px;
-  --navbar-padding-large: 30px 100px 18px 100px;
-  --navbar-padding-medium: 30px 70px 15px 70px;
-  --navbar-padding-tablet: 25px 40px 12px 40px;
-  --navbar-padding-mobile: 20px 20px 10px 20px;
+  --navbar-padding-desktop: 8px 120px 8px 120px;
+  --navbar-padding-large: 8px 100px 8px 100px;
+  --navbar-padding-medium: 8px 70px 8px 70px;
+  --navbar-padding-tablet: 6px 40px 6px 40px;
+  --navbar-padding-mobile: 6px 20px 6px 20px;
   
   /* Font sizes */
   --navbar-font-xl: 18px;
-  --navbar-font-lg: 16px;
-  --navbar-font-md: 14px;
-  --navbar-font-sm: 13px;
-  --navbar-font-xs: 12px;
+  --navbar-font-lg: 15px;
+  --navbar-font-md: 13px;
+  --navbar-font-sm: 12px;
+  --navbar-font-xs: 11px;
 }
 
 .dark {

@@ -15,8 +15,8 @@
     "subtitle": "Bienvenue sur le site Web d'Investissement IKHWA",
     "currentTime": "Heure actuelle",
    "hero": {
-      "title": "Services de création d'entreprise au Royaume du Maroc",
-      "subtitle": "Nous fournissons tout ce dont vous avez besoin pour établir votre entreprise et assurer le lancement réussi de votre projet au Maroc.",
+      "title": "KARIHOME Le meilleur choix pour construire votre maison et réaliser vos projets",
+      "subtitle": "Avec KARIHOME, la qualité de construction est un engagement, pas un choix",
       "cta": "Découvrez nos services"
     }, 
     "welcome": {
@@ -72,6 +72,12 @@
     },
     "footer": {
       "message": "Page créée avec succès - Le système fonctionne parfaitement!",
+      "copyright": "Tous droits réservés",
+      "newsletter": {
+        "title": "KARIHOME Le Meilleur Choix pour Construire Votre Maison et Vos Projets",
+        "subtitle": "Abonnez-vous à notre newsletter pour recevoir les dernières nouvelles et offres",
+        "placeholder": "Adresse e-mail"
+      },
       "companyInfo": {
         "title": "Informations sur l'entreprise",
         "description": "Ikhwa Investments, une entreprise marocaine faisant partie du groupe The Ikhwa Network, se spécialise dans la création d'entreprises. Notre objectif principal est de créer une plateforme intégrée et une structure pour les investisseurs marocains et étrangers, en soutenant leurs lancements de projets avec des stratégies adaptées à leurs objectifs financiers et d'investissement. Nous rationalisons également toutes les procédures administratives pour les investisseurs internationaux, leur donnant accès au marché économique marocain."
@@ -95,27 +101,33 @@
         "instagram": "Instagram",
         "twitter": "Twitter",
         "linkedin": "LinkedIn",
-        "telegram": "Telegram"
+        "telegram": "Telegram",
+        "youtube": "YouTube",
+        "whatsapp": "WhatsApp"
       }
     }
   },
   "aboutUs": {
-    "title": "À propos",
-    "titleHighlight": "de nous",
-    "description": "Ikhwa Investments, une entreprise marocaine faisant partie du groupe Ikhwa Network, se spécialise dans la création d'entreprises. Notre objectif principal est de créer une plateforme intégrée et une structure pour les investisseurs marocains et étrangers, en soutenant leurs lancements de projets avec des stratégies adaptées à leurs objectifs financiers et d'investissement. Nous rationalisons également toutes les procédures administratives pour les investisseurs internationaux, leur donnant accès au marché économique marocain.",
+    "title": "Message du",
+    "titleHighlight": "Président du Conseil d'Administration",
+    "description": "Notre entreprise s'efforce d'atteindre le leadership et l'excellence dans le domaine de la construction. Nous travaillons toujours à fournir les meilleurs services basés sur l'assurance qualité et le respect des engagements techniques et temporels. Karihome relève le défi de livrer les projets qui lui sont confiés avec un haut niveau de qualité, en traduction complète des désirs de nos clients pour assurer leur satisfaction complète avec nos services.",
     "ceoMessage": {
-      "title": "Message du PDG de l'entreprise",
-      "content": "Notre entreprise sert de partenaire stratégique responsable de l'établissement et de la gestion de vos projets avec une approche pratique et technique. Nous canalisons vos efforts vers la croissance de votre investissement et l'élévation de vos objectifs commerciaux et économiques. Notre entreprise s'efforce d'être votre bras droit dans toutes les questions administratives et marketing.",
-      "signature": "Mohammed Saad Al Raji",
-      "position": "Directeur Général et PDG"
+      "title": "Message du Vice-Président du Conseil d'Administration",
+      "content": "L'architecture et la construction sont parmi les fondements qui établissent la culture des pays et protègent leur identité esthétique et développementale. Nous, dans notre entreprise, croyons que le développement urbain du Royaume du Maroc fait partie de nos devoirs, construit sur le respect des normes techniques et d'ingénierie pour fournir des produits dignes de l'avenir de notre pays.",
+      "signature": "M. Mohammed Saad Al Raji",
+      "position": "Membre et Vice-Président du Conseil d'Administration"
+    },
+    "chairmanMessage": {
+      "signature": "Mme Rahima Hajaj",
+      "position": "Présidente du Conseil d'Administration"
     }
   },
   "navbar": {
     "home": "Accueil",
-    "aboutUs": "À propos de nous",
+    "aboutUs": "Notre Entreprise",
     "services": "Nos Services",
-    "companyFormation": "Création d'entreprises",
     "partners": "Partenaires",
+    "companyFormation": "Demandes",
     "contactUs": "Contactez-nous"
   },
   "Navigation": {
@@ -126,29 +138,40 @@
   },
   "ourServices": {
     "title": "Nos Services",
-    "subtitle": "Nous offrons des services complets et des solutions intégrées en gestion d'entreprise",
+    "subtitle": "Services intégrés et solutions techniques diversifiées dans la construction et la finition",
     "services": [
       {
-        "title": "Études de Faisabilité pour Projets d'Investissement",
-        "description": "Le département d'études fournit une étude de faisabilité économique complète et une structure pour les décisions juridiques et financières. Il effectue également une analyse de marché pour soutenir la prise de décision d'investissement et fournir des conseils stratégiques aux entreprises."
+        "title": "Construction et Bâtiment",
+        "description": "Nous définissons les objectifs spécifiques au projet avec la plus grande précision et professionnalisme, et préparons les programmes pratiques nécessaires à leur mise en œuvre d'une manière qui répond aux désirs des clients, avec l'étude du budget estimatif du projet et la conception initiale",
+        "image": "build.svg"
       },
       {
-        "title": "Supervision Comptable pour Entreprises",
-        "description": "Les services d'audit des résultats sont fournis par le biais d'un programme avancé qui comprend l'audit périodique des rapports financiers, le suivi des développements fiscaux marocains et la gestion de l'administration financière d'entreprise."
+        "title": "Finitions et Décorations",
+        "description": "Nous mettons à la disposition de nos clients une équipe d'experts et de spécialistes en design de décoration intérieure et finition, une équipe qui combine expertise technique, créativité et sens esthétique, une équipe qui travaille dur pour vous assurer confort et élégance.",
+        "image": "Finishes.svg"
       },
       {
-        "title": "Suivi du Financement Bancaire",
-        "description": "Nous fournissons un financement professionnel qui comprend une étude de flexibilité, une analyse des risques et la préparation de documents pour permettre à nos clients d'obtenir un financement bancaire approprié et les guider dans la sélection des mécanismes de performance."
-      },
-      {
-        "title": "Offrir des Opportunités d'Investissement",
-        "description": "Notre entreprise se distingue en sécurisant les opportunités d'investissement au niveau des Marqueurs d'Agadir, et nous avons un bureau accrédité et des partenariats pour faciliter les procédures légales d'entrée sur les marchés étrangers."
-      },
-      {
-        "title": "Création d'une Société à Responsabilité Limitée",
-        "description": "Nous vous aidons à créer une société à responsabilité limitée par le biais d'étapes juridiques claires et d'un service complet et intégré qui comprend la préparation de documents et la simplification de la structure administrative. Ce type de société marocaine est considéré comme idéal pour les petites et moyennes entreprises en raison de sa responsabilité limitée en capital."
+        "title": "Ameublement et Décoration",
+        "description": "En collaboration avec l'une de nos entreprises boklite, nous offrons à nos clients des offres spéciales en mobilier de fabrication locale ainsi qu'en mobilier importé avec garantie de haute qualité.",
+        "image": "decoraton.svg"
       }
     ]
+  },
+  "ourCompany": {
+    "title": "Découvrez Notre Entreprise",
+    "subtitle": "KARIHOME est une entreprise marocaine du groupe IKHWA spécialisée dans la construction et le bâtiment ainsi que la rénovation. Notre expérience dans le domaine de l'entrepreneuriat immobilier nous a permis de fidéliser une élite de clients et de réussir plusieurs projets immobiliers.",
+    "vision": {
+      "title": "Notre Vision",
+      "content": "Nous aspirons à être l'entreprise leader dans le secteur de la construction et du bâtiment au Maroc, en fournissant des solutions modernes et innovantes qui répondent aux besoins de nos clients et contribuent au développement urbain durable."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "content": "Nous croyons en l'importance de la qualité, de la transparence et du respect des délais. Nous nous efforçons toujours de construire des relations à long terme avec nos clients basées sur la confiance mutuelle et le professionnalisme dans les relations."
+    },
+    "commitment": {
+      "title": "Engagement",
+      "content": "Nous nous engageons à réaliser des projets selon les plus hauts standards de qualité et de sécurité, tout en respectant l'environnement et en appliquant les meilleures pratiques de l'industrie de la construction pour assurer la satisfaction complète de nos clients."
+    }
   },
   "ourCommitment": {
     "title": "Notre Engagement",
@@ -173,45 +196,43 @@
   },
   "faqs": {
     "title": "Questions Fréquemment Posées",
-    "subtitle": "Nous vous fournissons une collection de réponses aux questions concernant l'entreprise",
+    "subtitle": "Ici, vous trouverez des réponses aux questions les plus fréquemment posées sur notre entreprise et ses informations",
     "questions": {
       "0": {
-        "question": "Qu'est-ce qu'IKHWA Investments ?",
-        "answer": "IKHWA Investments est une entreprise active dans le soutien à l'investissement et la création de plateformes commerciales au Maroc. Notre siège principal est actuellement situé dans la capitale ismaélienne, Meknès. Fondée en 2024 par des hommes d'affaires marocains."
+        "question": "Quelle est la forme juridique et le nom de l'entreprise ?",
+        "answer": "La forme juridique de KARIHOME SARL est une société à responsabilité limitée (SARL) et elle est enregistrée au Royaume du Maroc à Kénitra sous le numéro de registre de commerce 72857, et son nom légal s'écrit \"KARIHOME\"."
       },
       "1": {
-        "question": "Quelle est la forme juridique et le nom de l'entreprise ?",
-        "answer": "L'entreprise opère sous le nom commercial 'IKHWA Investments' et est une société à responsabilité limitée légalement enregistrée au Royaume du Maroc."
+        "question": "Quelle est la base de tarification des services de l'entreprise ?",
+        "answer": "La tarification dans l'entreprise est basée sur :\n\n• Les plans fournis nécessaires pour la construction du projet.\n\n• Basé sur le type de projet."
       },
       "2": {
-        "question": "Où se trouve IKHWA Investments ?",
-        "answer": "Le siège de l'entreprise est situé dans la ville de Meknès, la capitale ismaélienne, Royaume du Maroc, avec des plans d'expansion vers d'autres villes."
+        "question": "Quels sont les services fournis et quelle est la portée du travail ?",
+        "answer": "Mise en œuvre de projets de construction et de décoration intérieure, ainsi que la fourniture de services de construction et la vente de matériaux primaires nécessaires à la construction."
       },
       "3": {
-        "question": "Qui représente légalement 'IKHWA INVESTMENTS BY IKHWA NETWORK' ?",
-        "answer": "L'entreprise opère sous la direction d'une équipe d'hommes d'affaires marocains spécialisés dans l'investissement et la création d'entreprises, avec un engagement total envers les lois et règlements marocains."
-      },
-      "4": {
-        "question": "Quels services l'entreprise fournit-elle ?",
-        "answer": "Nous fournissons des services complets dans la création d'entreprises, les consultations juridiques, la gestion des investissements, et le soutien logistique pour de nouveaux projets commerciaux au Maroc."
+        "question": "Quels sont les documents requis lors de la signature du contrat ?",
+        "answer": "Les documents requis sont :\n\n• Plan de l'ingénieur civil.\n\n• Plan de superficie.\n\n• Certificat de propriété pour le projet immobilier ou autorisation d'exploitation.\n\n• Permis de construire (ou résumé d'approbation pour les plans que vous soumettez).\n\n• Registre de commerce et statuts si le propriétaire du projet est une personne morale (entreprise).\n\n• Carte d'identité nationale ou passeport si le propriétaire du projet est un particulier.\n\n• Registre d'héritage.\n\n• Certificat d'assurance pour le site de construction."
       }
     }
   },
   "contactUs": {
-    "title": "Contactez",
-    "titleHighlight": "-nous",
-    "description": "Pour plus d'informations sur nos services et produits, ou pour soumettre une plainte, veuillez nous contacter en remplissant le formulaire",
+    "title": "Contactez-nous",
+    "titleHighlight": "",
+    "description": "Pour plus d'informations sur nos services et produits, ou pour soumettre une plainte, veuillez nous contacter en remplissant le formulaire ci-dessous.",
+    "formTitle": "Informations de contact",
+    "formDescription": "Avez-vous besoin d'aide? Notre équipe vous attend via les canaux de communication suivants. Service client disponible 24/7",
     "email": {
       "title": "Email",
-      "address": "contact@ikhwainvestments.com"
+      "address": "karihomeco@gmail.com"
     },
     "phone": {
       "title": "Téléphone",
-      "number": "+212664411955"
+      "number": "+212 669-1666670"
     },
     "address": {
       "title": "Adresse",
-      "location": "Villa 194, Ryad Toulal 1, Meknès"
+      "location": "RIAD TOULAL 1 Meknès, TOULAL, MAROC, 50040"
     },
     "workingHours": {
       "title": "Heures de travail:",

@@ -1,213 +1,254 @@
 'use client';
 
-import { useTheme } from 'next-themes';
-import { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { useDetectedLocale, SupportedLocale } from '@/hooks/useDetectedLocale';
+import { useDetectedLocale } from '@/hooks/useDetectedLocale';
 import { getFontStyles } from '@/utils/fonts';
-import { useResponsive } from '../../hooks';
-import { LocalizedHeading, LocalizedParagraph } from '../ui/Typography';
 import Image from 'next/image';
+import '@/styles/our-services.css';
 
 const OurServices = () => {
-  const { theme, resolvedTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-  const t = useTranslations('ourServices');
-  const { mobile: isMobile, tablet: isTablet } = useResponsive();
-  const locale = useDetectedLocale();
+    const t = useTranslations('ourServices');
+    const locale = useDetectedLocale();
+    const [activeService, setActiveService] = useState(0);
 
-  // Ensure component is mounted before accessing theme
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+    // Create services array manually since next-intl doesn't support arrays directly
+    const services = [
+        {
+            title: t('services.0.title'),
+            description: t('services.0.description'),
+            image: t('services.0.image')
+        },
+        {
+            title: t('services.1.title'),
+            description: t('services.1.description'),
+            image: t('services.1.image')
+        },
+        {
+            title: t('services.2.title'),
+            description: t('services.2.description'),
+            image: t('services.2.image')
+        }
+    ];
 
-  // Get the current theme (fallback to 'light' if not mounted)
-  const currentTheme = mounted ? (resolvedTheme || theme || 'light') : 'light';
-  const isDark = currentTheme === 'dark';
+    const isRTL = locale === 'ar';
 
-  // Get font styles for current locale
-  const fontClass = getFontStyles(locale as SupportedLocale);
-
-  // Services data
-  const services = [
-    { id: 1, image: '/Home/Our Services/1.svg' },
-    { id: 2, image: '/Home/Our Services/2.svg' },
-    { id: 3, image: '/Home/Our Services/3.svg' },
-    { id: 4, image: '/Home/Our Services/4.svg' },
-    { id: 5, image: '/Home/Our Services/5.svg' },
-  ];
-
-  return (
-    <section
-      id="services"
-      className={`py-16 lg:py-24 transition-colors duration-300 ${fontClass}`}
-      style={{
-        background: isDark
-          ? 'linear-gradient(205deg, rgba(24, 188, 106, 0.20) -0.45%, rgba(8, 100, 54, 0.00) 104.96%)'
-          : '#F6F6F6'
-      }}
-    >
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-12 lg:mb-16">
-          <LocalizedHeading
-            level={2}
-            className={`font-semibold mb-4 transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
-              }`}
-            style={{
-              fontSize: isMobile || isTablet ? '20px' : '32px',
-              fontWeight: '600',
-              lineHeight: isMobile || isTablet ? 'normal' : '63px'
-            }}
-          >
-            <span>{t('title').split(' ').slice(0, -1).join(' ')}</span>{' '}
-            <span style={{ color: '#29B04D' }}>
-              {t('title').split(' ').slice(-1)}
-            </span>
-          </LocalizedHeading>
-
-          <LocalizedParagraph
-            className={`max-w-4xl  mx-auto transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
-              }`}
-            style={{
-              fontSize: isMobile ? '12px' : '18px',
-              fontWeight: isMobile ? '400' : '500',
-              lineHeight: isMobile ? '24px' : '32px'
-            }}
-          >
-            {t('subtitle')}
-          </LocalizedParagraph>
-        </div>
-
-        {/* Services */}
-        <div className="space-y-6 lg:space-y-8">
-          {services.map((service, index) => {
-            // First 3 cards styling for dark mode
-            const isFirstThree = index < 3;
-
-            const cardBgColor = isDark
-              ? isFirstThree
-                ? 'rgba(0, 0, 0, 0.30)'
-                : 'rgba(255, 255, 255, 0.05)'
-              : 'white';
-
-            // Alternate layout for desktop
-            const isEven = index % 2 === 0;
-            const isRTL = locale === 'ar';
-
-            return (
-              <div
-                key={service.id}
-                className="group relative overflow-hidden transition-all duration-300 hover:shadow-lg"
+    return (
+        <section className="relative py-16 bg-[#141C27] overflow-hidden">
+            {/* Background Image */}
+            <div
+                className={`absolute inset-0  ${isRTL ? 'left-0' : 'right-0'
+                    }`}
                 style={{
-                  backgroundColor: cardBgColor,
-                  borderRadius: '16px',
-                  border: isDark ? '1px solid rgba(255, 255, 255, 0.1)' : '1px solid rgba(0, 0, 0, 0.05)'
+                    transform: isRTL ? 'scaleX(-1)' : 'none'
                 }}
-              >
-                {/* Desktop Layout */}
-                <div className={`
-                  hidden md:flex items-center  p-6 lg:p-10
-                  ${isRTL
-                    ? (isEven ? 'flex-row' : 'flex-row-reverse')
-                    : (isEven ? 'flex-row' : 'flex-row-reverse')
-                  }
-                `}>
-                  <div className="flex-1 " style={{ flex: '1', paddingRight: '2rem' }}>
-                    <LocalizedHeading
-                      level={3}
-                      className={`font-semibold mb-4 transition-colors duration-300 text-start ${isDark ? 'text-white' : 'text-black'
-                        }`}
-                      style={{
-                        fontSize: '32px',
-                        fontWeight: '600',
-                        lineHeight: '63px'
-                      }}
-                    >
-                      <span style={{ color: '#29B04D' }}>
-                        {t(`services.${index}.title`).split(' ').slice(0, 2).join(' ')}
-                      </span>{' '}
-                      <span>{t(`services.${index}.title`).split(' ').slice(2).join(' ')}</span>
-                    </LocalizedHeading>
+            >
+                <Image
+                    src="/Home/OurService/OurServicebg.svg"
+                    alt="Services Background"
+                    fill
+                    className="object-contain object-right"
+                />
+            </div>
 
-                    <LocalizedParagraph
-                      className={`transition-colors duration-300 text-start ${isDark ? 'text-white' : 'text-black'
-                        }`}
-                      style={{
-                        fontSize: '16px',
-                        fontWeight: '500',
-                        lineHeight: '32px'
-                      }}
+            {/* Content Container */}
+            <div className="relative z-10 max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+                {/* Header */}
+                <div className="text-start  md:text-center mb-16">
+                    <h2
+                        className="text-4xl md:text-5xl font-bold mb-6"
+                        style={{
+                            ...getFontStyles(locale),
+                            background: 'linear-gradient(180deg, #3ED178 0%, #2599BA 38.94%)',
+                            backgroundClip: 'text',
+                            WebkitBackgroundClip: 'text',
+                            WebkitTextFillColor: 'transparent',
+                        }}
                     >
-                      {t(`services.${index}.description`)}
-                    </LocalizedParagraph>
-                  </div>
-
-                  {/* Image - Takes 1/3 of the space */}
-                  <div className="flex-1" style={{ flex: '1', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <Image
-                      src={service.image}
-                      alt={`Service ${service.id}`}
-                      width={350}
-                      height={350}
-                      className="object-contain"
-                      style={{ maxWidth: '100%', height: 'auto' }}
-                    />
-                  </div>
+                        {t('title')}
+                    </h2>
+                    <p
+                        className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto"
+                        style={{
+                            ...getFontStyles(locale)
+                        }}
+                    >
+                        {t('subtitle')}
+                    </p>
                 </div>
 
-                {/* Mobile Layout */}
-                <div className="md:hidden p-6">
-                  {/* Image on top */}
-                  <div className="mb-6 flex justify-center w-full">
-                    <Image
-                      src={service.image}
-                      alt={`Service ${service.id}`}
-                      width={400}
-                      height={400}
-                      className="object-contain"
-                      style={{ width: '100%', maxWidth: '100%', height: 'auto' }}
-                    />
-                  </div>
+                {/* Services Slider */}
+                <div className="relative px-8 md:px-24 lg:px-24">
+                    {/* Desktop Slider Container */}
+                    <div className="hidden lg:block relative h-96 md:h-[500px]">
+                        <div className="flex items-center justify-center gap-6 h-full">
+                            {services.map((service, index) => {
+                                const isActive = index === activeService;
 
-                  {/* Text below */}
-                  <div className="text-start">
-                    <LocalizedHeading
-                      level={3}
-                      className={`font-semibold mb-4 transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
-                        }`}
-                      style={{
-                        fontSize: '20px',
-                        fontWeight: '600',
-                        lineHeight: 'normal'
-                      }}
-                    >
-                      <span style={{ color: '#29B04D' }}>
-                        {t(`services.${index}.title`).split(' ').slice(0, 2).join(' ')}
-                      </span>{' '}
-                      <span>{t(`services.${index}.title`).split(' ').slice(2).join(' ')}</span>
-                    </LocalizedHeading>
+                                return (
+                                    <div
+                                        key={index}
+                                        className={`relative h-full transition-all duration-700 ease-in-out cursor-pointer ${isActive ? 'z-20' : 'z-10'
+                                            }`}
+                                        style={{
+                                            width: isActive ? '70%' : '15%',
+                                            opacity: isActive ? 1 : 0.8,
+                                        }}
+                                        onClick={() => setActiveService(index)}
+                                    >
+                                        {/* Navigation Arrow - Only show on non-active slides */}
+                                        {!isActive && (
+                                            <div className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} z-30`}>
+                                                <button
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        setActiveService(index);
+                                                    }}
+                                                    className="border-2 border-green-500 hover:border-green-600 text-green-500 hover:text-green-600 p-3 transition-all duration-300 shadow-lg"
+                                                    style={{
+                                                        backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                                                        borderRadius: '4px'
+                                                    }}
+                                                >
+                                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path
+                                                            strokeLinecap="round"
+                                                            strokeLinejoin="round"
+                                                            strokeWidth={2}
+                                                            d={isRTL ? "M15 19l-7-7 7-7" : "M9 5l7 7-7 7"}
+                                                        />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        )}
 
-                    <LocalizedParagraph
-                      className={`transition-colors duration-300 ${isDark ? 'text-white' : 'text-black'
-                        }`}
-                      style={{
-                        fontSize: '12px',
-                        fontWeight: '400',
-                        lineHeight: '24px'
-                      }}
-                    >
-                      {t(`services.${index}.description`)}
-                    </LocalizedParagraph>
-                  </div>
+                                        {/* Service Image */}
+                                        <div className="relative h-full  overflow-hidden shadow-2xl">
+                                            <Image
+                                                src={`/Home/OurService/${service.image}`}
+                                                alt={service.title}
+                                                fill
+                                                className="object-cover"
+                                                priority={isActive}
+                                            />
+
+
+                                        </div>
+
+                                        {/* Service Info Card - Only show on active slide */}
+                                        {isActive && (
+                                            <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 bg-white w-[90%]  p-6 md:p-6 shadow-xl transition-all duration-500">
+                                                <div className={`${isRTL ? 'text-right' : 'text-left'}`}>
+                                                    <h3
+                                                        className="text-xl md:text-2xl font-bold text-gray-800 mb-4"
+                                                        style={{
+                                                            ...getFontStyles(locale)
+                                                        }}
+                                                    >
+                                                        {service.title}
+                                                    </h3>
+                                                    <p
+                                                        className="text-gray-600 leading-relaxed text-base md:text-lg"
+                                                        style={{
+                                                            ...getFontStyles(locale)
+                                                        }}
+                                                    >
+                                                        {service.description}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        )}
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+
+                    {/* Mobile & Tablet Slider Container */}
+                    <div className="lg:hidden relative h-[600px] md:h-[600px]">
+                        <div className="flex flex-col items-center justify-center gap-4 h-full">
+                            {services.map((service, index) => {
+                                const isActive = index === activeService;
+
+                                return (
+                                    <div
+                                        key={index}
+                                        className={`relative w-full transition-all duration-700 ease-in-out cursor-pointer ${isActive ? 'z-20' : 'z-10'}`}
+                                        style={{
+                                            height: isActive ? '70%' : '15%',
+                                            opacity: isActive ? 1 : 0.8,
+                                        }}
+                                        onClick={() => setActiveService(index)}
+                                    >
+                                        {/* Navigation Arrow - Only show on non-active slides */}
+                                        {!isActive && (
+                                            <div className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} z-30`}>
+                                                <button
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        setActiveService(index);
+                                                    }}
+                                                    className="border-2 border-green-500 hover:border-green-600 text-green-500 hover:text-green-600 p-2 transition-all duration-300 shadow-lg"
+                                                    style={{
+                                                        backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                                                        borderRadius: '4px'
+                                                    }}
+                                                >
+                                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path
+                                                            strokeLinecap="round"
+                                                            strokeLinejoin="round"
+                                                            strokeWidth={2}
+                                                            d="M19 9l-7 7-7-7"
+                                                        />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        )}
+
+                                        {/* Service Image */}
+                                        <div className="relative h-full  overflow-hidden shadow-2xl">
+                                            <Image
+                                                src={`/Home/OurService/${service.image}`}
+                                                alt={service.title}
+                                                fill
+                                                className="object-cover"
+                                                priority={isActive}
+                                            />
+                                        </div>
+
+                                        {/* Service Info Card - Only show on active slide */}
+                                        {isActive && (
+                                            <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 bg-white w-[90%]  p-4 md:p-6 shadow-xl transition-all duration-500">
+                                                <div className={`${isRTL ? 'text-right' : 'text-left'}`}>
+                                                    <h3
+                                                        className="text-base md:text-lg font-bold text-gray-800 mb-2"
+                                                        style={{
+                                                            ...getFontStyles(locale)
+                                                        }}
+                                                    >
+                                                        {service.title}
+                                                    </h3>
+                                                    <p
+                                                        className="text-gray-600 leading-relaxed text-sm md:text-base"
+                                                        style={{
+                                                            ...getFontStyles(locale)
+                                                        }}
+                                                    >
+                                                        {service.description}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        )}
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
                 </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </section>
-  );
+            </div>
+        </section>
+    );
 };
 
 export default OurServices;

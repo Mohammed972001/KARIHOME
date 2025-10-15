@@ -11,6 +11,63 @@
 }
 
 /* ==========================================================================
+   NAVBAR ANIMATIONS
+   ========================================================================== */
+
+/* Mobile menu slide down animation */
+.animate-slide-down {
+  animation: slideDown 0.3s ease-out forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth scrollbar background transition */
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Enhanced hover effects */
+.navbar-logo-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-logo-hover:hover {
+  transform: scale(1.1) rotate(3deg);
+}
+
+/* Navigation item hover effects */
+.navbar-nav-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar-nav-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.navbar-nav-item:hover::before {
+  left: 100%;
+}
+
+/* ==========================================================================
    RESPONSIVE DESIGN - NAVBAR TYPOGRAPHY
    ========================================================================== */
 
@@ -26,6 +83,12 @@
   .navbar-text-responsive {
     font-size: var(--navbar-font-md);
   }
+  
+  /* Adjust logo size for tablets */
+  .navbar-logo {
+    width: 48px !important;
+    height: 48px !important;
+  }
 }
 
 /* Tablet: ≤768px */
@@ -33,12 +96,29 @@
   .navbar-text-responsive {
     font-size: var(--navbar-font-sm);
   }
+  
+  /* Smaller logo for mobile */
+  .navbar-logo {
+    width: 44px !important;
+    height: 44px !important;
+  }
+  
+  /* Reduce mobile menu animation delay for faster feel */
+  .animate-slide-down {
+    animation-duration: 0.2s;
+  }
 }
 
 /* Mobile: ≤640px */
 @media (max-width: 640px) {
   .navbar-text-responsive {
     font-size: var(--navbar-font-xs);
+  }
+  
+  /* Even smaller logo for small screens */
+  .navbar-logo {
+    width: 40px !important;
+    height: 40px !important;
   }
 }
 
@@ -97,5 +177,106 @@
     .navbar-padding-responsive {
       padding: var(--navbar-padding-mobile);
     }
+  }
+}
+
+/* ==========================================================================
+   LANGUAGE SWITCHER STYLES
+   ========================================================================== */
+
+/* Enhanced dropdown animation */
+.navbar-language-switcher-dropdown {
+  animation: dropdownSlide 0.3s ease-out forwards;
+  transform-origin: top center;
+}
+
+@keyframes dropdownSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Language switcher responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-language-switcher {
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar-language-switcher {
+    font-size: 13px !important;
+    padding: 6px 10px !important;
+  }
+}
+
+/* ==========================================================================
+   RESPONSIVE FONT SIZES FOR DIFFERENT LANGUAGES
+   ========================================================================== */
+
+/* Medium screens: 1350px and below - Reduce font size for EN/FR */
+@media (max-width: 1350px) {
+  /* Target English and French locales specifically */
+  .navbar-locale-en .navbar-text-responsive,
+  .navbar-locale-fr .navbar-text-responsive {
+    font-size: var(--navbar-font-lg) !important;
+  }
+  
+  .navbar-locale-en .navbar-language-switcher,
+  .navbar-locale-fr .navbar-language-switcher {
+    font-size: 14px !important;
+    padding: 8px 16px !important;
+  }
+  
+  .navbar-locale-en .navbar-contact-button,
+  .navbar-locale-fr .navbar-contact-button {
+    font-size: var(--navbar-font-lg) !important;
+    padding: 8px 20px !important;
+  }
+}
+
+/* Tablet and smaller: Additional reduction for EN/FR */
+@media (max-width: 1024px) {
+  .navbar-locale-en .navbar-text-responsive,
+  .navbar-locale-fr .navbar-text-responsive {
+    font-size: var(--navbar-font-md) !important;
+  }
+  
+  .navbar-locale-en .navbar-language-switcher,
+  .navbar-locale-fr .navbar-language-switcher {
+    font-size: 13px !important;
+    padding: 6px 12px !important;
+  }
+  
+  .navbar-locale-en .navbar-contact-button,
+  .navbar-locale-fr .navbar-contact-button {
+    font-size: var(--navbar-font-md) !important;
+    padding: 6px 16px !important;
+  }
+}
+
+/* Mobile: Further reduction for EN/FR */
+@media (max-width: 768px) {
+  .navbar-locale-en .navbar-text-responsive,
+  .navbar-locale-fr .navbar-text-responsive {
+    font-size: var(--navbar-font-sm) !important;
+  }
+  
+  .navbar-locale-en .navbar-language-switcher,
+  .navbar-locale-fr .navbar-language-switcher {
+    font-size: 12px !important;
+    padding: 6px 10px !important;
+  }
+  
+  .navbar-locale-en .navbar-contact-button,
+  .navbar-locale-fr .navbar-contact-button {
+    font-size: var(--navbar-font-sm) !important;
+    padding: 6px 14px !important;
   }
 }

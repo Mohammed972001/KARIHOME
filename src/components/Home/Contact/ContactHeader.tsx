@@ -7,10 +7,39 @@ import { getFontStyles } from '@/utils/fonts';
 interface ContactHeaderProps {
     locale: SupportedLocale;
     isMobileOnly?: boolean;
+    isCentered?: boolean;
 }
 
-export default function ContactHeader({ locale, isMobileOnly = false }: ContactHeaderProps) {
+export default function ContactHeader({ locale, isMobileOnly = false, isCentered = false }: ContactHeaderProps) {
     const t = useTranslations('contactUs');
+
+    // If isCentered is true, use centered styling
+    if (isCentered) {
+        return (
+            <div className="text-center">
+                <h2
+                    className="text-4xl md:text-5xl font-bold mb-10"
+                    style={{
+                        ...getFontStyles(locale),
+                        background: 'linear-gradient(180deg, #3ED178 0%, #2599BA 38.94%)',
+                        backgroundClip: 'text',
+                        WebkitBackgroundClip: 'text',
+                        WebkitTextFillColor: 'transparent',
+                    }}
+                >
+                    {t('title')}
+                </h2>
+                <p
+                    className="text-lg md:text-xl text-gray-300 max-w-4xl mx-auto"
+                    style={{
+                        ...getFontStyles(locale)
+                    }}
+                >
+                    {t('description')}
+                </p>
+            </div>
+        );
+    }
 
     const containerClass = isMobileOnly
         ? "block lg:hidden text-start mb-8"
@@ -36,8 +65,7 @@ export default function ContactHeader({ locale, isMobileOnly = false }: ContactH
                     lineHeight: 'normal'
                 }}
             >
-                <span style={{ color: '#21FE7B' }}>{t('title')}</span>{' '}
-                <span style={{ color: '#ffffff' }}>{t('titleHighlight')}</span>
+                {t('title')}
             </h2>
 
             <p

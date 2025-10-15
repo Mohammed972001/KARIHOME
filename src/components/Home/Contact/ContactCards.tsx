@@ -19,19 +19,19 @@ export default function ContactCards({ locale, isRTL }: ContactCardsProps) {
             description: t('email.address'),
         },
         {
-            icon: '/Home/phoe.svg',
+            icon: '/Home/phone.svg',
             title: t('phone.title'),
             description: t('phone.number'),
         },
         {
-            icon: '/Home/addres.svg',
+            icon: '/Home/loacation.svg',
             title: t('address.title'),
             description: t('address.location'),
         },
     ];
 
     return (
-        <div className="grid grid-cols-2 gap-3 md:gap-6 h-auto">
+        <div className="grid grid-cols-2">
             {cards.map((card, index) => (
                 <div
                     key={index}
@@ -43,6 +43,7 @@ export default function ContactCards({ locale, isRTL }: ContactCardsProps) {
                         description={card.description}
                         locale={locale}
                         isRTL={isRTL}
+                        isInline={index === 2} // Make third card (address) inline
                     />
                 </div>
             ))}

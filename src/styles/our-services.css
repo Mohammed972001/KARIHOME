@@ -1,0 +1,277 @@
+/* Our Services Section Styles */
+
+/* Main section with background */
+.our-services-section {
+  background-color: #141C27;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+/* Background overlay for better text readability */
+.our-services-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(20, 28, 39, 0.95) 0%, rgba(20, 28, 39, 0.8) 100%);
+  z-index: 1;
+}
+
+/* Ensure content is above overlay */
+.our-services-section > .relative {
+  position: relative;
+  z-index: 2;
+}
+
+/* Services slider container with proper padding */
+.services-slider-container {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+/* Responsive padding adjustments */
+@media (max-width: 1024px) {
+  .services-slider-container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-slider-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .services-slider-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Service slide animations */
+.service-slide {
+  transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, width, opacity;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.service-slide:hover {
+  transform: translateY(-4px);
+}
+
+/* Active service slide effects */
+.service-slide.active {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+}
+
+.service-slide:not(.active) {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* Service image container */
+.service-image-container {
+  position: relative;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Service info card animation */
+.service-info-card {
+  background: white;
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 -10px 25px -5px rgba(0, 0, 0, 0.15);
+  animation: slideUpFromBottom 0.5s ease-out;
+  padding: 32px;
+}
+
+@keyframes slideUpFromBottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Service card text styles */
+.service-card-title {
+  color: #1f2937;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.service-card-description {
+  color: #6b7280;
+  line-height: 1.6;
+  font-size: 1.125rem;
+}
+
+/* Navigation dots styles */
+.navigation-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 12px;
+}
+
+.nav-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.nav-dot.active {
+  background: white;
+  transform: scale(1.25);
+}
+
+.nav-dot:hover:not(.active) {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+/* Background image positioning for RTL support */
+.bg-image-rtl {
+  transform: scaleX(-1);
+}
+
+.bg-image-ltr {
+  transform: none;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .service-info-card {
+    padding: 24px;
+  }
+  
+  .service-card-title {
+    font-size: 1.5rem;
+  }
+  
+  .service-card-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .our-services-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  
+  .service-info-card {
+    padding: 20px;
+  }
+  
+  .service-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+  }
+  
+  .service-card-description {
+    font-size: 0.875rem;
+  }
+}
+
+/* Smooth transitions for interactive elements */
+.service-slide,
+.nav-dot,
+.service-image-container {
+  transition-property: transform, opacity, box-shadow, background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+/* Focus states for accessibility */
+.service-slide:focus-visible,
+.nav-dot:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+/* Loading states */
+.service-slide img {
+  transition: opacity 0.3s ease;
+}
+
+.service-slide img[data-loading="true"] {
+  opacity: 0;
+}
+
+.service-slide img[data-loading="false"] {
+  opacity: 1;
+}
+
+/* Enhanced hover effects */
+.service-slide:hover .service-image-container {
+  transform: scale(1.02);
+}
+
+.service-slide.active:hover .service-image-container {
+  transform: scale(1.01);
+}
+
+/* Text alignment for RTL languages */
+.rtl .service-card-title,
+.rtl .service-card-description {
+  text-align: right;
+}
+
+.ltr .service-card-title,
+.ltr .service-card-description {
+  text-align: left;
+}
+
+/* Fade in animation for description */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Navigation button styles */
+.nav-button {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+/* Slider container improvements */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}

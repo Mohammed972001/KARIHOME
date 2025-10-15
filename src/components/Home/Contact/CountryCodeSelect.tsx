@@ -189,10 +189,16 @@ export default function CountryCodeSelect({
 }: CountryCodeSelectProps) {
     return (
         <div className={`relative w-full ${className}`}>
-            <div className="flex w-full bg-gray-100 border border-gray-300 rounded-md focus-within:ring-2 focus-within:ring-green-500 focus-within:border-green-500 overflow-hidden">
+            <div
+                className="flex w-full rounded-md focus-within:ring-2 focus-within:ring-green-500 overflow-hidden"
+                style={{
+                    backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                    border: '1px solid rgba(255, 255, 255, 0.20)'
+                }}
+            >
                 {/* Country Code Selector */}
                 <select
-                    className="bg-transparent text-gray-800 border-0 focus:outline-none appearance-none cursor-pointer flex-shrink-0 text-xs sm:text-sm dropdown-auto-width"
+                    className="bg-transparent text-white border-0 focus:outline-none appearance-none cursor-pointer flex-shrink-0 text-xs sm:text-sm dropdown-auto-width"
                     defaultValue={defaultValue}
                     onChange={(e) => onChange?.(e.target.value)}
                     style={{
@@ -203,9 +209,9 @@ export default function CountryCodeSelect({
                         backgroundRepeat: 'no-repeat',
                     }}
                 >
-                    {COUNTRY_CODES.map((country) => (
+                    {COUNTRY_CODES.map((country, index) => (
                         <option
-                            key={country.code}
+                            key={`${country.code}-${country.country}-${index}`}
                             value={country.code}
                             style={{
                                 padding: '6px 8px',
@@ -220,7 +226,7 @@ export default function CountryCodeSelect({
                 </select>
 
                 {/* Separator */}
-                <div className="w-px bg-gray-300 h-6 self-center"></div>
+                <div className="w-px bg-gray-500 h-6 self-center"></div>
 
                 {/* Phone Input */}
                 <input
@@ -228,7 +234,7 @@ export default function CountryCodeSelect({
                     placeholder={placeholder}
                     value={phoneValue}
                     onChange={(e) => onPhoneChange?.(e.target.value)}
-                    className="flex-1 px-2 py-2 bg-transparent border-0 focus:outline-none text-black text-xs sm:text-sm"
+                    className="flex-1 px-2 py-2 bg-transparent border-0 focus:outline-none text-white placeholder-gray-400 text-xs sm:text-sm"
                     style={{
                         ...(getFontStyles && locale ? getFontStyles(locale) : {}),
                         minWidth: '0', // Important for proper flex behavior

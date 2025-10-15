@@ -1,0 +1,160 @@
+/* Our Company Section Styles */
+.our-company-section {
+  position: relative;
+  background: #ffffff;
+}
+
+.accordion-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(85, 100, 130, 0.1);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.accordion-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(85, 100, 130, 0.15);
+  border-color: rgba(85, 100, 130, 0.2);
+}
+
+.accordion-content {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Ensure accordion cards fit within the image bounds */
+@media (max-width: 1200px) and (min-width: 1024px) {
+  .accordion-card {
+    min-width: 280px;
+  }
+  .accordion-content p {
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 640px) {
+  .accordion-card {
+    min-width: 250px;
+  }
+  .accordion-content p {
+    font-size: 12px !important;
+    line-height: 1.3 !important;
+    max-height: 80px;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 530px) {
+  .accordion-card {
+    min-width: 200px;
+  }
+  .accordion-content p {
+    font-size: 11px !important;
+    line-height: 1.3 !important;
+    max-height: 100px;
+    overflow-y: auto;
+  }
+  
+  /* Reduce card spacing to fit better */
+  .our-company-section .space-y-2 > * + * {
+    margin-top: 0.25rem !important;
+  }
+}
+
+/* Smooth animations for icons */
+.accordion-card .w-12 {
+  transition: transform 0.3s ease;
+}
+
+.accordion-card:hover .w-12 {
+  transform: scale(1.1);
+}
+
+/* Custom scrollbar for accordion content if needed */
+.accordion-content::-webkit-scrollbar {
+  width: 4px;
+}
+
+.accordion-content::-webkit-scrollbar-track {
+  background: rgba(85, 100, 130, 0.1);
+  border-radius: 2px;
+}
+
+.accordion-content::-webkit-scrollbar-thumb {
+  background: rgba(85, 100, 130, 0.3);
+  border-radius: 2px;
+}
+
+.accordion-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(85, 100, 130, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .our-company-section > div:nth-child(2) {
+    padding: 80px 60px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .our-company-section > div:nth-child(2) {
+    padding: 60px 40px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .our-company-section > div:nth-child(2) {
+    padding: 40px 20px !important;
+  }
+  
+  /* Header section adjustments for mobile */
+  .our-company-section > div:first-child {
+    padding: 1.5rem 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .our-company-section > div:nth-child(2) {
+    padding: 30px 15px !important;
+  }
+  
+  .our-company-section > div:first-child {
+    padding: 1rem 0.75rem !important;
+  }
+}
+
+/* RTL specific styles */
+[dir="rtl"] .accordion-card {
+  direction: rtl;
+}
+
+[dir="rtl"] .accordion-card button {
+  text-align: right;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.accordion-card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.accordion-card:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.accordion-card:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.accordion-card:nth-child(4) {
+  animation-delay: 0.3s;
+}

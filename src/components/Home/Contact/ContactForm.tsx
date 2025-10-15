@@ -31,55 +31,42 @@ export default function ContactForm({ locale }: ContactFormProps) {
     };
 
     return (
-        <div className="bg-white rounded-lg p-8 w-full max-w-lg mx-auto">
+        <div
+            className=" w-full max-w-lg mx-auto"
+          
+        >
             <form className="space-y-6">
                 {/* Name and Email Row */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label
-                            className="block text-sm font-medium mb-2"
-                            style={{
-                                ...getFontStyles(locale),
-                                color: '#000000',
-                                fontSize: '14px',
-                                fontWeight: 500
-                            }}
-                        >
-                            {t('name')}
-                        </label>
+                        
                         <input
                             type="text"
                             placeholder={t('namePlaceholder')}
                             value={formData.name}
                             onChange={(e) => handleInputChange('name', e.target.value)}
-                            className="w-full px-4 py-2 border-0 bg-gray-100 rounded-md focus:ring-2 focus:ring-green-500 focus:outline-none text-black"
+                            className="w-full px-4 py-2 rounded-md focus:ring-2 focus:ring-green-500 focus:outline-none text-white placeholder-gray-400"
                             style={{
                                 ...getFontStyles(locale),
-                                fontSize: '14px'
+                                fontSize: '14px',
+                                backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                                border: '1px solid rgba(255, 255, 255, 0.20)'
                             }}
                         />
                     </div>
                     <div>
-                        <label
-                            className="block text-sm font-medium mb-2"
-                            style={{
-                                ...getFontStyles(locale),
-                                color: '#000000',
-                                fontSize: '14px',
-                                fontWeight: 500
-                            }}
-                        >
-                            {t('email')}
-                        </label>
+                        
                         <input
                             type="email"
                             placeholder={t('emailPlaceholder')}
                             value={formData.email}
                             onChange={(e) => handleInputChange('email', e.target.value)}
-                            className="w-full px-4 py-2 border-0 bg-gray-100 rounded-md focus:ring-2 focus:ring-green-500 focus:outline-none text-black"
+                            className="w-full px-4 py-2 rounded-md focus:ring-2 focus:ring-green-500 focus:outline-none text-white placeholder-gray-400"
                             style={{
                                 ...getFontStyles(locale),
-                                fontSize: '14px'
+                                fontSize: '14px',
+                                backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                                border: '1px solid rgba(255, 255, 255, 0.20)'
                             }}
                         />
                     </div>
@@ -87,17 +74,7 @@ export default function ContactForm({ locale }: ContactFormProps) {
 
                 {/* Phone */}
                 <div>
-                    <label
-                        className="block text-sm font-medium mb-2"
-                        style={{
-                            ...getFontStyles(locale),
-                            color: '#000000',
-                            fontSize: '14px',
-                            fontWeight: 500
-                        }}
-                    >
-                        {t('phone')}
-                    </label>
+                    
                     <CountryCodeSelect
                         defaultValue={countryCode}
                         onChange={setCountryCode}
@@ -111,17 +88,7 @@ export default function ContactForm({ locale }: ContactFormProps) {
 
                 {/* File Upload */}
                 <div>
-                    <label
-                        className="block text-sm font-medium mb-2"
-                        style={{
-                            ...getFontStyles(locale),
-                            color: '#000000',
-                            fontSize: '14px',
-                            fontWeight: 500
-                        }}
-                    >
-                        {t('file')}
-                    </label>
+              
                     <div className="border-2 border-dashed border-gray-300 rounded-md p-6 text-center">
                         <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
                             <svg className="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -143,31 +110,22 @@ export default function ContactForm({ locale }: ContactFormProps) {
 
                 {/* Message */}
                 <div>
-                    <label
-                        className="block text-sm font-medium mb-2"
-                        style={{
-                            ...getFontStyles(locale),
-                            color: '#000000',
-                            fontSize: '14px',
-                            fontWeight: 500
-                        }}
-                    >
-                        {t('message')}
-                    </label>
                     <textarea
                         rows={4}
                         value={formData.message}
                         onChange={(e) => handleInputChange('message', e.target.value)}
-                        className="w-full px-4 py-2 border-0 bg-gray-100 rounded-md focus:ring-2 focus:ring-green-500 focus:outline-none resize-none"
+                        className="w-full px-4 py-2 rounded-md focus:ring-2 focus:ring-green-500 focus:outline-none resize-none text-white placeholder-gray-400"
                         style={{
                             ...getFontStyles(locale),
-                            fontSize: '14px'
+                            fontSize: '14px',
+                            backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                            border: '1px solid rgba(255, 255, 255, 0.20)'
                         }}
                     />
                 </div>
 
                 {/* Form Type Selection */}
-                <div className="flex gap-4">
+                <div className="flex gap-6">
                     <label className="flex items-center">
                         <input
                             type="radio"
@@ -175,12 +133,12 @@ export default function ContactForm({ locale }: ContactFormProps) {
                             value="inquiry"
                             checked={formType === 'inquiry'}
                             onChange={(e) => setFormType(e.target.value)}
-                            className="mr-2"
+                            className="mr-4"
                         />
                         <span
                             style={{
                                 ...getFontStyles(locale),
-                                color: '#000000',
+                                color: '#ffffff',
                                 fontSize: '14px'
                             }}
                         >
@@ -194,12 +152,12 @@ export default function ContactForm({ locale }: ContactFormProps) {
                             value="complaint"
                             checked={formType === 'complaint'}
                             onChange={(e) => setFormType(e.target.value)}
-                            className="mr-2"
+                            className="mr-4"
                         />
                         <span
                             style={{
                                 ...getFontStyles(locale),
-                                color: '#000000',
+                                color: '#ffffff',
                                 fontSize: '14px'
                             }}
                         >
@@ -213,12 +171,12 @@ export default function ContactForm({ locale }: ContactFormProps) {
                             value="suggestion"
                             checked={formType === 'suggestion'}
                             onChange={(e) => setFormType(e.target.value)}
-                            className="mr-2"
+                            className="mr-4"
                         />
                         <span
                             style={{
                                 ...getFontStyles(locale),
-                                color: '#000000',
+                                color: '#ffffff',
                                 fontSize: '14px'
                             }}
                         >
@@ -230,11 +188,14 @@ export default function ContactForm({ locale }: ContactFormProps) {
                 {/* Submit Button */}
                 <button
                     type="submit"
-                    className="w-full bg-black text-white py-3 rounded-md hover:bg-gray-800 transition-colors"
+                    className="w-full text-white py-4 hover:opacity-90 transition-opacity"
                     style={{
                         ...getFontStyles(locale),
                         fontSize: '16px',
-                        fontWeight: 500
+                        fontWeight: 500,
+                        borderRadius: '5px',
+                        background: 'linear-gradient(91deg, #78F0A8 0%, #2599BA 57.21%)',
+                        border: 'none'
                     }}
                 >
                     {t('send')}
