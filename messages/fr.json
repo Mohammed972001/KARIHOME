@@ -87,7 +87,7 @@
         "home": "Accueil",
         "aboutUs": "À propos de nous",
         "services": "Nos services",
-        "companyFormation": "Formation d'entreprise",
+
         "contactUs": "Contactez-nous"
       },
       "information": {
@@ -114,11 +114,11 @@
     "ceoMessage": {
       "title": "Message du Vice-Président du Conseil d'Administration",
       "content": "L'architecture et la construction sont parmi les fondements qui établissent la culture des pays et protègent leur identité esthétique et développementale. Nous, dans notre entreprise, croyons que le développement urbain du Royaume du Maroc fait partie de nos devoirs, construit sur le respect des normes techniques et d'ingénierie pour fournir des produits dignes de l'avenir de notre pays.",
-      "signature": "M. Mohammed Saad Al Raji",
+      "signature": "M. Mohamed Saàd ERAJI",
       "position": "Membre et Vice-Président du Conseil d'Administration"
     },
     "chairmanMessage": {
-      "signature": "Mme Rahima Hajaj",
+      "signature": "Mme Rahima HAJAJ",
       "position": "Présidente du Conseil d'Administration"
     }
   },
@@ -224,15 +224,15 @@
     "formDescription": "Avez-vous besoin d'aide? Notre équipe vous attend via les canaux de communication suivants. Service client disponible 24/7",
     "email": {
       "title": "Email",
-      "address": "karihomeco@gmail.com"
+      "address": "contact@karihomeco.com"
     },
     "phone": {
       "title": "Téléphone",
-      "number": "+212 669-1666670"
+      "number": "00212669166670"
     },
     "address": {
       "title": "Adresse",
-      "location": "RIAD TOULAL 1 Meknès, TOULAL, MAROC, 50040"
+      "location": "VILLA N° 194 LOT RIAD TOULAL 1 MEKNES C.P: 50040"
     },
     "workingHours": {
       "title": "Heures de travail:",
@@ -244,9 +244,9 @@
     },
     "form": {
       "name": "Nom",
-      "namePlaceholder": "Ali",
+      "namePlaceholder": "Nom",
       "email": "Email",
-      "emailPlaceholder": "example@gmail.com",
+      "emailPlaceholder": "example@example.com",
       "phone": "Téléphone",
       "phonePlaceholder": "Numéro de téléphone",
       "file": "Fichier",
@@ -346,6 +346,195 @@
           "description": "Préparation et impression de tous les formulaires officiels de l'entreprise tels que le sceau officiel, la correspondance et tous les documents nécessaires pour commencer les opérations."
         }
       }
+    }
+  },
+  "Footer": {
+    "companyName": "KARIHOME",
+    "copyright": "Tous droits réservés",
+    "newsletter": {
+      "title": "KARIHOME Le Meilleur Choix pour Construire Votre Maison et Vos Projets"
+    },
+    "quickLinks": {
+      "title": "Liens rapides",
+      "home": "Accueil",
+      "aboutUs": "À propos de nous",
+      "services": "Nos services",
+      "contactUs": "Contactez-nous"
+    },
+    "information": {
+      "title": "Informations",
+      "termsConditions": "Termes et conditions",
+      "privacyPolicy": "Politique de confidentialité"
+    },
+    "followUs": {
+      "title": "Suivez-nous",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram",
+      "youtube": "YouTube",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "Terms": {
+    "title": "Conditions Générales d'Utilisation",
+    "subtitle": "Découvrez les termes et conditions qui régissent votre utilisation de l'application et définissent vos droits et obligations pour garantir une expérience sûre et organisée.",
+    "companyCommitment": {
+      "title": "Notre Engagement envers Vous",
+      "content": "Ce site web électronique est détenu et exploité par IKHWA DIGITAL BY IKHWA NETWORK LLC. Sur ce site web, nous nous référons à IKHWA DIGITAL comme 'nous', 'notre' ou 'nos'.\n\nCes conditions d'utilisation s'appliquent à votre utilisation de notre site web, veuillez donc les lire attentivement avant de naviguer sur le site. Vous pourriez vouloir imprimer une copie de ces conditions pour référence future.\n\nEn utilisant, accédant ou naviguant sur le site web de la Société, vous acceptez et convenez de vous conformer aux conditions d'utilisation énoncées ici, que vous soyez un visiteur ou un utilisateur enregistré. Si vous n'acceptez pas ces conditions, la Société ne vous autorise pas à utiliser ce site web en aucune circonstance."
+    },
+    "privacyCookies": {
+      "title": "Confidentialité et Cookies",
+      "content": "Notre politique de confidentialité applicable explique la base sur laquelle la Société collecte et utilise les données personnelles, les cookies et autres outils similaires utilisés par nous et comment définir vos préférences dans les fichiers de cookies."
+    },
+    "companyInfo": {
+      "title": "À Propos de la Société",
+      "content": "Ce site web électronique est exploité par IKHWA DIGITAL BY IKHWA NETWORK LLC.\n\nIKHWA DIGITAL est une société à responsabilité limitée."
+    },
+    "definitions": {
+      "title": "Définitions Clés",
+      "content": "IKHWA DIGITAL 'Société', 'nous', 'notre' ou 'nos' se réfère à IKHWA DIGITAL et ses filiales dans le pays, et dans d'autres juridictions existantes de temps à autre.\n\n'Client', ou 'vous' ou 'votre'\n\nSignifie toute personne : (a) qui s'abonne ou utilise ou reçoit, ou qui a utilisé ou reçu, ou a demandé à utiliser ou recevoir les services de la Société, ou (b) qui communique avec la Société, ou (c) est considérée comme l'un des utilisateurs de ce site web électronique."
+    },
+    "personalInfo": {
+      "title": "Informations Personnelles",
+      "content": "Signifie les informations qui représentent personnellement, comme votre nom complet ou votre photographie, ou votre numéro de compte, ou votre adresse e-mail, ou vos informations de paiement, ou votre journal de voyage sur le site, ou tout numéro de téléphone pour identifier votre appareil (comme l'adresse de protocole Internet). Si la Société peut lier ces informations ou numéros à vous, et n'inclut pas les informations collectives ou les informations qui sont faciles à révéler l'identité de son propriétaire même lorsqu'elles sont liées à d'autres informations.\n\nCependant, dans tous les cas où vous refusez, cela peut inclure l'utilisation de certaines ressources disponibles sur le site web de la Société."
+    },
+    "whyWeCollectData": {
+      "title": "Pourquoi la Société cherche-t-elle à collecter et utiliser des données personnelles ?",
+      "content": "La Société peut soumettre des demandes (dans le cadre de ses procédures d'emploi) pour collecter les informations suivantes auprès des candidats afin d'étudier et d'évaluer leurs candidatures :\n\n• Nom de la société\n• Informations de contact (nom, adresse e-mail et numéros de téléphone)\n• Nationalité et âge\n• Qualifications académiques\n• Compétences et aptitudes\n• Certificats d'expérience ou lettres de recommandation\n• CV et documents justificatifs pour les candidatures d'emploi\n• Historique d'emploi\n• Crime de salaire et d'avantages\n• Informations sur les militants et les bénéficiaires"
+    },
+    "dataProcessing": {
+      "title": "Collecte et utilisation des cookies",
+      "content": "Grâce à l'utilisation de cookies : Lors de vos interactions avec notre site web électronique, la Société peut utiliser une liaison de navigation appelée (cookies), dans le but de collecter des informations sans identifier l'identité de son propriétaire, et de suivre vos modèles de navigation sur notre site web. Il est connu qu'un fichier cookie est un fichier texte court qui contient un numéro d'identification unique qui identifie votre navigateur aux ordinateurs de la Société chaque fois que vous visitez l'un de nos sites web électroniques, et ces fichiers informent la Société des pages des sites web qui ont été visitées et du nombre de navigateurs qui ont visité chaque page du site web électronique et améliorent ainsi l'expérience des navigateurs de notre site web électronique, car les fichiers de cookies identifient également votre appareil informatique, dans le but de sauvegarder vos préférences et de visualiser les publicités, lorsque vous revenez visiter le site web la prochaine fois basé sur votre façon de naviguer sur le site web dans le passé, et la Société coopère avec des tiers qui utilisent ces fichiers de cookies pour nous aider à gérer le trafic, la recherche et l'analyse.\n\nL'utilisation de cookies est considérée comme standard dans ce secteur, et de nombreux outils de navigation majeurs sont configurés pour accepter ces fichiers. Cependant, avec les capacités de modifier les paramètres de votre navigateur pour vous permettre de refuser d'accepter ou de collecter des cookies ou de vous informer lorsque vous recevez l'un de ces fichiers. Mais au cas où vous refusez, cela peut inclure l'utilisation de certaines ressources disponibles sur le site web de la Société."
+    },
+    "companyResponsibilities": {
+      "title": "Limitation de Notre Responsabilité",
+      "content": "1. Ces conditions d'utilisation ne contiennent rien qui exclurait ou limiterait notre responsabilité pour tout décès ou blessure corporelle due à une négligence de notre part ou à une fraude ou à des informations trompeuses ou à toute autre responsabilité que la loi ne permet pas d'exclure ou de limiter.\n\n2. Nous excluons, dans la mesure permise par la loi, toutes les conditions, garanties, représentations et tout autre terme qui s'applique à notre site web ou à tout contenu qui y est contenu, qu'il soit explicite ou implicite.\n\n3. Nous ne sommes pas responsables envers l'utilisateur de toute perte ou dommage résultant d'une violation contractuelle ou d'une responsabilité délictuelle (y compris la négligence), ou de toute violation d'un devoir légal ou autrement, même si prévisible, découlant des cas suivants ou en relation avec eux :\n\n• Utiliser notre site web ou être incapable de l'utiliser, ou\n• Utiliser tout contenu qui apparaît sur notre site web ou s'y fier.\n\n4. Dans le cas où l'utilisateur est une entité juridique, veuillez noter que nous n'assumons spécifiquement aucune responsabilité pour :\n\n• Perte de profits ou perte de ventes ou d'affaires ou de rendement\n• Perturbation des affaires\n• Perte d'économies attendues\n• Perte d'opportunités d'emploi, ou de réputation ou de réputation commerciale, ou toute perte ou dommage indirect ou consécutif.\n\n5. Dans le cas où l'utilisateur est un client de la Société, veuillez noter que nous fournissons notre site web pour des utilisations locales et personnelles, et vous acceptez de vous abstenir d'utiliser notre site web à des fins commerciales, et vous ne pouvez pas être questionné sur toute perte de profits ou d'affaires ou interruption d'affaires ou perte d'opportunités commerciales."
+    },
+    "intellectualProperty": {
+      "title": "Droits de Propriété Intellectuelle",
+      "content": "Tous les droits de propriété intellectuelle liés à ce site web et à son contenu et aux matériaux qui y sont publiés, y compris sans limitation les publications textuelles, les conceptions, les graphiques, les logos distinctifs, les icônes, les images, les clips vidéo, les téléchargements et les programmes informatiques sont considérés comme le droit exclusif et la propriété de la Société et de ses licenciés et sont protégés par des droits d'auteur ou des marques commerciales ou d'autres droits de propriété intellectuelle détenus par la Société ou ses licenciés.\n\nVous pouvez imprimer une copie et télécharger le contenu d'une page ou de plusieurs pages de notre site web pour vos utilisations personnelles, et vous pouvez également attirer l'attention des autres au sein de votre organisation sur le contenu affiché sur notre site web.\n\nVous ne pouvez pas modifier le contenu de ce site web électronique, que ce soit en tout ou en partie, ou le publier, l'envoyer, le transférer, le vendre, le reproduire, créer des œuvres dérivées, le distribuer, l'afficher ou en bénéficier de quelque manière que ce soit.\n\nVous êtes obligé de démontrer notre statut (et le statut des parties participantes) en tant qu'auteurs du contenu contenu dans notre site web.\n\nIl vous est interdit d'utiliser toute partie du contenu disponible sur notre site web à des fins commerciales sans obtenir la permission de nous ou de nos licenciés.\n\nDans le cas où vous imprimez, copiez ou téléchargez toute partie de notre site web en violation de ces conditions d'utilisation, votre droit d'utiliser notre site web prendra fin immédiatement et vous serez obligé - selon notre opinion et notre choix - de retourner ou de détruire les copies des matériaux que vous avez préparés."
+    },
+    "websiteAccess": {
+      "title": "Accès à Notre Site Web",
+      "content": "Vous avez le droit d'accéder à notre site web gratuitement et sans frais.\n\nNous ne fournissons aucune assurance qui garantit que notre site web électronique ou toute partie de son contenu restera disponible en permanence sans interruption. L'accès à notre site web est autorisé sur une base temporaire. Nous pouvons suspendre, supprimer, arrêter ou modifier notre site web en tout ou en partie sans préavis et sans assumer aucune obligation envers vous en raison de l'indisponibilité de notre site web pour quelque raison que ce soit à tout moment et pour toute période de temps.\n\nVous êtes responsable de prendre toutes les mesures nécessaires pour accéder à notre site web.\n\nVous êtes également responsable de vous assurer que toutes les personnes qui naviguent sur notre site web via votre internet sont pleinement conscientes de ces conditions d'utilisation et autres termes et conditions applicables et qu'elles se conforment à leur contenu."
+    },
+    "informationReliability": {
+      "title": "Ne Pas se Fier aux Informations",
+      "content": "La Société confirme qu'elle affiche toutes les informations ou contenus sur le site web électronique dans leur état actuel 'tel quel' et ne garantit pas leur exhaustivité, et par conséquent la Société ne fournit aucune déclaration ou confirmation en tant que garantie de l'exactitude, de la fiabilité ou de l'exhaustivité de toute partie des informations, et la responsabilité de compter sur le contenu ou les matériaux de ce site web vous incombe entièrement, et nous ne sommes pas responsables de toute perte ou dommage résultant de l'utilisation de notre site web ou de toute information ou contenu disponible sur celui-ci. Vous devriez demander l'aide d'un spécialiste pour fournir des conseils professionnels avant de prendre toute action ou de s'en abstenir basé sur le contenu du site web, et vous seul portez la responsabilité de vérifier que les services ou informations disponibles sur ce site web répondent à vos exigences spécifiques.\n\nLa Société fait des efforts raisonnables pour mettre à jour les informations enregistrées sur notre site web, cependant, nous ne fournissons aucune déclaration ou confirmation explicite ou implicite que le contenu contenu sur notre site web est précis, complet et mis à jour."
+    },
+    "websiteChanges": {
+      "title": "Changements à Ce Site Web",
+      "content": "Le but de préparer le contenu des pages de ce site web est limité à vous fournir des informations et utilisations générales seulement, et la Société se réserve le droit de modifier le contenu à tout moment sans être obligée de mettre à jour toute information disponible sur le site web, ce qui signifie que le contenu peut être obsolète à tout moment.\n\nNous ne garantissons pas que notre site web électronique, ou tout contenu disponible sur celui-ci, soit exempt d'erreurs ou d'omissions."
+    },
+    "termsChanges": {
+      "title": "Changements à Ces Conditions",
+      "content": "Nous pouvons réviser ces conditions à tout moment et inclure des amendements sur cette page.\n\nPar conséquent, nous vous demandons de visiter cette page de temps en temps pour examiner tout changement que nous ajoutons car ils vous sont contraignants."
+    },
+    "viruses": {
+      "title": "Virus",
+      "content": "Nous ne garantissons pas que notre site web soit sûr ou exempt de tout défaut logiciel ou virus.\n\nVous êtes responsable de configurer et d'organiser vos programmes de technologie de l'information, d'ordinateur et de plateforme pour accéder à notre site web. Vous devriez utiliser vos propres programmes pour vous protéger contre les virus.\n\nIl vous est interdit d'abuser de notre site web en introduisant sciemment des virus ou des programmes de piratage de la vie privée (chevaux de Troie), ou des programmes destructeurs (vers) ou des bombes logiques ou tout autre matériel malveillant ou technologiquement nuisible. Vous devez vous abstenir de tenter un accès illégal à notre site web ou au serveur hôte de notre site web ou à tout autre serveur ou dispositif informatique ou base de données connecté à notre site web. Il vous est également interdit d'exposer notre site web à une attaque de déni de service ou à une attaque de systèmes multiples pour empêcher le service. Nous signalerons toute violation de ce type aux autorités compétentes d'application de la loi et coopérerons avec elles et divulguerons votre identité à ces autorités, et au cas où vous commettez une telle violation, votre droit d'utiliser notre site web prendra fin immédiatement."
+    },
+    "linkingToSite": {
+      "title": "Liaison à Notre Site Web",
+      "content": "Vous pouvez créer un lien vers notre page d'accueil à condition de le faire de manière transparente et légale et sans nuire ou exploiter notre réputation.\n\nVous ne pouvez pas créer de lien qui suggère l'existence d'une connexion, approbation ou autorisation de notre part si elle n'existe pas.\n\nIl vous est interdit de créer un lien vers notre site web sur tout site web électronique que vous ne possédez pas.\n\nIl est interdit d'afficher notre site web encadré sur tout autre site web, et vous ne pouvez pas créer de lien vers toute partie de notre site web autre que la page d'accueil.\n\nNous nous réservons le droit d'annuler l'autorisation de liaison sans donner d'avis.\n\nVous devez vérifier que le site web électronique à partir duquel vous créez un lien se conforme aux normes de contenu spécifiées au paragraphe 13 ci-dessous à tous égards.\n\nSi vous souhaitez utiliser tout contenu sur notre site web autre que ce qui est déclaré ci-dessus, veuillez nous contacter à contact@karihomeco.com."
+    },
+    "thirdPartyLinks": {
+      "title": "Liens et Ressources de Tiers sur Notre Site Web",
+      "content": "Ce site web électronique peut contenir des liens vers des sites web externes sur Internet possédés et exploités par des tiers et leur existence ne peut pas être interprétée comme une approbation de notre part de ces liens ou de toute information que vous pourriez obtenir de ces sites web. Nous soulignons que le but de fournir ces liens est simplement de les connaître et d'en bénéficier. La Société n'a pas la capacité de contrôler tout site web électronique appartenant à un tiers et n'est pas responsable de sa disponibilité ou de son contenu d'informations et de contenu, donc si vous avez des questions sur ces liens ou le contenu enregistré sur ces sites web externes, contactez l'administrateur ou le superviseur du site web et la Société n'assume aucune obligation concernant le contenu de tout site web électronique que vous naviguez à travers notre site web et nous ne sommes pas responsables de toute perte ou dommage résultant de votre utilisation de celui-ci."
+    },
+    "websiteUsage": {
+      "title": "Votre Utilisation du Site Web",
+      "content": "Votre utilisation de notre site web électronique signifie que vous acceptez de vous abstenir de :\n\n• Faire quoi que ce soit qui encouragerait tout acte criminel ou le causerait ou l'exécuterait\n• Utiliser notre site web électronique à toute fin autre que des utilisations personnelles\n• Utiliser le site web à toute fin illégale ou interdite sous ces conditions d'utilisation\n• Envoyer des e-mails ou transférer ou publier tout contenu qui, à notre seule discrétion, est diffamatoire, obscène, enfreignant les droits d'auteur ou les droits de tout tiers, vulgaire, inapproprié, menaçant, haineux, harcelant, ou impliquant la haine, l'humiliation, ou le terrorisme dirigé vers un individu ou un groupe d'individus basé sur la religion, le sexe, l'orientation sexuelle, la race, l'âge, ou le handicap, ou s'il est illégal à tout autre égard.\n• Faire de la publicité ou promouvoir des produits ou services de vous ou de tout tiers et envoyer des e-mails 'aléatoires et non désirés'.\n• Transférer des fichiers contenant des virus, des chevaux de Troie ou d'autres logiciels malveillants\n• Accéder ou tenter d'accéder aux comptes d'autres utilisateurs ou pirater ou tenter de pirater les mesures de sécurité de notre site web."
+    },
+    "accountPassword": {
+      "title": "Votre Compte et Mot de Passe",
+      "content": "1. Au cas où vous choisiriez ou seriez fourni avec un numéro d'identification ou un mot de passe ou toute autre information dans le cadre de nos procédures de sécurité, vous êtes obligé de traiter ces informations avec une confidentialité complète et de vous abstenir de les divulguer à tout tiers.\n\n2. Nous avons le droit de désactiver tout code d'identification ou mot de passe à tout moment, qu'il ait été choisi par vous ou que nous l'ayons assigné à vous si nous voyons que vous avez échoué à vous conformer à toute disposition de ces conditions d'utilisation.\n\n3. Si vous savez ou soupçonnez qu'une autre personne a pris connaissance de votre code d'identification ou mot de passe, vous êtes obligé de nous notifier immédiatement à contact@karihomeco.com."
+    },
+    "indemnification": {
+      "title": "Indemnisation",
+      "content": "Vous acceptez d'indemniser la Société et ses sociétés affiliées, directeurs, propriétaires, employés et agents et de les dégager de toute responsabilité de toutes réclamations, obligations, pertes, coûts et dépenses y compris les frais juridiques encourus en raison du contenu que vous partagez ou de votre violation de ces conditions d'utilisation ou de toute violation ou infraction de votre part aux lois de propriété intellectuelle."
+    },
+    "accessSuspension": {
+      "title": "Suspension ou Résiliation de Votre Accès au Site Web",
+      "content": "La Société se réserve le droit - à sa seule discrétion - de restreindre, suspendre ou résilier votre accès au site web ou à toute partie de celui-ci à tout moment pour toute raison et sans préavis. La Société a le droit - sans donner de préavis ou assumer toute responsabilité - de changer, suspendre ou arrêter le site web ou tout aspect de celui-ci à tout moment, y compris rendre tout contenu disponible."
+    },
+    "applicableLaw": {
+      "title": "Loi Applicable",
+      "content": "Les lois du Royaume du Maroc telles qu'appliquées dans la région de Fès-Meknès régiront votre utilisation de ce site web électronique et tout litige découlant de cette utilisation. La juridiction pour résoudre tout litige découlant en relation avec ces conditions d'utilisation sera investie dans les tribunaux civils de la région de Fès-Meknès."
+    },
+    "contactUs": {
+      "title": "Contactez-Nous",
+      "content": "Pour nous contacter, veuillez nous écrire à l'adresse e-mail : contact@karihomeco.com."
+    }
+  },
+  "Privacy": {
+    "title": "Politique de Confidentialité",
+    "subtitle": "Découvrez les termes et conditions qui régissent votre utilisation de l'application et définissent vos droits et obligations pour garantir une expérience sûre et organisée.",
+    "companyCommitment": {
+      "title": "Engagement de l'Entreprise",
+      "content": "L'Entreprise s'engage à maintenir votre confidentialité de manière complète."
+    },
+    "keyDefinitions": {
+      "title": "Définitions Clés",
+      "content": "IKHWA DIGITAL 'Entreprise', 'nous', 'notre' ou 'nos' se réfère à IKHWA DIGITAL et ses filiales dans le pays, et dans d'autres juridictions existantes de temps à autre.\n\n'Client', ou 'vous' ou 'votre'\n\nSignifie toute personne : (a) qui s'abonne ou utilise ou reçoit, ou qui a utilisé ou reçu, ou a demandé à utiliser ou recevoir les services de l'Entreprise, ou (b) qui communique avec l'Entreprise, ou (c) est considérée comme l'un des utilisateurs de ce site web électronique.\n\nInformations Personnelles :\n\nSignifie les informations qui vous identifient personnellement, telles que votre nom complet ou votre photographie, ou votre numéro de compte, ou votre adresse e-mail, ou vos informations de paiement, ou votre historique de connexion au site web, ou tout numéro spécifique pour identifier votre appareil (comme l'adresse de protocole Internet), si l'Entreprise peut lier ces informations ou numéros à vous, et n'inclut pas les informations collectives ou les informations qui révèlent facilement l'identité de leur propriétaire même lorsqu'elles sont liées à d'autres informations."
+    },
+    "ourCommitment": {
+      "title": "Notre Engagement Envers Vous",
+      "content": "IKHWA DIGITAL s'engage à protéger votre confidentialité et à maintenir la sécurité de vos informations personnelles selon les plus hauts standards professionnels et légaux."
+    },
+    "whatInfoWeCollect": {
+      "title": "Quelles Informations Personnelles l'Entreprise Collecte-t-elle ?",
+      "content": "Lorsque vous remplissez le formulaire électronique disponible sur notre site web, l'Entreprise collecte des données personnelles du type suivant :\n\nNom complet\nNuméro de téléphone mobile\nAdresse e-mail\nNom de l'entreprise\nL'Entreprise peut également (dans le cadre de ses procédures d'emploi) collecter les informations suivantes auprès des candidats afin d'étudier et d'évaluer leurs candidatures.\nCoordonnées de contact (nom, adresse e-mail et numéros de téléphone)\nNationalité et âge\nQualifications académiques\nCompétences et aptitudes\nCertificats d'expérience ou lettres de recommandation\nCV et documents justificatifs pour les candidatures d'emploi\nHistorique professionnel\nPackage de salaire et d'avantages\nInformations sur les personnes à charge et les bénéficiaires"
+    },
+    "nonPersonalInfoCollection": {
+      "title": "Collecte et Utilisation d'Informations Non Personnelles",
+      "content": "Par l'utilisation de cookies : Lors de votre interaction avec notre site web électronique, l'Entreprise peut utiliser une fonctionnalité de navigation appelée (cookies), dans le but de collecter des informations sans identifier leur propriétaire, et de suivre vos modèles de navigation de notre site web. Il est connu qu'un fichier cookie est un court fichier texte contenant un numéro d'identification unique qui identifie votre navigateur aux ordinateurs de l'Entreprise chaque fois que vous visitez l'un de nos sites web électroniques en utilisant ces fichiers. Ces fichiers informent l'Entreprise des pages du site web qui ont été visitées et du nombre de navigateurs qui ont visité chaque page du site web électronique et améliorent ainsi l'expérience des navigateurs de notre site web. Les fichiers cookies reconnaissent également votre appareil informatique, dans le but de sauvegarder vos préférences et de visualiser les publicités, lorsque vous revisitez le site web la prochaine fois en fonction de la façon dont vous avez navigué sur le site web précédemment, et l'Entreprise coopère avec des tiers qui utilisent ces fichiers cookies pour nous aider à gérer le trafic et les recherches et analyses.\n\nL'utilisation de cookies est considérée comme standard dans ce secteur, et de nombreux outils de navigation principaux sont configurés pour accepter ces fichiers. Cependant, vous pouvez modifier les paramètres de votre navigateur pour vous permettre de refuser d'accepter tous les cookies ou pour vous informer lorsque vous recevez l'un de ces fichiers. Mais si vous les refusez, vous pourriez échouer à utiliser certaines des fonctionnalités disponibles sur le site web de l'Entreprise."
+    },
+    "whyWeCollectData": {
+      "title": "Pourquoi l'Entreprise Cherche-t-elle à Collecter et Utiliser les Données Personnelles ?",
+      "content": "IKHWA DIGITAL collecte et utilise vos données personnelles aux fins suivantes :\n\nÉtablir et maintenir une relation commerciale et juridique digne de confiance avec vous.\nSi l'Entreprise a une raison légitime, par exemple pour vous fournir nos produits ou services.\nUtiliser les données à des fins de recherche et d'études statistiques, pour comprendre vos besoins en tant que client et l'étendue de l'éligibilité pour nos services.\nSuggérer des produits, services ou opportunités spécifiques à nos clients.\nSuggérer des produits, services ou opportunités spécifiques à nos clients.\nVous fournir des informations sur les derniers développements et nouveaux produits.\nDévelopper, améliorer et commercialiser des produits et services ou pour fournir à nos clients des produits et services.\nFournir un support client.\nRépondre aux exigences légales et réglementaires de l'Entreprise.\nVous fournir les informations et mises à jour que vous avez demandées.\nRépondre à vos questions liées aux produits ou services que nous vous fournissons, ou à cette politique de confidentialité."
+    },
+    "howWeGetConsent": {
+      "title": "Comment l'Entreprise Obtient-elle Votre Consentement ?",
+      "content": "Parfois, l'Entreprise peut demander votre consentement avant de procéder au traitement de vos données personnelles, et dans ce cas, la forme du consentement peut varier selon les circonstances et le type de données personnelles requises. Afin de déterminer ce consentement, l'Entreprise prend en compte la sensibilité des informations et vos attentes raisonnables pour vous permettre de comprendre la nature de la collecte de vos données personnelles ou son but et ses implications. L'Entreprise tient à obtenir un consentement explicite de votre part chaque fois que les données personnelles sont principalement sensibles, et de telles données incluent les informations liées à la race, ou à l'origine ethnique de l'individu, ou à la politique, ou à la religion, ou à l'adhésion aux syndicats, ou aux caractéristiques biologiques/biométriques ou à la santé, ou à la vie sexuelle ou aux orientations sexuelles.\n\nLe consentement peut être obtenu de l'une des manières suivantes :\n\nL'Entreprise peut demander de remplir un formulaire pour obtenir le consentement et collecter des données personnelles et informer le client de l'objectif prévu de l'utilisation de ces données. Compléter et signer le formulaire est considéré comme une acceptation par le client de la collecte d'informations et des utilisations prévues.\nObtenir des données verbalement lors de la collecte d'informations par téléphone.\nLorsque le client utilise l'un des produits ou services.\nVous pouvez annuler le consentement à l'utilisation de vos données à tout moment, et dans ce cas, toute action de notre part avec vos informations personnelles qui a été faite avec votre consentement jusqu'à ce moment-là n'est pas considérée comme légalement invalide. Cela inclut votre droit de retirer le consentement qui nous a été donné d'utiliser vos données personnelles à des fins de marketing, donc si vous souhaitez retirer votre consentement à la collecte, au stockage, à l'utilisation ou à la divulgation de certaines informations personnelles, veuillez contacter l'Entreprise via son e-mail."
+    },
+    "noDataConsequences": {
+      "title": "Que Se Passe-t-il Si Vous Ne Nous Fournissez Pas les Informations Que Nous Demandons ou Si Vous Nous Demandez d'Arrêter de Traiter Vos Données ?",
+      "content": "Si vous ne fournissez pas les données personnelles requises, ou refusez ou retirez votre consentement à notre traitement de vos données lorsque (nous en avons besoin pour vous fournir/c'est nécessaire pour nous permettre de fournir) le produit et/ou le service, nous pourrions ne pas être en mesure de vous fournir le produit et/ou le service demandé. Nous clarifierons les implications pour vous à ce moment-là pour vous aider à prendre votre décision."
+    },
+    "whoWeShareWith": {
+      "title": "Avec Qui Partageons-nous Vos Données Personnelles ?",
+      "content": "Nous partageons vos données personnelles avec des tiers de confiance que nous utilisons pour fournir les produits et/ou services que vous ou notre client avez demandés, et ils sont engagés à des engagements similaires et stricts de maintenir la confidentialité et la discrétion.\n\nNous partageons vos données personnelles avec des tiers qui effectuent des tâches en notre nom, et en même temps nous fournissent certains produits ou services, tels que des consultants professionnels et des consultants en technologie de l'information dont les tâches nécessitent de tester et développer nos systèmes de technologie d'entreprise, et des centres de recherche et des listes d'e-mails et des coordinateurs d'activités électroniques. Ces tiers sont engagés à des engagements stricts similaires de maintenir la confidentialité et la discrétion.\n\nNous partageons vos données personnelles avec d'autres entreprises qui ont été mentionnées dans ce site web électronique à des fins principalement opérationnelles et commerciales. Alors que nous continuons à développer notre entreprise, nous pourrions vendre ou acheter d'autres entreprises. Si une entité a l'intention d'acheter notre entreprise ou de fusionner avec nous, vos données personnelles seront divulguées à cette entité. D'autre part, en cas de procédures de faillite, ou de restructuration par nous ou contre nous, toutes ces informations seront considérées comme notre propriété et peuvent donc être vendues ou transférées à des tiers.\n\nNous partageons également vos données personnelles avec d'autres parties externes lorsque nécessaire afin de nous conformer à une obligation légale lorsque nous croyons de bonne foi qu'il existe une justification légale, ou en réponse à une demande d'agences gouvernementales menant des enquêtes, ou pour vérifier la validité de nos politiques applicables ou les sauver, ou pour surveiller les activités frauduleuses et s'en méfier ou de toute vulnérabilité technique ou de sécurité, ou pour répondre à une urgence, ou pour protéger les droits, la propriété, la sécurité ou la sûreté de tiers ou des visiteurs de notre site web ou de notre entreprise ou du grand public.\n\nNous ne vendons pas vos données personnelles. Cependant, lorsque vos données personnelles sont divulguées à un tiers qui n'est pas un partenaire ou un allié de l'Entreprise, ou à un fournisseur de services externe, nous nous engageons à obtenir le consentement de la personne, sauf si la loi l'exige ou le permet. Seule la quantité nécessaire d'informations est fournie à cette partie dans les circonstances actuelles, et l'utilisation de données personnelles à des fins autres que l'objectif prévu est interdite."
+    },
+    "dataTransferAbroad": {
+      "title": "Vos Données Personnelles Sont-elles Transférées à l'Étranger ?",
+      "content": "Si le fournisseur de services externe est situé dans un pays étranger, vos données personnelles peuvent être traitées et stockées dans ce pays. Dans ces circonstances, les gouvernements, les tribunaux, les autorités chargées de l'application de la loi ou les organismes de réglementation de ce pays étranger peuvent être en mesure d'accéder à vos données en vertu de leurs lois applicables, cependant, nous vérifierons lors du transfert de vos données personnelles vers un pays étranger, que des garanties appropriées sont appliquées dans ce transfert."
+    },
+    "howWeProtectData": {
+      "title": "Comment l'Entreprise Protège-t-elle Vos Données Personnelles",
+      "content": "La nature des mesures de protection varie selon la sensibilité des données personnelles, leur portée et la façon dont elles sont stockées. Les types d'informations personnelles les plus sensibles sont entourés de niveaux de protection plus élevés, tels que le chiffrement. Si vous souhaitez plus d'informations sur les mesures de protection appliquées par nous, veuillez nous contacter par e-mail contact@karihomeco.com."
+    },
+    "dataRetentionPeriod": {
+      "title": "Quelle est la Période de Rétention des Données Personnelles de l'Entreprise ?",
+      "content": "L'Entreprise conservera les données personnelles collectées conformément aux exigences légales applicables.\n\nLes données personnelles sont automatiquement supprimées si elles ne sont plus requises et qu'il n'y a pas de justification légale qui exige de les conserver."
+    },
+    "yourRights": {
+      "title": "Quels Sont Vos Droits ?",
+      "content": "En ce qui concerne vos données personnelles, la loi vous préserve un certain nombre de droits. Vous pouvez obtenir plus d'informations et de conseils sur vos droits auprès de l'autorité de protection des données de votre pays, et vos droits incluent ce qui suit :\n\nDroit de s'opposer au traitement des données : Vous avez le droit de vous opposer à certains types de traitement des données, y compris le traitement à des fins de marketing direct (si vous ne souhaitez plus recevoir de messages sur les opportunités potentielles, par exemple).\nDroit d'être informé : Vous avez le droit d'obtenir des informations claires, transparentes et faciles à comprendre sur la façon dont nous utilisons vos informations et vos droits. C'est pourquoi nous vous fournissons des informations dans cette politique.\nDroit d'accéder à vos informations : Vous avez le droit d'accéder à vos informations (si nous les traitons) et à certaines autres informations (similaires aux informations contenues dans cette politique de confidentialité), afin d'examiner et de vous assurer de notre utilisation de vos données personnelles conformément à la loi sur la protection des données.\nDroit de corriger les informations : Vous avez le droit de corriger vos informations si elles sont inexactes ou incomplètes.\nDroit d'effacer les informations : Aussi connu sous le nom de 'droit à l'oubli', en d'autres termes, vous pouvez exiger la suppression ou l'élimination de vos informations lorsqu'il n'y a pas de raison impérieuse pour nous de continuer à les utiliser. Ce droit n'est pas un droit général et il y a des exceptions.\nDroit de restreindre le traitement des données : Vous avez le droit de 'bloquer' ou d'être strict sur l'utilisation de vos informations pour une période supplémentaire. Lors de la prévention du traitement de vos informations, nous pouvons continuer à les stocker à condition de ne pas les utiliser à nouveau. Nous maintenons des listes d'individus qui ont demandé d'« arrêter » le traitement de leurs informations pour nous assurer de respecter leur demande à l'avenir.\nDroit à la portabilité des données : Vous avez le droit d'obtenir vos données personnelles et de les réutiliser pour vos propres fins dans différentes activités. Si vous décidez de passer, par exemple, à un nouveau fournisseur, ce droit vous permet de transférer, copier ou convertir vos informations sans effort de nos systèmes vers leurs systèmes de technologie de l'information en toute sécurité et sans affecter négativement leur utilisabilité.\nDroit de déposer une plainte : Vous avez le droit de déposer une plainte auprès de l'autorité de protection des données pertinente de votre pays concernant la façon dont nous traitons ou traitons vos informations personnelles.\nVous pouvez exercer l'un des droits mentionnés ci-dessus en adressant une demande à l'e-mail : contact@karihomeco.com.\n\nL'Entreprise peut ne pas être en mesure dans certaines circonstances de fournir l'accès à toutes les données personnelles qu'elle détient, lorsque la divulgation, par exemple, conduit à la divulgation d'informations commerciales confidentielles, ou si les informations personnelles sont soumises à une condition de confidentialité entre le client et l'avocat, ou si ces informations ont été collectées lors d'une enquête sur une violation contractuelle ou une violation légale."
+    },
+    "complaintsAndSuggestions": {
+      "title": "Comment Puis-je M'Opposer à la Conformité et Faire des Suggestions ?",
+      "content": "Vous pouvez adresser vos questions ou demandes de renseignements à l'e-mail contact@karihomeco.com concernant les principes de confidentialité mentionnés ci-dessus ou concernant les pratiques de confidentialité appliquées par l'Entreprise et mentionnées dans la politique de confidentialité.\n\nL'Entreprise enquêtera sur toutes les plaintes et répondra à toutes vos questions. S'il s'avère que la plainte est fondée, l'Entreprise prendra des mesures appropriées pour la résoudre, qui peuvent s'étendre à la modification de ses politiques et procédures."
+    },
+    "yourRoleInProtection": {
+      "title": "Votre Rôle dans la Protection de Vos Données Personnelles",
+      "content": "Veuillez vous rappeler que la politique de confidentialité d'IKHWA DIGITAL et l'utilisation de vos données personnelles ne s'appliquent qu'aux informations fournies par vous. Nous aimerions vous avertir lorsque vous divulguez des informations personnelles, ou des données de confidentialité sensibles lors de l'utilisation de salles de chat ou de groupes de nouvelles, ou de tableaux d'affichage ou d'autres forums publics en ligne, que la collecte de ces informations n'est pas faite par ou pour l'Entreprise, mais peut être collectée et utilisée par d'autres personnes ou entreprises sur lesquelles l'Entreprise n'a aucune autorité. L'Entreprise n'est pas responsable des données de confidentialité ou de la conformité à la confidentialité, ou de tout autre contenu qui apparaît sur tout site web qui n'est pas possédé et exploité par l'Entreprise ou ses entreprises alliées.\n\nNous aimerions confirmer que l'Entreprise fait tous les efforts pour protéger et sauvegarder les informations personnelles, et nous conseillons qu'il y a des mesures de protection que vous devez également suivre. Nous recommandons de ne pas partager vos informations personnelles avec un tiers à moins que vous ne soyez clairement conscient du but de leur demande, et que vous sachiez avec qui vous traitez. Ne conservez pas d'informations personnelles sensibles dans votre boîte de réception e-mail ou sur webmail."
+    },
+    "policyUpdates": {
+      "title": "Mise à Jour de Cette Politique de Confidentialité",
+      "content": "L'Entreprise mettra à jour cette politique de confidentialité pour ajouter tout changement qui se produit dans nos pratiques, et afin de se conformer aux lois applicables, et l'Entreprise peut modifier ou supprimer des parties de cette politique de confidentialité chaque fois qu'elle le juge nécessaire. Lorsque nous apportons des modifications à cette politique de confidentialité, nous vous en informerons. Vous pouvez vérifier la dernière mise à jour de cette politique de confidentialité en vous référant à la date indiquée en haut de la première page."
     }
   }
 }

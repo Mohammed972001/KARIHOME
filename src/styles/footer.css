@@ -364,3 +364,42 @@
 [data-theme="light"] .footer-social-link:hover .footer-social-icon {
   filter: brightness(0) invert(1);
 }
+
+/* Font classes for different locales */
+.footer-ar {
+  font-family: 'IBM Plex Sans Arabic', 'IBM', Arial, sans-serif !important;
+}
+
+.footer-en, .footer-fr {
+  font-family: 'Lato', Arial, sans-serif !important;
+}
+
+/* Specific classes for footer elements */
+.footer-newsletter-title,
+.footer-nav-title,
+.footer-nav-link,
+.footer-copyright,
+.footer-social-label {
+  font-weight: inherit;
+}
+
+.footer-ar .footer-newsletter-title,
+.footer-ar .footer-nav-title,
+.footer-ar .footer-nav-link,
+.footer-ar .footer-copyright,
+.footer-ar .footer-social-label {
+  font-family: 'IBM Plex Sans Arabic', 'IBM', Arial, sans-serif !important;
+}
+
+.footer-en .footer-newsletter-title,
+.footer-en .footer-nav-title,
+.footer-en .footer-nav-link,
+.footer-en .footer-copyright,
+.footer-en .footer-social-label,
+.footer-fr .footer-newsletter-title,
+.footer-fr .footer-nav-title,
+.footer-fr .footer-nav-link,
+.footer-fr .footer-copyright,
+.footer-fr .footer-social-label {
+  font-family: 'Lato', Arial, sans-serif !important;
+}

@@ -86,7 +86,7 @@
         "home": "Home",
         "aboutUs": "About Us",
         "services": "Our Services",
-        "companyFormation": "Company Formation",
+
         "contactUs": "Contact Us"
       },
       "information": {
@@ -113,11 +113,11 @@
     "ceoMessage": {
       "title": "Message from the Vice Chairman of the Board",
       "content": "Architecture and construction are among the foundations that establish the culture of countries and protect their aesthetic and developmental identity. We in our company believe that the urban development of the Kingdom of Morocco is part of our duties, built on respecting technical and engineering standards to provide products worthy of our country's future.",
-      "signature": "Mr. Mohammed Saad Al Raji",
+      "signature": "Mr. Mohamed Saàd ERAJI",
       "position": "Member and Vice Chairman of the Board"
     },
     "chairmanMessage": {
-      "signature": "Mrs. Rahima Hajaj",
+      "signature": "Mrs. Rahima HAJAJ",
       "position": "Chairman of the Board of Directors"
     }
   },
@@ -223,15 +223,15 @@
     "formDescription": "Need help? Our team is waiting for you through the following communication channels. Customer service available 24/7",
     "email": {
       "title": "Email",
-      "address": "karihomeco@gmail.com"
+      "address": "contact@karihomeco.com"
     },
     "phone": {
       "title": "Phone",
-      "number": "+212 669-1666670"
+      "number": "00212669166670"
     },
     "address": {
       "title": "Address",
-      "location": "RIAD TOULAL 1 Meknès, TOULAL, MAROC, 50040"
+      "location": "VILLA N° 194 LOT RIAD TOULAL 1 MEKNES C.P: 50040"
     },
     "workingHours": {
       "title": "Working Hours:",
@@ -243,9 +243,9 @@
     },
     "form": {
       "name": "Name",
-      "namePlaceholder": "Ali",
+      "namePlaceholder": "Name",
       "email": "Email",
-      "emailPlaceholder": "example@gmail.com",
+      "emailPlaceholder": "example@example.com",
       "phone": "Phone",
       "phonePlaceholder": "Phone Number",
       "file": "File",
@@ -345,6 +345,195 @@
           "description": "Preparing and printing all official company forms such as the official seal, correspondence, and all necessary documents to start operations."
         }
       }
+    }
+  },
+  "Footer": {
+    "companyName": "KARIHOME",
+    "copyright": "All rights reserved",
+    "newsletter": {
+      "title": "KARIHOME The Best Choice for Building Your Home and Constructing Your Projects"
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "aboutUs": "About Us",
+      "services": "Our Services",
+      "contactUs": "Contact Us"
+    },
+    "information": {
+      "title": "Information",
+      "termsConditions": "Terms & Conditions",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "followUs": {
+      "title": "Follow Us",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram",
+      "youtube": "YouTube",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "Terms": {
+    "title": "Terms and Conditions",
+    "subtitle": "Learn about the terms and conditions that govern your use of the application and define your rights and obligations to ensure a safe and organized experience.",
+    "companyCommitment": {
+      "title": "Our Commitment to You",
+      "content": "This electronic website is owned and operated by IKHWA DIGITAL BY IKHWA NETWORK LLC. In this website, we refer to IKHWA DIGITAL as 'we', 'us', or 'our'.\n\nThese terms of use apply to your use of our website, so please read them carefully before browsing the site. You may want to print a copy of these terms for future reference.\n\nBy using, accessing or browsing the Company's website, you accept and agree to comply with the terms of use set forth herein, whether you are a visitor or a registered user. If you do not agree to these terms, the Company does not authorize you to use this website under any circumstances."
+    },
+    "privacyCookies": {
+      "title": "Privacy and Cookies",
+      "content": "Our applicable privacy policy explains the basis on which the Company collects and uses personal data, cookies and other similar tools used by us and how to set your preferences in cookie files."
+    },
+    "companyInfo": {
+      "title": "About the Company",
+      "content": "This electronic website is operated by IKHWA DIGITAL BY IKHWA NETWORK LLC.\n\nIKHWA DIGITAL is a limited liability company."
+    },
+    "definitions": {
+      "title": "Key Definitions",
+      "content": "IKHWA DIGITAL 'Company', 'we', 'us', or 'our' refers to IKHWA DIGITAL and its subsidiaries in the country, and in other existing jurisdictions from time to time.\n\n'Customer', or 'you' or 'your'\n\nMeans any person: (a) who subscribes or uses or receives, or who has used or received, or has applied to use or receive the Company's services, or (b) who communicates with the Company, or (c) is considered one of the users of this electronic website."
+    },
+    "personalInfo": {
+      "title": "Personal Information",
+      "content": "Means information that personally represents, such as your full name or your photograph, or your account number, or your email address, or your payment information, or your travel log to the site, or any phone numbers to identify your device (such as Internet Protocol address). If the Company can link this information or numbers to you, and does not include collective information or information that is easy to reveal the identity of its owner even when linked to other information.\n\nHowever, in any case you refuse, it may include the use of some resources available on the Company's website."
+    },
+    "whyWeCollectData": {
+      "title": "Why does the Company seek to collect and use personal data?",
+      "content": "The Company may submit requests (as part of its employment procedures) to collect the following information from applicants in order to study and evaluate their applications:\n\n• Company name\n• Contact information (name, email address, and phone numbers)\n• Nationality and age\n• Academic qualifications\n• Skills and competencies\n• Experience certificates, or recommendation letters\n• CV and supporting documents for job applications\n• Employment history\n• Salary and benefits crime\n• Information about activists and beneficiaries"
+    },
+    "dataProcessing": {
+      "title": "Collection and use of cookies",
+      "content": "Through the use of cookies: While dealing with our electronic website, the Company may use a browsing binding called (cookies), with the aim of collecting information without identifying the identity of its owner, and tracking your browsing patterns to our website. It is known that a cookie file is a short text file that contains a unique identification number that identifies your browser to the Company's computers every time you visit one of our electronic websites, and these files tell the Company about the pages of the websites that were visited and the number of browsers who visited each page of the electronic website and thus improve the experience of browsers of our electronic website, as cookie files also identify your computer device, with the aim of saving your preferences and viewing ads, when you return to visit the website next time based on your way of browsing the website in the past, and the Company cooperates with third parties that use these cookie files to help us in managing traffic, research and analytics.\n\nThe use of cookies is considered standard in this sector, and many major browsing tools are set up to accept those files. However, with the capabilities of changing your browser settings to enable you to refuse to accept or collect cookies or to inform you when you receive one of those files. But in case you refuse, it may include the use of some resources available on the Company's website."
+    },
+    "companyResponsibilities": {
+      "title": "Limitation of Our Liability",
+      "content": "1. These terms of use do not contain anything that would exclude or limit our liability for any death or personal injury due to negligence on our part or fraud or misleading information or any other liability that the law does not allow to be excluded or limited.\n\n2. We exclude, to the extent permitted by law, all conditions, warranties, representations and any other terms that apply to our website or any content contained therein, whether express or implied.\n\n3. We are not liable to the user for any loss or damage arising from contractual breach or tort liability (including negligence), or any breach of legal duty or otherwise, even if foreseeable, arising from or in connection with the following cases:\n\n• Using our website or being unable to use it, or\n• Using any content that appears on our website or relying on it.\n\n4. In case the user is a legal entity, please note that we do not specifically assume any responsibility for:\n\n• Loss of profits or loss of sales or business or return\n• Business disruption\n• Loss of expected savings\n• Loss of job opportunities, or reputation or commercial reputation, or any indirect or consequential loss or damage.\n\n5. In case the user is a customer of the Company, please note that we provide our website for local and personal uses, and you agree to refrain from using our website for any commercial purposes, and you may not be questioned about any loss in profits or business or business interruption or loss of commercial opportunities."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property Rights",
+      "content": "All intellectual property rights related to this website and its contents and materials posted on it, including without limitation textual publications, designs, graphics, distinctive logos, icons, images, video clips, downloads and computer programs are considered the exclusive right and property of the Company and its licensees and are protected by copyrights or trademarks or other intellectual property rights owned by the Company or its licensees.\n\nYou may print one copy and download the contents of any one page or several pages from our website for your personal uses, and you can also draw the attention of others within your organization to the content shown on our website.\n\nYou may not modify any content on this electronic website, whether in whole or in part, or publish, send, transfer, sell, reproduce, create derivative works from, distribute, display or benefit from it in any way.\n\nYou are obligated to demonstrate our status (and the status of participating parties) as authors of the content contained in our website.\n\nYou are prohibited from using any part of the content available on our website for commercial purposes without obtaining permission from us or from our licensees.\n\nIn case you print, copy or download any part of our website in violation of these terms of use, your right to use our website will end immediately and you will be obligated - according to our opinion and choice - to return or destroy copies of the materials you have prepared."
+    },
+    "websiteAccess": {
+      "title": "Access to Our Website",
+      "content": "You have the right to access our website for free and without charge.\n\nWe do not provide any assurance that guarantees that our electronic website or any part of its contents will remain available at all times without interruption. Access to our website is permitted on a temporary basis. We may suspend, delete, stop or change our website in whole or in part without prior notice and without bearing any obligation towards you as a result of the unavailability of our website for any reason at any time and for any period of time.\n\nYou are responsible for taking all necessary measures to access our website.\n\nYou are also responsible for ensuring that all people who browse our website via your internet are fully aware of these terms of use and other applicable terms and conditions and that they comply with their content."
+    },
+    "informationReliability": {
+      "title": "No Reliance on Information",
+      "content": "The Company confirms that it displays all information or content on the electronic website in its current state 'as is' and does not guarantee its comprehensiveness, and therefore the Company does not provide any statement or confirmation as a guarantee of the accuracy, reliability or completeness of any part of the information, and the responsibility of relying on the content or materials of this website is entirely on you, and we are not responsible for any loss or damage resulting from the use of our website or any information or content available on it. You should seek the assistance of a specialist to provide professional advice before taking any action or refraining from it based on the content of the website, and you alone bear the responsibility of verifying that the services or information available on this website meet your specific requirements.\n\nThe Company makes reasonable efforts to update the information recorded on our website, however, we do not provide any explicit or implicit statement or confirmation that the content contained on our website is accurate, complete and updated."
+    },
+    "websiteChanges": {
+      "title": "Changes to This Website",
+      "content": "The purpose of preparing the content of the pages of this website is limited to providing you with general information and uses only, and the Company reserves the right to modify the content at any time without being obligated to update any information available on the website, meaning that the content may be outdated at any time.\n\nWe do not guarantee that our electronic website, or any content available on it, is free from errors or omissions."
+    },
+    "termsChanges": {
+      "title": "Changes to These Terms",
+      "content": "We may revise these terms at any time and include amendments on this page.\n\nTherefore, we ask you to visit this page from time to time to review any changes we add as they are binding on you."
+    },
+    "viruses": {
+      "title": "Viruses",
+      "content": "We do not guarantee that our website is safe or free from any software defects or viruses.\n\nYou are responsible for setting up and organizing your information technology, computer and platform programs to access our website. You should use your own programs to protect against viruses.\n\nYou are prohibited from misusing our website by knowingly introducing viruses or privacy hacking programs (Trojans), or destructive programs (worms) or logic bombs or any other malicious or technologically harmful materials. You must refrain from attempting illegal access to our website or to the host server of our website or any other server or computer device or database connected to our website. You are also prohibited from exposing our website to a denial of service attack or an attack from multiple systems to prevent service. We will report any such breach to the relevant law enforcement authorities and cooperate with them and disclose your identity to those authorities, and in case you commit such a breach, your right to use our website will end immediately."
+    },
+    "linkingToSite": {
+      "title": "Linking to Our Website",
+      "content": "You may link to our homepage provided that you do so in a transparent and legal manner and without harming or exploiting our reputation.\n\nYou may not create any link that suggests the existence of a connection, approval or authorization from us if it does not exist.\n\nYou are prohibited from creating a link to our website on any electronic website that you do not own.\n\nIt is prohibited to display our website framed on any other website, and you may not create a link to any part of our website other than the homepage.\n\nWe reserve the right to cancel the linking permission without giving notice.\n\nYou must verify that the electronic website you are linking from complies with the content standards specified in paragraph 13 below in all respects.\n\nIf you wish to use any content on our website other than what is stated above, please contact us at contact@karihomeco.com."
+    },
+    "thirdPartyLinks": {
+      "title": "Third Party Links and Resources on Our Website",
+      "content": "This electronic website may contain links to external websites on the Internet owned and operated by third parties and their existence may not be interpreted as approval from us of those links or any information you may obtain from those websites. We emphasize that the purpose of providing these links is merely to know and benefit from them. The Company does not have the ability to control any electronic website belonging to a third party and is not responsible for its availability or its content of information and content, so if you have any inquiries about those links or the content recorded on those external websites, contact the website administrator or supervisor and the Company does not bear any obligation regarding the content of any electronic website that you browse through our website and we are not responsible for any loss or damage resulting from your use of it."
+    },
+    "websiteUsage": {
+      "title": "Your Use of the Website",
+      "content": "Your use of our electronic website means that you agree to refrain from:\n\n• Doing anything that would encourage any criminal act or cause or execute it\n• Using our electronic website for any purpose other than personal uses\n• Using the website for any illegal purpose or prohibited under these terms of use\n• Sending emails or transferring or publishing any content that, in our sole discretion, is defamatory, obscene, infringing copyrights or rights of any third party, vulgar, inappropriate, threatening, hateful, harassing, or involving hatred, humiliation, or terrorism directed at an individual or group of individuals based on religion, gender, sexual orientation, race, age, or disability, or if it is illegal in any other respect.\n• Advertising or promoting any products or services of yours or any third party and sending 'random and unwanted' emails.\n• Transferring files containing viruses, Trojan horses or other malware\n• Accessing or attempting to access other users' accounts or hacking or attempting to hack the security measures of our website."
+    },
+    "accountPassword": {
+      "title": "Your Account and Password",
+      "content": "1. In case you choose or are provided with an identification number or password or any other information as part of our security procedures, you are obligated to treat that information with complete confidentiality and refrain from disclosing it to any third party.\n\n2. We have the right to disable any identification code or password at any time, whether it was chosen by you or we assigned it to you if we see that you have failed to comply with any of the provisions of these terms of use.\n\n3. If you know or suspect that another person has become aware of your identification code or password, you are obligated to notify us immediately at contact@karihomeco.com."
+    },
+    "indemnification": {
+      "title": "Indemnification",
+      "content": "You agree to indemnify the Company and its affiliated companies, directors, owners, employees and agents and hold them harmless from all claims, obligations, losses, costs and expenses including legal fees incurred as a result of the content you share or your violation of these terms of use or any breach or infringement by you of intellectual property laws."
+    },
+    "accessSuspension": {
+      "title": "Suspension or Termination of Your Access to the Website",
+      "content": "The Company reserves the right - at its sole discretion - to restrict, suspend or terminate your access to the website or any part of it at any time for any reason and without prior notice. The Company has the right - without giving prior notice or bearing any responsibility - to change, suspend or stop the website or any aspect of it at any time, including making any content available."
+    },
+    "applicableLaw": {
+      "title": "Applicable Law",
+      "content": "The laws of the Kingdom of Morocco as applied in the Fez-Meknes region shall govern your use of this electronic website and any dispute arising from such use. Jurisdiction for resolving any disputes arising in connection with these terms of use shall be vested in the civil courts in the Fez-Meknes region."
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "content": "To contact us, please write to us at the email address: contact@karihomeco.com."
+    }
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Learn about the terms and conditions that govern your use of the application and define your rights and obligations to ensure a safe and organized experience.",
+    "companyCommitment": {
+      "title": "Company Commitment",
+      "content": "The Company is committed to maintaining your privacy in full."
+    },
+    "keyDefinitions": {
+      "title": "Key Definitions",
+      "content": "IKHWA DIGITAL 'Company', 'we', 'us', or 'our' refers to IKHWA DIGITAL and its subsidiaries in the country, and in other existing jurisdictions from time to time.\n\n'Customer', or 'you' or 'your'\n\nMeans any person: (a) who subscribes or uses or receives, or who has used or received, or has applied to use or receive the Company's services, or (b) who communicates with the Company, or (c) is considered one of the users of this electronic website.\n\nPersonal Information:\n\nMeans information that personally identifies you, such as your full name or your photograph, or your account number, or your email address, or your payment information, or your website login record, or any specific numbers to identify your device (such as Internet Protocol address), if the Company can link this information or numbers to you, and does not include collective information or information that easily reveals the identity of its owner even when linked to other information."
+    },
+    "ourCommitment": {
+      "title": "Our Commitment to You",
+      "content": "IKHWA DIGITAL is committed to protecting your privacy and maintaining the security of your personal information according to the highest professional and legal standards."
+    },
+    "whatInfoWeCollect": {
+      "title": "What Personal Information Does the Company Collect?",
+      "content": "When you fill out the electronic form available on our website, the Company collects personal data of the following type:\n\nFull name\nMobile phone number\nEmail address\nCompany name\nThe Company may also (as part of its employment procedures) collect the following information from applicants in order to study and evaluate their applications.\nContact details (name, email address, and phone numbers)\nNationality and age\nAcademic qualifications\nSkills and competencies\nExperience certificates, or recommendation letters\nCV and supporting documents for job applications\nEmployment history\nSalary and benefits package\nInformation about dependents and beneficiaries"
+    },
+    "nonPersonalInfoCollection": {
+      "title": "Collection and Use of Non-Personal Information",
+      "content": "Through the use of cookies: During your interaction with our electronic website, the Company may use a browsing feature called (cookies), with the aim of collecting information without identifying its owner, and tracking your browsing patterns of our website. It is known that a cookie file is a short text file containing a unique identification number that identifies your browser to the Company's computers each time you visit one of our electronic websites using those files. These files inform the Company of the website pages that have been visited and the number of browsers who visited each page of the electronic website and thus improve the experience of our website browsers. Cookie files also recognize your computer device, in order to save your preferences and view advertisements, when you revisit the website next time based on how you browsed the website previously, and the Company cooperates with third parties that use these cookie files to help us manage traffic and research and analytics.\n\nThe use of cookies is considered standard in this sector, and many major browsing tools are set to accept those files. However, you can change your browser settings to enable you to refuse to accept all cookies or to notify you when you receive one of those files. But if you refuse them, you may fail to use some of the features available on the Company's website."
+    },
+    "whyWeCollectData": {
+      "title": "Why Does the Company Seek to Collect and Use Personal Data?",
+      "content": "IKHWA DIGITAL collects and uses your personal data for the following purposes:\n\nEstablishing and maintaining a trustworthy business and legal relationship with you.\nIf the Company has a legitimate reason, for example to provide you with our products or services.\nUsing data for research purposes and statistical studies, to understand your needs as a customer and the extent of eligibility for our services.\nSuggesting specific products, services or opportunities to our customers.\nSuggesting specific products, services or opportunities to our customers.\nProviding you with information about the latest developments and new products.\nDeveloping, enhancing and marketing products and services or to provide our customers with products and services.\nProviding customer support.\nMeeting the Company's legal and regulatory requirements.\nProviding you with the information and updates you requested.\nAnswering your questions related to the products or services we provide to you, or about this privacy policy."
+    },
+    "howWeGetConsent": {
+      "title": "How Does the Company Obtain Your Consent?",
+      "content": "Sometimes, the Company may request your consent before proceeding to deal with your personal data, and in this case, the form of consent may vary depending on the circumstances and the type of personal data required. In order to determine that consent, the Company takes into account the sensitivity of the information and your reasonable expectations to enable you to understand the nature of collecting your personal data or its purpose and implications. The Company is keen to obtain explicit consent from you whenever personal data is mostly sensitive, and such data includes information related to race, or the ethnic origin of the individual, or politics, or religion, or membership in trade unions, or biological/biometric features or health, or sexual life or sexual orientations.\n\nConsent may be obtained in one of the following ways:\n\nThe Company may request filling out a form to obtain consent and collect personal data and inform the customer of the intended purpose of using that data. Completing and signing the form is considered acceptance by the customer of the collection of information and the intended uses.\nObtaining data verbally when collecting information over the phone.\nWhen the customer uses one of the products or services.\nYou can cancel consent to use your data at any time, and in this case, any action by us with your personal information that was done with your consent until that time is not considered legally invalid. This includes your right to withdraw the consent given to us to use your personal data for marketing purposes, so if you wish to withdraw your consent to collect, store, use or disclose some personal information, please contact the Company via its email."
+    },
+    "noDataConsequences": {
+      "title": "What Happens If You Don't Provide Us with the Information We Request or If You Ask Us to Stop Processing Your Data?",
+      "content": "If you do not provide the required personal data, or refuse or withdraw your consent to our processing of your data when (we need it to provide you with/it is necessary to enable us to provide) the product and/or service, we may not be able to provide you with the requested product and/or service. We will clarify the implications for you at the time to help you make your decision."
+    },
+    "whoWeShareWith": {
+      "title": "Who Do We Share Your Personal Data With?",
+      "content": "We share your personal data with trusted third parties that we use to provide the products and/or services that you or our customer requested, and they are committed to similar and strict commitments to maintain privacy and confidentiality.\n\nWe share your personal data with third parties that perform tasks on our behalf, and at the same time provide us with certain products or services, such as professional consultants and information technology consultants whose tasks require testing and developing our business technology systems, and research centers and email lists and electronic activity coordinators. These third parties are committed to similar strict commitments to maintain privacy and confidentiality.\n\nWe share your personal data with other companies that have been referred to in this electronic website for primarily operational and commercial purposes. As we continue to develop our business, we may sell or buy other businesses. If an entity intends to purchase our company or merge with us, your personal data will be disclosed to that entity. On the other hand, in case of bankruptcy proceedings, or restructuring by us or against us, all such information will be considered our property and can therefore be sold or transferred to third parties.\n\nWe also share your personal data with other external parties when necessary in order to comply with a legal obligation when we believe in good faith that there is a legal justification, or in response to a request from government agencies conducting investigations, or to verify the validity of our applicable policies or save them, or to monitor fraudulent activities and be wary of them or any technical or security vulnerabilities, or to respond to an emergency, or to protect the rights, property, safety or security of third parties or visitors to our website or our business or the general public.\n\nWe do not sell your personal data. However, when your personal data is disclosed to any third party that is not a partner or ally of the Company, or to an external service provider, we are committed to obtaining the person's consent, except as required or permitted by law. Only the necessary amount of information is provided to that party under the prevailing circumstances, and the use of personal data for purposes other than the intended purpose is prohibited."
+    },
+    "dataTransferAbroad": {
+      "title": "Is Your Personal Data Transferred Outside the Country?",
+      "content": "If the external service provider is located in a foreign country, your personal data may be processed and stored in that country. In these circumstances, governments, courts, law enforcement authorities or regulatory bodies in that foreign country may be able to access your data under their applicable laws, however, we will verify when transferring your personal data to a foreign country, that appropriate safeguards are applied in that transfer."
+    },
+    "howWeProtectData": {
+      "title": "How Does the Company Protect Your Personal Data",
+      "content": "The nature of protective measures varies according to the sensitivity of personal data, its scope and how it is stored. The most sensitive types of personal information are surrounded by higher levels of protection, such as encryption. If you would like more information about the protective measures applied by us, please contact us via email contact@karihomeco.com."
+    },
+    "dataRetentionPeriod": {
+      "title": "What is the Company's Personal Data Retention Period?",
+      "content": "The Company will retain the collected personal data in accordance with applicable legal requirements.\n\nPersonal data is automatically deleted if it is no longer required and there is no legal justification that requires retaining it."
+    },
+    "yourRights": {
+      "title": "What Are Your Rights?",
+      "content": "When it comes to your personal data, the law preserves a number of rights for you. You can get more information and advice about your rights from the data protection authority in your country, and your rights include the following:\n\nRight to object to data processing: You have the right to object to certain types of data processing, including processing for direct marketing purposes (if you no longer wish to receive messages about potential opportunities, for example).\nRight to be informed: You have the right to obtain clear, transparent and easy-to-understand information about how we use your information and your rights. This is why we provide you with information in this policy.\nRight to access your information: You have the right to access your information (if we are processing it) and some other information (similar to the information contained in this privacy policy), in order to review and ensure our use of your personal data in accordance with data protection law.\nRight to correct information: You have the right to correct your information if it is inaccurate or incomplete.\nRight to erase information: Also known as 'the right to be forgotten', in other words, you may demand the deletion or removal of your information when there is no compelling reason for us to continue using it. This right is not a general right and there are exceptions.\nRight to restrict data processing: You have the right to 'block' or be strict about using your information for an additional period. When preventing the processing of your information, we can continue to store it provided we do not use it again. We maintain lists of individuals who have requested to 'stop' processing their information to ensure we respect their request in the future.\nRight to data portability: You have the right to obtain your personal data and reuse it for your own purposes in different activities. If you decide to switch, for example, to a new provider, this right allows you to transfer, copy or convert your information effortlessly from our systems to their information technology systems safely and without negatively affecting its usability.\nRight to file a complaint: You have the right to file a complaint with the relevant data protection authority in your country about how we handle or process your personal information.\nYou can exercise any of the rights mentioned above by directing a request to the email: contact@karihomeco.com.\n\nThe Company may not be able in certain circumstances to provide access to all the personal data it holds, when disclosure, for example, leads to the disclosure of confidential business information, or if the personal information is subject to a confidentiality condition between the customer and the lawyer, or if that information was collected during an investigation into a contractual breach or legal violation."
+    },
+    "complaintsAndSuggestions": {
+      "title": "How Can I Object to Compliance and Make Suggestions?",
+      "content": "You can direct your questions or inquiries to the email contact@karihomeco.com about the privacy principles mentioned above or about the privacy practices applied by the Company and mentioned in the privacy policy.\n\nThe Company will investigate all complaints and answer all your questions. If it turns out that the complaint is based on grounds, the Company will take appropriate measures to settle it, which may extend to amending its policies and procedures."
+    },
+    "yourRoleInProtection": {
+      "title": "Your Role in Protecting Your Personal Data",
+      "content": "Please remember that IKHWA DIGITAL's privacy policy and use of your personal data applies only to information provided by you. We would like to warn you when you disclose personal information, or sensitive privacy data while using chat rooms or news groups, or bulletin boards or other public forums online, that the collection of such information is not done by or for the Company, but may be collected and used by other people or companies over which the Company has no authority. The Company is not responsible for privacy data or privacy compliance, or any other content that appears on any website that is not owned and operated by the Company or its allied companies.\n\nWe would like to confirm that the Company makes every effort to protect and safeguard personal information, and we advise that there are protective measures that you must also follow. We recommend not sharing your personal information with any third party unless you are clearly aware of the purpose of their request, and know who you are dealing with. Do not keep sensitive personal information in your email inbox or on webmail."
+    },
+    "policyUpdates": {
+      "title": "Updating This Privacy Policy",
+      "content": "The Company will update this privacy policy to add any changes that occur to our practices, and in order to comply with applicable laws, and the Company may modify or remove parts of this privacy policy whenever it deems it necessary to do so. When we make any changes to this privacy policy, we will notify you of that. You can check the last update of this privacy policy by referring to the date shown at the top of the first page."
     }
   }
 }

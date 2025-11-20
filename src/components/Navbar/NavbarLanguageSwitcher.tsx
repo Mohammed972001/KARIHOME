@@ -4,7 +4,7 @@ import { useLocale } from 'next-intl';
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 
 const languages = [
-  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
+  { code: 'ar', name: 'العربية', flag: '🇲🇦' },
   { code: 'en', name: 'English', flag: '🇺🇸' },
   { code: 'fr', name: 'Français', flag: '🇫🇷' },
 ] as const;
@@ -80,7 +80,7 @@ export default function NavbarLanguageSwitcher() {
       {/* Language Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="navbar-language-switcher flex items-center gap-2 bg-transparent border border-white/50 text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm transform hover:scale-105 hover:shadow-lg group relative overflow-hidden"
+        className="navbar-language-switcher flex items-center gap-2 bg-transparent border border-white/50 text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm transform hover:scale-105 hover:shadow-lg group relative overflow-hidden cursor-pointer"
       >
         <span className="relative z-10">{currentLanguage.flag}</span>
         <span className="relative z-10 font-medium">{currentLanguage.name}</span>
@@ -105,8 +105,8 @@ export default function NavbarLanguageSwitcher() {
                 setIsOpen(false);
               }}
               className={`w-full text-left px-4 py-3 text-sm flex items-center gap-3 transition-all duration-300 relative group hover:bg-white/10 border-b border-white/10 last:border-b-0 ${lang.code === activeLocale
-                  ? 'bg-gradient-to-r from-blue-500/20 to-green-500/20 text-green-400'
-                  : 'text-white hover:text-green-400'
+                ? 'bg-gradient-to-r from-blue-500/20 to-green-500/20 text-green-400'
+                : 'text-white hover:text-green-400'
                 }`}
               style={{
                 animationDelay: `${index * 50}ms`

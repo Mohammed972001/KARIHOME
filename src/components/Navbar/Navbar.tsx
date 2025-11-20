@@ -23,7 +23,6 @@ const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
     { key: 'home', href: `/${detectedLocale}` },
     { key: 'aboutUs', href: `/${detectedLocale}#about-us` },
     { key: 'services', href: `/${detectedLocale}#services` },
-    { key: 'companyFormation', href: `/${detectedLocale}/CompanyFormation` },
     { key: 'partners', href: `/${detectedLocale}#partners` },
   ];
 

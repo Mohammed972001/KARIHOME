@@ -116,7 +116,7 @@ export default function OurCompany() {
                                     {/* Accordion Header */}
                                     <button
                                         onClick={() => toggleAccordion(index)}
-                                        className={`w-full px-2 py-2 sm:px-3 sm:py-2 md:px-3 md:py-4 lg:py-8 flex items-center justify-between  transition-colors duration-200 hover:bg-gray-50 ${isRTL ? 'flex-row-reverse' : 'flex-row'
+                                        className={`w-full px-2 py-2 sm:px-3 sm:py-2 md:px-3 md:py-4 lg:py-8 flex items-center justify-between  transition-colors duration-200 hover:bg-gray-50 cursor-pointer ${isRTL ? 'flex-row-reverse' : 'flex-row'
                                             }`}
                                     >
                                         {/* Accordion Arrow */}

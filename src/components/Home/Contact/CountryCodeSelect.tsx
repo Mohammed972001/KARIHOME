@@ -198,7 +198,7 @@ export default function CountryCodeSelect({
             >
                 {/* Country Code Selector */}
                 <select
-                    className="bg-transparent text-white border-0 focus:outline-none appearance-none cursor-pointer flex-shrink-0 text-xs sm:text-sm dropdown-auto-width"
+                    className="bg-transparent text-gray-400 border-0 focus:outline-none appearance-none cursor-pointer flex-shrink-0 text-xs sm:text-sm dropdown-auto-width"
                     defaultValue={defaultValue}
                     onChange={(e) => onChange?.(e.target.value)}
                     style={{

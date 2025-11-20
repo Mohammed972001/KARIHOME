@@ -75,14 +75,14 @@ const Hero = () => {
           {/* Main Title */}
           <LocalizedHeading
             level={1}
-            className="font-semibold leading-none text-white"
+            className="font-semibold leading-96 text-white"
             style={{
               fontSize: isMobile ? '24px' : '48px',
               lineHeight: '100%',
               fontWeight: '600'
             }}
           >
-            <span className="block">
+            <span className="block mb-8">
               {t('title').split(' ').map((word, index) => (
                 <span
                   key={index}
@@ -102,7 +102,7 @@ const Hero = () => {
                 </span>
               )).slice(0, 5)}
             </span>
-            <span className="block mt-1 sm:mt-2">
+            <span className="block">
               {t('title').split(' ').slice(5, 8).join(' ')}
             </span>
           </LocalizedHeading>

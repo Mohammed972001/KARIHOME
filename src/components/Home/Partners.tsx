@@ -9,13 +9,32 @@ const Partners = () => {
   const t = useTranslations('partners');
   const locale = useDetectedLocale();
 
+  // Helper function to get the correct image path based on locale
+  const getLocalizedImagePath = (originalPath: string) => {
+    // Keep background images (containing 'bg' or 'BG') unchanged for all languages
+    if (originalPath.toLowerCase().includes('bg')) {
+      return originalPath;
+    }
+
+    // Only change logo images for English and French
+    if (locale === 'en' || locale === 'fr') {
+      // For English and French, use images ending with 'en'
+      const pathParts = originalPath.split('.');
+      const extension = pathParts.pop();
+      const basePath = pathParts.join('.');
+      return `${basePath}en.${extension}`;
+    }
+    // For Arabic, use original images
+    return originalPath;
+  };
+
   const partnerLogos = [
-    { id: 1, name: 'ARTY', logoSrc: '/partanrs/ARTY.svg', bgSrc: '/partanrs/Artybg.svg' },
-    { id: 2, name: 'NETWORK', logoSrc: '/partanrs/NETWORK.svg', bgSrc: '/partanrs/networkbg.svg' },
-    { id: 3, name: 'DIGITAL', logoSrc: '/partanrs/DIGITAL.svg', bgSrc: '/partanrs/digtialbg.svg' },
-    { id: 4, name: 'INVESMENT', logoSrc: '/partanrs/INVESMENT.svg', bgSrc: '/partanrs/BGinvesment.svg' },
-    { id: 5, name: 'KARYLIVE', logoSrc: '/partanrs/KARYLIVE.svg', bgSrc: '/partanrs/karilifebg.svg' },
-    { id: 6, name: 'BOKLITE', logoSrc: '/partanrs/BOKLITE.svg', bgSrc: '/partanrs/boklitebg.svg' },
+    { id: 1, name: 'ARTY', logoSrc: getLocalizedImagePath('/partanrs/ARTY.svg'), bgSrc: '/partanrs/Artybg.svg' },
+    { id: 2, name: 'NETWORK', logoSrc: getLocalizedImagePath('/partanrs/NETWORK.svg'), bgSrc: '/partanrs/networkbg.svg' },
+    { id: 3, name: 'DIGITAL', logoSrc: getLocalizedImagePath('/partanrs/DIGITAL.svg'), bgSrc: '/partanrs/digtialbg.svg' },
+    { id: 4, name: 'INVESMENT', logoSrc: getLocalizedImagePath('/partanrs/INVESMENT.svg'), bgSrc: '/partanrs/BGinvesment.svg' },
+    { id: 5, name: 'KARYLIVE', logoSrc: getLocalizedImagePath('/partanrs/KARYLIVE.svg'), bgSrc: '/partanrs/karilifebg.svg' },
+    { id: 6, name: 'BOKLITE', logoSrc: getLocalizedImagePath('/partanrs/BOKLITE.svg'), bgSrc: '/partanrs/boklitebg.svg' },
   ];
 
   // Helper function to render partner cards

@@ -23,7 +23,7 @@ export default function ContactCard({
 }: ContactCardProps) {
     return (
         <div
-            className="px-4 md:px-8 py-4 md:py-6 flex flex-col items-start justify-start text-start h-24 w-full"
+            className="px-4 md:px-2 py-4 md:py-6 flex flex-col items-start justify-start text-start h-24 w-full"
         >
             {isInline ? (
                 // Inline layout: Icon, Title, and Description on same line
@@ -44,7 +44,7 @@ export default function ContactCard({
                         className="text-white font-semibold text-base md:text-xl"
                         style={{
                             ...getFontStyles(locale),
-                            fontWeight: 600,
+                            fontWeight: 500,
                             textAlign: 'start'
                         }}
                     >
@@ -53,11 +53,11 @@ export default function ContactCard({
 
                     {/* Description on same line */}
                     <p
-                        className="text-xs md:text-sm leading-relaxed flex-1"
+                        className="text-xs md:text-sm leading-relaxed flex-1 w-full"
                         style={{
                             ...getFontStyles(locale),
                             color: '#ffffff',
-                            fontWeight: 400,
+                            fontWeight: 300,
                             textAlign: isRTL ? 'right' : 'left'
                         }}
                     >
@@ -85,7 +85,7 @@ export default function ContactCard({
                             className="text-white font-semibold flex-1 text-base md:text-xl"
                             style={{
                                 ...getFontStyles(locale),
-                                fontWeight: 600,
+                                fontWeight: 500,
                                 textAlign: 'start'
                             }}
                         >
@@ -99,7 +99,7 @@ export default function ContactCard({
                         style={{
                             ...getFontStyles(locale),
                             color: '#ffffff',
-                            fontWeight: 400,
+                            fontWeight: 300,
                             textAlign: 'start'
                         }}
                     >
